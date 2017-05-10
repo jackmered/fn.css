@@ -1,8 +1,10 @@
 {
   "name": "fn-css",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "dist/fn.css",
+  "style": "dist/fn.css",
   "license": "MIT",
+  "repository": "jackmered/fn-css",
   "devDependencies": {
     "csso": "^3.1.1",
     "gr8": "^2.1.7"
