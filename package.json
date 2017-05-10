@@ -1,0 +1,10 @@
+{
+  "name": "utile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "csso": "^3.1.1",
+    "gr8": "^2.1.7"
+  }
+}
