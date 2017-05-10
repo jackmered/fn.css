@@ -1,7 +1,7 @@
 {
-  "name": "utile",
+  "name": "fn-css",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
   "devDependencies": {
     "csso": "^3.1.1",
