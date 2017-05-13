@@ -14,6 +14,62 @@ var css = gr8({
   }
 });
 
+// Border
+css.add({
+  prefix: 'bd',
+  declaration: '\
+    border-style:solid;\
+    border-width:1px\
+  '
+});
+
+// Border top
+css.add({
+  prefix: 'bdt',
+  declaration: '\
+    border-top-style:solid;\
+    border-top-width:1px\
+  '
+});
+
+// Border right
+css.add({
+  prefix: 'bdr',
+  declaration: '\
+    border-right-style:solid;\
+    border-right-width:1px\
+  '
+});
+
+// Border bottom
+css.add({
+  prefix: 'bdb',
+  declaration: '\
+    border-bottom-style:solid;\
+    border-bottom-width:1px\
+  '
+});
+
+// Border left
+css.add({
+  prefix: 'bdl',
+  declaration: '\
+    border-left-style:solid;\
+    border-left-width:1px\
+  '
+});
+
+// Border widths
+css.add({
+  option: 'spacing',
+  prefix: 'bdw',
+  prop: 'border-width',
+  unit: true,
+  transform: function (val) {
+    return val / 4
+  }
+});
+
 css.remove('dev');
 
 var cssString = css.toString();
