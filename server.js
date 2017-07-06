@@ -3,6 +3,7 @@ var gr8 = require('gr8');
 var csso = require('csso');
 
 var css = gr8({
+  spacing: [0, 0.25, 0.5, 1, 2, 3, 4],
 	responsive: true,
 	attribute: false,
 	max: false,
@@ -68,6 +69,48 @@ css.add({
   transform: function (val) {
     return val / 4
   }
+});
+
+// Border radius
+css.add({
+  prefix: 'bdrd',
+  prop: 'border-radius',
+  unit: true,
+  vals: [
+    '0.125',
+    '0.25',
+    '0.5',
+    '0.75',
+    '1'
+  ]
+});
+
+css.add({
+  prefix: 'bdrd',
+  prop: 'border-radius',
+  unit: '%',
+  vals: [
+    '100'
+  ]
+});
+
+// Margin auto
+css.add({
+  prefix: 'mr',
+  prop: 'margin-right',
+  unit: false,
+  vals: [
+    'auto'
+  ]
+});
+
+css.add({
+  prefix: 'ml',
+  prop: 'margin-left',
+  unit: false,
+  vals: [
+    'auto'
+  ]
 });
 
 css.remove('dev');
