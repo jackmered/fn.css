@@ -280,6 +280,8 @@
 .bdrd100{border-radius:100%}
 .mra{margin-right:auto}
 .mla{margin-left:auto}
+.sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip: rect(0, 0, 0, 0);white-space:nowrap;-webkit-clip-path:inset(50%);clip-path:inset(50%);border:0}
+.srf:active,.srf:focus{position:static;width:auto;height:auto;overflow:visible;overflow: hidden;clip:auto;white-space:normal;-webkit-clip-path:none;clip-path:none}
 @media(min-width:576px){
 .sm-c1{width:8.333333333333332%}
 .sm-c2{width:16.666666666666664%}
@@ -563,6 +565,8 @@
 .sm-bdrd100{border-radius:100%}
 .sm-mra{margin-right:auto}
 .sm-mla{margin-left:auto}
+.sm-sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip: rect(0, 0, 0, 0);white-space:nowrap;-webkit-clip-path:inset(50%);clip-path:inset(50%);border:0}
+.sm-srf:active,.srf:focus{position:static;width:auto;height:auto;overflow:visible;overflow: hidden;clip:auto;white-space:normal;-webkit-clip-path:none;clip-path:none}
 }
 @media(min-width:768px){
 .md-c1{width:8.333333333333332%}
@@ -847,6 +851,8 @@
 .md-bdrd100{border-radius:100%}
 .md-mra{margin-right:auto}
 .md-mla{margin-left:auto}
+.md-sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip: rect(0, 0, 0, 0);white-space:nowrap;-webkit-clip-path:inset(50%);clip-path:inset(50%);border:0}
+.md-srf:active,.srf:focus{position:static;width:auto;height:auto;overflow:visible;overflow: hidden;clip:auto;white-space:normal;-webkit-clip-path:none;clip-path:none}
 }
 @media(min-width:992px){
 .lg-c1{width:8.333333333333332%}
@@ -1131,6 +1137,8 @@
 .lg-bdrd100{border-radius:100%}
 .lg-mra{margin-right:auto}
 .lg-mla{margin-left:auto}
+.lg-sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip: rect(0, 0, 0, 0);white-space:nowrap;-webkit-clip-path:inset(50%);clip-path:inset(50%);border:0}
+.lg-srf:active,.srf:focus{position:static;width:auto;height:auto;overflow:visible;overflow: hidden;clip:auto;white-space:normal;-webkit-clip-path:none;clip-path:none}
 }
 @media(min-width:1200px){
 .xl-c1{width:8.333333333333332%}
@@ -1415,4 +1423,6 @@
 .xl-bdrd100{border-radius:100%}
 .xl-mra{margin-right:auto}
 .xl-mla{margin-left:auto}
+.xl-sr{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip: rect(0, 0, 0, 0);white-space:nowrap;-webkit-clip-path:inset(50%);clip-path:inset(50%);border:0}
+.xl-srf:active,.srf:focus{position:static;width:auto;height:auto;overflow:visible;overflow: hidden;clip:auto;white-space:normal;-webkit-clip-path:none;clip-path:none}
 }
