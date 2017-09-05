@@ -8,5 +8,8 @@
   "devDependencies": {
     "csso": "^3.1.1",
     "gr8": "^2.1.7"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
   }
 }
