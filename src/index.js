@@ -4,6 +4,8 @@ const css = gr8(require('./config'));
 
 require('./rules').map(rule => { for (key in rule) css.add(rule[key]) });
 
+css.remove('dev');
+
 const cssString = css.toString();
 const cssStringMinified = csso.minify(cssString).css;
 

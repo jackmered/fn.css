@@ -15,3 +15,11 @@ exports.marginRightAuto = {
     'auto'
   ]
 }
+
+exports.marginAutoX = {
+  prefix: 'mxa',
+  declaration: '\
+    margin-right:auto;\
+    margin-left:auto\
+  ' 
+}
