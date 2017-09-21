@@ -1,0 +1,209 @@
+.p0 {
+  margin: 0;
+}
+
+.p0-25 {
+  margin: calc(var(--spacer) * 0.25);
+}
+
+.p0-5 {
+  margin: calc(var(--spacer) * 0.5);
+}
+
+.p1 {
+  margin: var(--spacer);
+}
+
+.p1-5 {
+  margin: calc(var(--spacer) * 1.5);
+}
+
+.p2 {
+  margin: calc(var(--spacer) * 2);
+}
+
+.p3 {
+  margin: calc(var(--spacer) * 3);
+}
+
+.pt0 {
+  margin-top: 0;
+}
+
+.pt0-25 {
+  margin-top: calc(var(--spacer) * 0.25);
+}
+
+.pt0-5 {
+  margin-top: calc(var(--spacer) * 0.5);
+}
+
+.pt1 {
+  margin-top: var(--spacer);
+}
+
+.pt1-5 {
+  margin-top: calc(var(--spacer) * 1.5);
+}
+
+.pt2 {
+  margin-top: calc(var(--spacer) * 2);
+}
+
+.pt3 {
+  margin-top: calc(var(--spacer) * 3);
+}
+
+.pr0 {
+  margin-right: 0;
+}
+
+.pr0-25 {
+  margin-right: calc(var(--spacer) * 0.25);
+}
+
+.pr0-5 {
+  margin-right: calc(var(--spacer) * 0.5);
+}
+
+.pr1 {
+  margin-right: var(--spacer);
+}
+
+.pr1-5 {
+  margin-right: calc(var(--spacer) * 1.5);
+}
+
+.pr2 {
+  margin-right: calc(var(--spacer) * 2);
+}
+
+.pr3 {
+  margin-right: calc(var(--spacer) * 3);
+}
+
+.pb0 {
+  margin-bottom: 0;
+}
+
+.pb0-25 {
+  margin-bottom: calc(var(--spacer) * 0.25);
+}
+
+.pb0-5 {
+  margin-bottom: calc(var(--spacer) * 0.5);
+}
+
+.pb1 {
+  margin-bottom: var(--spacer);
+}
+
+.pb1-5 {
+  margin-bottom: calc(var(--spacer) * 1.5);
+}
+
+.pb2 {
+  margin-bottom: calc(var(--spacer) * 2);
+}
+
+.pb3 {
+  margin-bottom: calc(var(--spacer) * 3);
+}
+
+.pl0 {
+  margin-left: 0;
+}
+
+.pl0-25 {
+  margin-left: calc(var(--spacer) * 0.25);
+}
+
+.pl0-5 {
+  margin-left: calc(var(--spacer) * 0.5);
+}
+
+.pl1 {
+  margin-left: var(--spacer);
+}
+
+.pl1-5 {
+  margin-left: calc(var(--spacer) * 1.5);
+}
+
+.pl2 {
+  margin-left: calc(var(--spacer) * 2);
+}
+
+.pl3 {
+  margin-left: calc(var(--spacer) * 3);
+}
+
+.px0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.px0-25 {
+  margin-left: calc(var(--spacer) * 0.25);
+  margin-right: calc(var(--spacer) * 0.25);
+}
+
+.px0-5 {
+  margin-left: calc(var(--spacer) * 0.5);
+  margin-right: calc(var(--spacer) * 0.5);
+}
+
+.px1 {
+  margin-left: var(--spacer);
+  margin-right: var(--spacer);
+}
+
+.px1-5 {
+  margin-left: calc(var(--spacer) * 1.5);
+  margin-right: calc(var(--spacer) * 1.5);
+}
+
+.px2 {
+  margin-left: calc(var(--spacer) * 2);
+  margin-right: calc(var(--spacer) * 2);
+}
+
+.px3 {
+  margin-left: calc(var(--spacer) * 3);
+  margin-right: calc(var(--spacer) * 3);
+}
+
+.py0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.py0-25 {
+  margin-top: calc(var(--spacer) * 0.25);
+  margin-bottom: calc(var(--spacer) * 0.25);
+}
+
+.py0-5 {
+  margin-top: calc(var(--spacer) * 0.5);
+  margin-bottom: calc(var(--spacer) * 0.5);
+}
+
+.py1 {
+  margin-top: var(--spacer);
+  margin-bottom: var(--spacer);
+}
+
+.py1-5 {
+  margin-top: calc(var(--spacer) * 1.5);
+  margin-bottom: calc(var(--spacer) * 1.5);
+}
+
+.py2 {
+  margin-top: calc(var(--spacer) * 2);
+  margin-bottom: calc(var(--spacer) * 2);
+}
+
+.py3 {
+  margin-top: calc(var(--spacer) * 3);
+  margin-bottom: calc(var(--spacer) * 3);
+}
