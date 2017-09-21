@@ -278,9 +278,7 @@
   .sm-dn {
     display: none;
   }
-}
 
-@media (min-width: 576px) {
   .sm-m0 {
     margin: 0;
   }
@@ -527,9 +525,7 @@
   .md-dn {
     display: none;
   }
-}
 
-@media (min-width: 768px) {
   .md-m0 {
     margin: 0;
   }
@@ -776,9 +772,7 @@
   .lg-dn {
     display: none;
   }
-}
 
-@media (min-width: 992px) {
   .lg-m0 {
     margin: 0;
   }
@@ -1025,9 +1019,7 @@
   .xl-dn {
     display: none;
   }
-}
 
-@media (min-width: 1200px) {
   .xl-m0 {
     margin: 0;
   }
