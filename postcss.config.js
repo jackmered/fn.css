@@ -1,0 +1,14 @@
+module.exports = {
+  plugins: [
+    require('postcss-import'),
+    require('postcss-nested'),
+    require('postcss-custom-properties'),
+    require('postcss-calc'),
+    require('postcss-custom-media'),
+    require('autoprefixer')(['> 5%', 'Last 8 versions', 'IE 9']),
+    require('perfectionist')({
+      indentSize: 2,
+      trimLeadingZero: false
+    })
+  ]
+}
