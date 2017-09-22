@@ -4,3 +4,9 @@
 @import 'padding';
 @import 'columns';
 @import 'opacity';
+@import 'background';
+@import 'flex';
+@import 'float';
+@import 'overflow';
+@import 'positioning';
+@import 'sizing';

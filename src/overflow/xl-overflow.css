@@ -1,0 +1,23 @@
+.xl-oh {
+  overflow: hidden;
+}
+
+.xl-os {
+  overflow: scroll;
+}
+
+.xl-oxh {
+  overflow-x: hidden;
+}
+
+.xl-oxs {
+  overflow-x: scroll;
+}
+
+.xl-oyh {
+  overflow-y: hidden;
+}
+
+.xl-oys {
+  overflow-y: scroll;
+}

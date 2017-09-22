@@ -1,0 +1,39 @@
+.xl-bgsc {
+  background-size: cover;
+}
+
+.xl-bgsct {
+  background-size: contain;
+}
+
+.xl-bgpc {
+  background-position: center;
+}
+
+.xl-bgpt {
+  background-position: top;
+}
+
+.xl-bgpr {
+  background-position: right;
+}
+
+.xl-bgpb {
+  background-position: bottom;
+}
+
+.xl-bgpl {
+  background-position: left;
+}
+
+.xl-bgrn {
+  background-repeat: no-repeat;
+}
+
+.xl-bgrx {
+  background-repeat: repeat-x;
+}
+
+.xl-bgry {
+  background-repeat: repeat-y;
+}

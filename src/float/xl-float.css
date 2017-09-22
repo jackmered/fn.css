@@ -1,0 +1,17 @@
+.xl-fl {
+  float: left;
+}
+
+.xl-fr {
+  float: right;
+}
+
+.xl-fn {
+  float: none;
+}
+
+.xl-cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}

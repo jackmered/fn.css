@@ -1,0 +1,23 @@
+.sm-oh {
+  overflow: hidden;
+}
+
+.sm-os {
+  overflow: scroll;
+}
+
+.sm-oxh {
+  overflow-x: hidden;
+}
+
+.sm-oxs {
+  overflow-x: scroll;
+}
+
+.sm-oyh {
+  overflow-y: hidden;
+}
+
+.sm-oys {
+  overflow-y: scroll;
+}

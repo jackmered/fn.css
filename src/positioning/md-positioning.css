@@ -1,0 +1,51 @@
+.md-psa {
+  position: absolute;
+}
+
+.md-psr {
+  position: relative;
+}
+
+.md-psf {
+  position: fixed;
+}
+
+.md-pss {
+  position: static;
+}
+
+.md-t0 {
+  top: 0;
+}
+
+.md-r0 {
+  right: 0;
+}
+
+.md-b0 {
+  bottom: 0;
+}
+
+.md-l0 {
+  left: 0;
+}
+
+.md-z0 {
+  z-index: 0;
+}
+
+.md-z1 {
+  z-index: 1;
+}
+
+.md-z2 {
+  z-index: 2;
+}
+
+.md-z3 {
+  z-index: 3;
+}
+
+.md-z4 {
+  z-index: 4;
+}

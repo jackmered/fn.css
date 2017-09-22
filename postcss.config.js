@@ -8,6 +8,7 @@ module.exports = {
     require('css-mqpacker'),
     require('autoprefixer')(['> 5%', 'Last 8 versions', 'IE 9']),
     require('perfectionist')({
+      cascade: false,
       indentSize: 2,
       trimLeadingZero: false
     })
