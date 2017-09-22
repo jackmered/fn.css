@@ -2,3 +2,5 @@
 @import 'display';
 @import 'margin';
 @import 'padding';
+@import 'columns';
+@import 'opacity';

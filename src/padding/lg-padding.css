@@ -3,11 +3,11 @@
 }
 
 .lg-p0-25 {
-  margin: calc(var(--spacer) * 0.25);
+  margin: var(--spacer0-25x);
 }
 
 .lg-p0-5 {
-  margin: calc(var(--spacer) * 0.5);
+  margin: var(--spacer0-5x);
 }
 
 .lg-p1 {
@@ -15,15 +15,15 @@
 }
 
 .lg-p1-5 {
-  margin: calc(var(--spacer) * 1.5);
+  margin: var(--spacer1-5x);
 }
 
 .lg-p2 {
-  margin: calc(var(--spacer) * 2);
+  margin: var(--spacer2x);
 }
 
 .lg-p3 {
-  margin: calc(var(--spacer) * 3);
+  margin: var(--spacer3x);
 }
 
 .lg-pt0 {
@@ -31,11 +31,11 @@
 }
 
 .lg-pt0-25 {
-  margin-top: calc(var(--spacer) * 0.25);
+  margin-top: var(--spacer0-25x);
 }
 
 .lg-pt0-5 {
-  margin-top: calc(var(--spacer) * 0.5);
+  margin-top: var(--spacer0-5x);
 }
 
 .lg-pt1 {
@@ -43,15 +43,15 @@
 }
 
 .lg-pt1-5 {
-  margin-top: calc(var(--spacer) * 1.5);
+  margin-top: var(--spacer1-5x);
 }
 
 .lg-pt2 {
-  margin-top: calc(var(--spacer) * 2);
+  margin-top: var(--spacer2x);
 }
 
 .lg-pt3 {
-  margin-top: calc(var(--spacer) * 3);
+  margin-top: var(--spacer3x);
 }
 
 .lg-pr0 {
@@ -59,11 +59,11 @@
 }
 
 .lg-pr0-25 {
-  margin-right: calc(var(--spacer) * 0.25);
+  margin-right: var(--spacer0-25x);
 }
 
 .lg-pr0-5 {
-  margin-right: calc(var(--spacer) * 0.5);
+  margin-right: var(--spacer0-5x);
 }
 
 .lg-pr1 {
@@ -71,15 +71,15 @@
 }
 
 .lg-pr1-5 {
-  margin-right: calc(var(--spacer) * 1.5);
+  margin-right: var(--spacer1-5x);
 }
 
 .lg-pr2 {
-  margin-right: calc(var(--spacer) * 2);
+  margin-right: var(--spacer2x);
 }
 
 .lg-pr3 {
-  margin-right: calc(var(--spacer) * 3);
+  margin-right: var(--spacer3x);
 }
 
 .lg-pb0 {
@@ -87,11 +87,11 @@
 }
 
 .lg-pb0-25 {
-  margin-bottom: calc(var(--spacer) * 0.25);
+  margin-bottom: var(--spacer0-25x);
 }
 
 .lg-pb0-5 {
-  margin-bottom: calc(var(--spacer) * 0.5);
+  margin-bottom: var(--spacer0-5x);
 }
 
 .lg-pb1 {
@@ -99,15 +99,15 @@
 }
 
 .lg-pb1-5 {
-  margin-bottom: calc(var(--spacer) * 1.5);
+  margin-bottom: var(--spacer1-5x);
 }
 
 .lg-pb2 {
-  margin-bottom: calc(var(--spacer) * 2);
+  margin-bottom: var(--spacer2x);
 }
 
 .lg-pb3 {
-  margin-bottom: calc(var(--spacer) * 3);
+  margin-bottom: var(--spacer3x);
 }
 
 .lg-pl0 {
@@ -115,11 +115,11 @@
 }
 
 .lg-pl0-25 {
-  margin-left: calc(var(--spacer) * 0.25);
+  margin-left: var(--spacer0-25x);
 }
 
 .lg-pl0-5 {
-  margin-left: calc(var(--spacer) * 0.5);
+  margin-left: var(--spacer0-5x);
 }
 
 .lg-pl1 {
@@ -127,15 +127,15 @@
 }
 
 .lg-pl1-5 {
-  margin-left: calc(var(--spacer) * 1.5);
+  margin-left: var(--spacer1-5x);
 }
 
 .lg-pl2 {
-  margin-left: calc(var(--spacer) * 2);
+  margin-left: var(--spacer2x);
 }
 
 .lg-pl3 {
-  margin-left: calc(var(--spacer) * 3);
+  margin-left: var(--spacer3x);
 }
 
 .lg-px0 {
@@ -144,13 +144,13 @@
 }
 
 .lg-px0-25 {
-  margin-left: calc(var(--spacer) * 0.25);
-  margin-right: calc(var(--spacer) * 0.25);
+  margin-left: var(--spacer0-25x);
+  margin-right: var(--spacer0-25x);
 }
 
 .lg-px0-5 {
-  margin-left: calc(var(--spacer) * 0.5);
-  margin-right: calc(var(--spacer) * 0.5);
+  margin-left: var(--spacer0-5x);
+  margin-right: var(--spacer0-5x);
 }
 
 .lg-px1 {
@@ -159,18 +159,18 @@
 }
 
 .lg-px1-5 {
-  margin-left: calc(var(--spacer) * 1.5);
-  margin-right: calc(var(--spacer) * 1.5);
+  margin-left: var(--spacer1-5x);
+  margin-right: var(--spacer1-5x);
 }
 
 .lg-px2 {
-  margin-left: calc(var(--spacer) * 2);
-  margin-right: calc(var(--spacer) * 2);
+  margin-left: var(--spacer2x);
+  margin-right: var(--spacer2x);
 }
 
 .lg-px3 {
-  margin-left: calc(var(--spacer) * 3);
-  margin-right: calc(var(--spacer) * 3);
+  margin-left: var(--spacer3x);
+  margin-right: var(--spacer3x);
 }
 
 .lg-py0 {
@@ -179,13 +179,13 @@
 }
 
 .lg-py0-25 {
-  margin-top: calc(var(--spacer) * 0.25);
-  margin-bottom: calc(var(--spacer) * 0.25);
+  margin-top: var(--spacer0-25x);
+  margin-bottom: var(--spacer0-25x);
 }
 
 .lg-py0-5 {
-  margin-top: calc(var(--spacer) * 0.5);
-  margin-bottom: calc(var(--spacer) * 0.5);
+  margin-top: var(--spacer0-5x);
+  margin-bottom: var(--spacer0-5x);
 }
 
 .lg-py1 {
@@ -194,16 +194,16 @@
 }
 
 .lg-py1-5 {
-  margin-top: calc(var(--spacer) * 1.5);
-  margin-bottom: calc(var(--spacer) * 1.5);
+  margin-top: var(--spacer1-5x);
+  margin-bottom: var(--spacer1-5x);
 }
 
 .lg-py2 {
-  margin-top: calc(var(--spacer) * 2);
-  margin-bottom: calc(var(--spacer) * 2);
+  margin-top: var(--spacer2x);
+  margin-bottom: var(--spacer2x);
 }
 
 .lg-py3 {
-  margin-top: calc(var(--spacer) * 3);
-  margin-bottom: calc(var(--spacer) * 3);
+  margin-top: var(--spacer3x);
+  margin-bottom: var(--spacer3x);
 }
