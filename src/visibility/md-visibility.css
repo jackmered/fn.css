@@ -1,0 +1,11 @@
+.md-vh {
+  visibility: hidden;
+}
+
+.md-vv {
+  visibility: visible;
+}
+
+.md-vc {
+  visibility: collapse;
+}

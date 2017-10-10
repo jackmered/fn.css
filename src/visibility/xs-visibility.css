@@ -1,0 +1,11 @@
+.vh {
+  visibility: hidden;
+}
+
+.vv {
+  visibility: visible;
+}
+
+.vc {
+  visibility: collapse;
+}

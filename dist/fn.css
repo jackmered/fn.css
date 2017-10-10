@@ -995,6 +995,189 @@
   padding-top: 100%;
 }
 
+.fs1 {
+  font-size: 1rem;
+}
+
+.fs1-2 {
+  font-size: 1.2rem;
+}
+
+.fs1-6 {
+  font-size: 1.6rem;
+}
+
+.fs2-4 {
+  font-size: 2.4rem;
+}
+
+.fs3-2 {
+  font-size: 3.2rem;
+}
+
+.fs6-4 {
+  font-size: 6.4rem;
+}
+
+.lh1 {
+  line-height: 1;
+}
+
+.lh1-2 {
+  line-height: 1.2;
+}
+
+.lh1-5 {
+  line-height: 1.5;
+}
+
+.fsn {
+  font-style: normal;
+}
+
+.fsi {
+  font-style: italic;
+}
+
+.fwn {
+  font-weight: normal;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.taj {
+  text-align: justify;
+}
+
+.toi {
+  -o-text-overflow: initial;
+  text-overflow: initial;
+}
+
+.toc {
+  -o-text-overflow: clip;
+  text-overflow: clip;
+}
+
+.toe {
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+.tdu {
+  text-decoration: underline;
+}
+
+.tdo {
+  text-decoration: overline;
+}
+
+.tdlt {
+  text-decoration: line-through;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.ttl {
+  text-transform: lowercase;
+}
+
+.ttc {
+  text-transform: capitalize;
+}
+
+.ttn {
+  text-transform: none;
+}
+
+.vabl {
+  vertical-align: baseline;
+}
+
+.vat {
+  vertical-align: top;
+}
+
+.vam {
+  vertical-align: middle;
+}
+
+.vab {
+  vertical-align: bottom;
+}
+
+.wsn {
+  white-space: normal;
+}
+
+.wsnw {
+  white-space: nowrap;
+}
+
+.wsp {
+  white-space: pre;
+}
+
+.wsi {
+  white-space: inherit;
+}
+
+.tc1 {
+  -webkit-columns: 1;
+  -moz-columns: 1;
+  columns: 1;
+}
+
+.tc2 {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+}
+
+.tc3 {
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3;
+}
+
+.tc4 {
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  columns: 4;
+}
+
+.vh {
+  visibility: hidden;
+}
+
+.vv {
+  visibility: visible;
+}
+
+.vc {
+  visibility: collapse;
+}
+
 @media (min-width: 576px) {
   .sm-df {
     display: -webkit-box;
@@ -1991,6 +2174,189 @@
     content: "";
     display: block;
     padding-top: 100%;
+  }
+
+  .sm-fs1 {
+    font-size: 1rem;
+  }
+
+  .sm-fs1-2 {
+    font-size: 1.2rem;
+  }
+
+  .sm-fs1-6 {
+    font-size: 1.6rem;
+  }
+
+  .sm-fs2-4 {
+    font-size: 2.4rem;
+  }
+
+  .sm-fs3-2 {
+    font-size: 3.2rem;
+  }
+
+  .sm-fs6-4 {
+    font-size: 6.4rem;
+  }
+
+  .sm-lh1 {
+    line-height: 1;
+  }
+
+  .sm-lh1-2 {
+    line-height: 1.2;
+  }
+
+  .sm-lh1-5 {
+    line-height: 1.5;
+  }
+
+  .sm-fsn {
+    font-style: normal;
+  }
+
+  .sm-fsi {
+    font-style: italic;
+  }
+
+  .sm-fwn {
+    font-weight: normal;
+  }
+
+  .sm-fwb {
+    font-weight: bold;
+  }
+
+  .sm-tal {
+    text-align: left;
+  }
+
+  .sm-tac {
+    text-align: center;
+  }
+
+  .sm-tar {
+    text-align: right;
+  }
+
+  .sm-taj {
+    text-align: justify;
+  }
+
+  .sm-toi {
+    -o-text-overflow: initial;
+    text-overflow: initial;
+  }
+
+  .sm-toc {
+    -o-text-overflow: clip;
+    text-overflow: clip;
+  }
+
+  .sm-toe {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+
+  .sm-tdu {
+    text-decoration: underline;
+  }
+
+  .sm-tdo {
+    text-decoration: overline;
+  }
+
+  .sm-tdlt {
+    text-decoration: line-through;
+  }
+
+  .sm-tdn {
+    text-decoration: none;
+  }
+
+  .sm-ttu {
+    text-transform: uppercase;
+  }
+
+  .sm-ttl {
+    text-transform: lowercase;
+  }
+
+  .sm-ttc {
+    text-transform: capitalize;
+  }
+
+  .sm-ttn {
+    text-transform: none;
+  }
+
+  .sm-vabl {
+    vertical-align: baseline;
+  }
+
+  .sm-vat {
+    vertical-align: top;
+  }
+
+  .sm-vam {
+    vertical-align: middle;
+  }
+
+  .sm-vab {
+    vertical-align: bottom;
+  }
+
+  .sm-wsn {
+    white-space: normal;
+  }
+
+  .sm-wsnw {
+    white-space: nowrap;
+  }
+
+  .sm-wsp {
+    white-space: pre;
+  }
+
+  .sm-wsi {
+    white-space: inherit;
+  }
+
+  .sm-tc1 {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+
+  .sm-tc2 {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+
+  .sm-tc3 {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+  }
+
+  .sm-tc4 {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+  }
+
+  .sm-vh {
+    visibility: hidden;
+  }
+
+  .sm-vv {
+    visibility: visible;
+  }
+
+  .sm-vc {
+    visibility: collapse;
   }
 }
 
@@ -2991,6 +3357,189 @@
     display: block;
     padding-top: 100%;
   }
+
+  .md-fs1 {
+    font-size: 1rem;
+  }
+
+  .md-fs1-2 {
+    font-size: 1.2rem;
+  }
+
+  .md-fs1-6 {
+    font-size: 1.6rem;
+  }
+
+  .md-fs2-4 {
+    font-size: 2.4rem;
+  }
+
+  .md-fs3-2 {
+    font-size: 3.2rem;
+  }
+
+  .md-fs6-4 {
+    font-size: 6.4rem;
+  }
+
+  .md-lh1 {
+    line-height: 1;
+  }
+
+  .md-lh1-2 {
+    line-height: 1.2;
+  }
+
+  .md-lh1-5 {
+    line-height: 1.5;
+  }
+
+  .md-fsn {
+    font-style: normal;
+  }
+
+  .md-fsi {
+    font-style: italic;
+  }
+
+  .md-fwn {
+    font-weight: normal;
+  }
+
+  .md-fwb {
+    font-weight: bold;
+  }
+
+  .md-tal {
+    text-align: left;
+  }
+
+  .md-tac {
+    text-align: center;
+  }
+
+  .md-tar {
+    text-align: right;
+  }
+
+  .md-taj {
+    text-align: justify;
+  }
+
+  .md-toi {
+    -o-text-overflow: initial;
+    text-overflow: initial;
+  }
+
+  .md-toc {
+    -o-text-overflow: clip;
+    text-overflow: clip;
+  }
+
+  .md-toe {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+
+  .md-tdu {
+    text-decoration: underline;
+  }
+
+  .md-tdo {
+    text-decoration: overline;
+  }
+
+  .md-tdlt {
+    text-decoration: line-through;
+  }
+
+  .md-tdn {
+    text-decoration: none;
+  }
+
+  .md-ttu {
+    text-transform: uppercase;
+  }
+
+  .md-ttl {
+    text-transform: lowercase;
+  }
+
+  .md-ttc {
+    text-transform: capitalize;
+  }
+
+  .md-ttn {
+    text-transform: none;
+  }
+
+  .md-vabl {
+    vertical-align: baseline;
+  }
+
+  .md-vat {
+    vertical-align: top;
+  }
+
+  .md-vam {
+    vertical-align: middle;
+  }
+
+  .md-vab {
+    vertical-align: bottom;
+  }
+
+  .md-wsn {
+    white-space: normal;
+  }
+
+  .md-wsnw {
+    white-space: nowrap;
+  }
+
+  .md-wsp {
+    white-space: pre;
+  }
+
+  .md-wsi {
+    white-space: inherit;
+  }
+
+  .md-tc1 {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+
+  .md-tc2 {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+
+  .md-tc3 {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+  }
+
+  .md-tc4 {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+  }
+
+  .md-vh {
+    visibility: hidden;
+  }
+
+  .md-vv {
+    visibility: visible;
+  }
+
+  .md-vc {
+    visibility: collapse;
+  }
 }
 
 @media (min-width: 992px) {
@@ -3990,6 +4539,189 @@
     display: block;
     padding-top: 100%;
   }
+
+  .lg-fs1 {
+    font-size: 1rem;
+  }
+
+  .lg-fs1-2 {
+    font-size: 1.2rem;
+  }
+
+  .lg-fs1-6 {
+    font-size: 1.6rem;
+  }
+
+  .lg-fs2-4 {
+    font-size: 2.4rem;
+  }
+
+  .lg-fs3-2 {
+    font-size: 3.2rem;
+  }
+
+  .lg-fs6-4 {
+    font-size: 6.4rem;
+  }
+
+  .lg-lh1 {
+    line-height: 1;
+  }
+
+  .lg-lh1-2 {
+    line-height: 1.2;
+  }
+
+  .lg-lh1-5 {
+    line-height: 1.5;
+  }
+
+  .lg-fsn {
+    font-style: normal;
+  }
+
+  .lg-fsi {
+    font-style: italic;
+  }
+
+  .lg-fwn {
+    font-weight: normal;
+  }
+
+  .lg-fwb {
+    font-weight: bold;
+  }
+
+  .lg-tal {
+    text-align: left;
+  }
+
+  .lg-tac {
+    text-align: center;
+  }
+
+  .lg-tar {
+    text-align: right;
+  }
+
+  .lg-taj {
+    text-align: justify;
+  }
+
+  .lg-toi {
+    -o-text-overflow: initial;
+    text-overflow: initial;
+  }
+
+  .lg-toc {
+    -o-text-overflow: clip;
+    text-overflow: clip;
+  }
+
+  .lg-toe {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+
+  .lg-tdu {
+    text-decoration: underline;
+  }
+
+  .lg-tdo {
+    text-decoration: overline;
+  }
+
+  .lg-tdlt {
+    text-decoration: line-through;
+  }
+
+  .lg-tdn {
+    text-decoration: none;
+  }
+
+  .lg-ttu {
+    text-transform: uppercase;
+  }
+
+  .lg-ttl {
+    text-transform: lowercase;
+  }
+
+  .lg-ttc {
+    text-transform: capitalize;
+  }
+
+  .lg-ttn {
+    text-transform: none;
+  }
+
+  .lg-vabl {
+    vertical-align: baseline;
+  }
+
+  .lg-vat {
+    vertical-align: top;
+  }
+
+  .lg-vam {
+    vertical-align: middle;
+  }
+
+  .lg-vab {
+    vertical-align: bottom;
+  }
+
+  .lg-wsn {
+    white-space: normal;
+  }
+
+  .lg-wsnw {
+    white-space: nowrap;
+  }
+
+  .lg-wsp {
+    white-space: pre;
+  }
+
+  .lg-wsi {
+    white-space: inherit;
+  }
+
+  .lg-tc1 {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+
+  .lg-tc2 {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+
+  .lg-tc3 {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+  }
+
+  .lg-tc4 {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+  }
+
+  .lg-vh {
+    visibility: hidden;
+  }
+
+  .lg-vv {
+    visibility: visible;
+  }
+
+  .lg-vc {
+    visibility: collapse;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -4988,5 +5720,188 @@
     content: "";
     display: block;
     padding-top: 100%;
+  }
+
+  .xl-fs1 {
+    font-size: 1rem;
+  }
+
+  .xl-fs1-2 {
+    font-size: 1.2rem;
+  }
+
+  .xl-fs1-6 {
+    font-size: 1.6rem;
+  }
+
+  .xl-fs2-4 {
+    font-size: 2.4rem;
+  }
+
+  .xl-fs3-2 {
+    font-size: 3.2rem;
+  }
+
+  .xl-fs6-4 {
+    font-size: 6.4rem;
+  }
+
+  .xl-lh1 {
+    line-height: 1;
+  }
+
+  .xl-lh1-2 {
+    line-height: 1.2;
+  }
+
+  .xl-lh1-5 {
+    line-height: 1.5;
+  }
+
+  .xl-fsn {
+    font-style: normal;
+  }
+
+  .xl-fsi {
+    font-style: italic;
+  }
+
+  .xl-fwn {
+    font-weight: normal;
+  }
+
+  .xl-fwb {
+    font-weight: bold;
+  }
+
+  .xl-tal {
+    text-align: left;
+  }
+
+  .xl-tac {
+    text-align: center;
+  }
+
+  .xl-tar {
+    text-align: right;
+  }
+
+  .xl-taj {
+    text-align: justify;
+  }
+
+  .xl-toi {
+    -o-text-overflow: initial;
+    text-overflow: initial;
+  }
+
+  .xl-toc {
+    -o-text-overflow: clip;
+    text-overflow: clip;
+  }
+
+  .xl-toe {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+
+  .xl-tdu {
+    text-decoration: underline;
+  }
+
+  .xl-tdo {
+    text-decoration: overline;
+  }
+
+  .xl-tdlt {
+    text-decoration: line-through;
+  }
+
+  .xl-tdn {
+    text-decoration: none;
+  }
+
+  .xl-ttu {
+    text-transform: uppercase;
+  }
+
+  .xl-ttl {
+    text-transform: lowercase;
+  }
+
+  .xl-ttc {
+    text-transform: capitalize;
+  }
+
+  .xl-ttn {
+    text-transform: none;
+  }
+
+  .xl-vabl {
+    vertical-align: baseline;
+  }
+
+  .xl-vat {
+    vertical-align: top;
+  }
+
+  .xl-vam {
+    vertical-align: middle;
+  }
+
+  .xl-vab {
+    vertical-align: bottom;
+  }
+
+  .xl-wsn {
+    white-space: normal;
+  }
+
+  .xl-wsnw {
+    white-space: nowrap;
+  }
+
+  .xl-wsp {
+    white-space: pre;
+  }
+
+  .xl-wsi {
+    white-space: inherit;
+  }
+
+  .xl-tc1 {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+  }
+
+  .xl-tc2 {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+  }
+
+  .xl-tc3 {
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+  }
+
+  .xl-tc4 {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+  }
+
+  .xl-vh {
+    visibility: hidden;
+  }
+
+  .xl-vv {
+    visibility: visible;
+  }
+
+  .xl-vc {
+    visibility: collapse;
   }
 }

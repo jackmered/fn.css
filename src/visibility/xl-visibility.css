@@ -1,0 +1,11 @@
+.xl-vh {
+  visibility: hidden;
+}
+
+.xl-vv {
+  visibility: visible;
+}
+
+.xl-vc {
+  visibility: collapse;
+}

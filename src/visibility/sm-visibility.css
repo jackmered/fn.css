@@ -1,0 +1,11 @@
+.sm-vh {
+  visibility: hidden;
+}
+
+.sm-vv {
+  visibility: visible;
+}
+
+.sm-vc {
+  visibility: collapse;
+}
