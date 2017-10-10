@@ -1,0 +1,55 @@
+.cural {
+  cursor: alias;
+}
+
+.curau {
+  cursor: auto;
+}
+
+.curd {
+  cursor: default;
+}
+
+.curc {
+  cursor: crosshair;
+}
+
+.curha {
+  cursor: hand;
+}
+
+.curhe {
+  cursor: help;
+}
+
+.curm {
+  cursor: move;
+}
+
+.curn {
+  cursor: none;
+}
+
+.curpo {
+  cursor: pointer;
+}
+
+.curpr {
+  cursor: progress;
+}
+
+.curt {
+  cursor: text;
+}
+
+.curw {
+  cursor: wait;
+}
+
+.curzi {
+  cursor: zoom-in;
+}
+
+.curzo {
+  cursor: zoom-out;
+}
