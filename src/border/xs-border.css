@@ -1,0 +1,76 @@
+.bd {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.bdt {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.bdr {
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.bdb {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.bdl {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.bdw0 {
+  border-width: 0;
+}
+
+.bdw0-25 {
+  border-width: 0.0625rem;
+}
+
+.bdw0-5 {
+  border-width: 0.125rem;
+}
+
+.bdw1 {
+  border-width: 0.25rem;
+}
+
+.bdw2 {
+  border-width: 0.5rem;
+}
+
+.bdw3 {
+  border-width: 0.75rem;
+}
+
+.bdw4 {
+  border-width: 1rem;
+}
+
+.bdrd0-125 {
+  border-radius: 0.125rem;
+}
+
+.bdrd0-25 {
+  border-radius: 0.25rem;
+}
+
+.bdrd0-5 {
+  border-radius: 0.5rem;
+}
+
+.bdrd0-75 {
+  border-radius: 0.75rem;
+}
+
+.bdrd1 {
+  border-radius: 1rem;
+}
+
+.bdrd100 {
+  border-radius: 100%;
+}
