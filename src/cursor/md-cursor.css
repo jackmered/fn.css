@@ -1,0 +1,39 @@
+.md-curp {
+  cursor: pointer;
+}
+
+.md-curd {
+  cursor: default;
+}
+
+.md-cura {
+  cursor: alias;
+}
+
+.md-curzi {
+  cursor: zoom-in;
+}
+
+.md-curzo {
+  cursor: zoom-out;
+}
+
+.md-usn {
+  user-select: none;
+}
+
+.md-usa {
+  user-select: auto;
+}
+
+.md-ust {
+  user-select: text;
+}
+
+.md-pen {
+  pointer-events: none;
+}
+
+.md-pea {
+  pointer-events: auto;
+}

@@ -1,0 +1,31 @@
+.md-df {
+  display: flex;
+}
+
+.md-db {
+  display: block;
+}
+
+.md-dib {
+  display: inline-block;
+}
+
+.md-di {
+  display: inline;
+}
+
+.md-dt {
+  display: table;
+}
+
+.md-dtc {
+  display: table-cell;
+}
+
+.md-dtr {
+  display: table-row;
+}
+
+.md-dn {
+  display: none;
+}

@@ -1,0 +1,23 @@
+.lg-oh {
+  overflow: hidden;
+}
+
+.lg-os {
+  overflow: scroll;
+}
+
+.lg-oxh {
+  overflow-x: hidden;
+}
+
+.lg-oxs {
+  overflow-x: scroll;
+}
+
+.lg-oyh {
+  overflow-y: hidden;
+}
+
+.lg-oys {
+  overflow-y: scroll;
+}

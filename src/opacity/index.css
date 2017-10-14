@@ -1,0 +1,5 @@
+@import 'xs-opacity';
+@import 'sm-opacity' (--sm);
+@import 'md-opacity' (--md);
+@import 'lg-opacity' (--lg);
+@import 'xl-opacity' (--xl);

@@ -1,0 +1,17 @@
+.md-fl {
+  float: left;
+}
+
+.md-fr {
+  float: right;
+}
+
+.md-fn {
+  float: none;
+}
+
+.md-cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}

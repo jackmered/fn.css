@@ -1,0 +1,159 @@
+.sm-fs1 {
+  font-size: 1rem;
+}
+
+.sm-fs1-2 {
+  font-size: 1.2rem;
+}
+
+.sm-fs1-6 {
+  font-size: 1.6rem;
+}
+
+.sm-fs2-4 {
+  font-size: 2.4rem;
+}
+
+.sm-fs3-2 {
+  font-size: 3.2rem;
+}
+
+.sm-fs6-4 {
+  font-size: 6.4rem;
+}
+
+.sm-lh1 {
+  line-height: 1;
+}
+
+.sm-lh1-2 {
+  line-height: 1.2;
+}
+
+.sm-lh1-5 {
+  line-height: 1.5;
+}
+
+.sm-fsn {
+  font-style: normal;
+}
+
+.sm-fsi {
+  font-style: italic;
+}
+
+.sm-fwn {
+  font-weight: normal;
+}
+
+.sm-fwb {
+  font-weight: bold;
+}
+
+.sm-tal {
+  text-align: left;
+}
+
+.sm-tac {
+  text-align: center;
+}
+
+.sm-tar {
+  text-align: right;
+}
+
+.sm-taj {
+  text-align: justify;
+}
+
+.sm-toi {
+  text-overflow: initial;
+}
+
+.sm-toc {
+  text-overflow: clip;
+}
+
+.sm-toe {
+  text-overflow: ellipsis;
+}
+
+.sm-tdu {
+  text-decoration: underline;
+}
+
+.sm-tdo {
+  text-decoration: overline;
+}
+
+.sm-tdlt {
+  text-decoration: line-through;
+}
+
+.sm-tdn {
+  text-decoration: none;
+}
+
+.sm-ttu {
+  text-transform: uppercase;
+}
+
+.sm-ttl {
+  text-transform: lowercase;
+}
+
+.sm-ttc {
+  text-transform: capitalize;
+}
+
+.sm-ttn {
+  text-transform: none;
+}
+
+.sm-vabl {
+  vertical-align: baseline;
+}
+
+.sm-vat {
+  vertical-align: top;
+}
+
+.sm-vam {
+  vertical-align: middle;
+}
+
+.sm-vab {
+  vertical-align: bottom;
+}
+
+.sm-wsn {
+  white-space: normal;
+}
+
+.sm-wsnw {
+  white-space: nowrap;
+}
+
+.sm-wsp {
+  white-space: pre;
+}
+
+.sm-wsi {
+  white-space: inherit;
+}
+
+.sm-tc1 {
+  columns: 1;
+}
+
+.sm-tc2 {
+  columns: 2;
+}
+
+.sm-tc3 {
+  columns: 3;
+}
+
+.sm-tc4 {
+  columns: 4;
+}

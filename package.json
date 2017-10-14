@@ -1,13 +1,24 @@
 {
   "name": "fn.css",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "dist/fn.css",
   "style": "dist/fn.css",
   "license": "MIT",
   "repository": "jackmered/fn.css",
   "devDependencies": {
-    "csso": "^3.1.1",
-    "gr8": "^2.1.7"
+    "autoprefixer": "^7.1.4",
+    "css-mqpacker": "^6.0.1",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-stylelint": "^5.0.0",
+    "perfectionist": "^2.4.0",
+    "postcss-calc": "^6.0.0",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-custom-properties": "^6.1.0",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^2.1.2",
+    "stylelint-config-standard": "^17.0.0"
   },
   "scripts": {
     "start": "node ./src/index.js"

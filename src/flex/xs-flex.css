@@ -1,0 +1,115 @@
+.x {
+  display: flex;
+}
+
+.xac {
+  align-items: center;
+}
+
+.xab {
+  align-items: baseline;
+}
+
+.xas {
+  align-items: stretch;
+}
+
+.xafs {
+  align-items: flex-start;
+}
+
+.xafe {
+  align-items: flex-end;
+}
+
+.xdr {
+  flex-direction: row;
+}
+
+.xdrr {
+  flex-direction: row-reverse;
+}
+
+.xdc {
+  flex-direction: column;
+}
+
+.xdcr {
+  flex-direction: column-reverse;
+}
+
+.xjc {
+  justify-content: center;
+}
+
+.xjb {
+  justify-content: space-between;
+}
+
+.xja {
+  justify-content: space-around;
+}
+
+.xjs {
+  justify-content: flex-start;
+}
+
+.xje {
+  justify-content: flex-end;
+}
+
+.xw {
+  flex-wrap: wrap;
+}
+
+.xwr {
+  flex-wrap: wrap-reverse;
+}
+
+.xwn {
+  flex-wrap: nowrap;
+}
+
+.xi {
+  flex: initial;
+}
+
+.xx {
+  flex: 1;
+}
+
+.xa {
+  flex: auto;
+}
+
+.xn {
+  flex: none;
+}
+
+.xo0 {
+  order: 0;
+}
+
+.xo1 {
+  order: 1;
+}
+
+.xo2 {
+  order: 2;
+}
+
+.xo3 {
+  order: 3;
+}
+
+.xo4 {
+  order: 4;
+}
+
+.xot {
+  order: -1;
+}
+
+.xob {
+  order: 99;
+}

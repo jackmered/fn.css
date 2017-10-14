@@ -1,0 +1,115 @@
+.lg-x {
+  display: flex;
+}
+
+.lg-xac {
+  align-items: center;
+}
+
+.lg-xab {
+  align-items: baseline;
+}
+
+.lg-xas {
+  align-items: stretch;
+}
+
+.lg-xafs {
+  align-items: flex-start;
+}
+
+.lg-xafe {
+  align-items: flex-end;
+}
+
+.lg-xdr {
+  flex-direction: row;
+}
+
+.lg-xdrr {
+  flex-direction: row-reverse;
+}
+
+.lg-xdc {
+  flex-direction: column;
+}
+
+.lg-xdcr {
+  flex-direction: column-reverse;
+}
+
+.lg-xjc {
+  justify-content: center;
+}
+
+.lg-xjb {
+  justify-content: space-between;
+}
+
+.lg-xja {
+  justify-content: space-around;
+}
+
+.lg-xjs {
+  justify-content: flex-start;
+}
+
+.lg-xje {
+  justify-content: flex-end;
+}
+
+.lg-xw {
+  flex-wrap: wrap;
+}
+
+.lg-xwr {
+  flex-wrap: wrap-reverse;
+}
+
+.lg-xwn {
+  flex-wrap: nowrap;
+}
+
+.lg-xi {
+  flex: initial;
+}
+
+.lg-xx {
+  flex: 1;
+}
+
+.lg-xa {
+  flex: auto;
+}
+
+.lg-xn {
+  flex: none;
+}
+
+.lg-xo0 {
+  order: 0;
+}
+
+.lg-xo1 {
+  order: 1;
+}
+
+.lg-xo2 {
+  order: 2;
+}
+
+.lg-xo3 {
+  order: 3;
+}
+
+.lg-xo4 {
+  order: 4;
+}
+
+.lg-xot {
+  order: -1;
+}
+
+.lg-xob {
+  order: 99;
+}

@@ -1,0 +1,69 @@
+.sm-w0 {
+  width: 0;
+}
+
+.sm-w100 {
+  width: 100%;
+}
+
+.sm-h0 {
+  height: 0;
+}
+
+.sm-h100 {
+  height: 100%;
+}
+
+.sm-vw100 {
+  width: 100vw;
+}
+
+.sm-vh100 {
+  height: 100vh;
+}
+
+.sm-vwmn100 {
+  min-width: 100vw;
+}
+
+.sm-vhmn100 {
+  min-height: 100vh;
+}
+
+.sm-vwmx100 {
+  max-width: 100vw;
+}
+
+.sm-vhmx100 {
+  max-height: 100vh;
+}
+
+.sm-ar0 {
+  content: "";
+  display: block;
+  padding-top: 0;
+}
+
+.sm-ar20 {
+  content: "";
+  display: block;
+  padding-top: 20%;
+}
+
+.sm-ar50 {
+  content: "";
+  display: block;
+  padding-top: 50%;
+}
+
+.sm-ar75 {
+  content: "";
+  display: block;
+  padding-top: 75%;
+}
+
+.sm-ar100 {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
