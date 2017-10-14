@@ -1,6 +1,6 @@
 {
   "name": "fn.css",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "main": "dist/fn.css",
   "style": "dist/fn.css",
   "license": "MIT",
