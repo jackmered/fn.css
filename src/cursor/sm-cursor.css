@@ -1,39 +1,39 @@
-.curp {
+.sm-curp {
   cursor: pointer;
 }
 
-.curd {
+.sm-curd {
   cursor: default;
 }
 
-.cura {
+.sm-cura {
   cursor: alias;
 }
 
-.curzi {
+.sm-curzi {
   cursor: zoom-in;
 }
 
-.curzo {
+.sm-curzo {
   cursor: zoom-out;
 }
 
-.usn {
+.sm-usn {
   user-select: none;
 }
 
-.usa {
+.sm-usa {
   user-select: auto;
 }
 
-.ust {
+.sm-ust {
   user-select: text;
 }
 
-.pen {
+.sm-pen {
   pointer-events: none;
 }
 
-.pea {
+.sm-pea {
   pointer-events: auto;
 }

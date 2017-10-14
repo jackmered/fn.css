@@ -1,39 +1,39 @@
-.curp {
+.xl-curp {
   cursor: pointer;
 }
 
-.curd {
+.xl-curd {
   cursor: default;
 }
 
-.cura {
+.xl-cura {
   cursor: alias;
 }
 
-.curzi {
+.xl-curzi {
   cursor: zoom-in;
 }
 
-.curzo {
+.xl-curzo {
   cursor: zoom-out;
 }
 
-.usn {
+.xl-usn {
   user-select: none;
 }
 
-.usa {
+.xl-usa {
   user-select: auto;
 }
 
-.ust {
+.xl-ust {
   user-select: text;
 }
 
-.pen {
+.xl-pen {
   pointer-events: none;
 }
 
-.pea {
+.xl-pea {
   pointer-events: auto;
 }
