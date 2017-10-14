@@ -1,0 +1,76 @@
+.sm-bd {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.sm-bdt {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.sm-bdr {
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.sm-bdb {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.sm-bdl {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+.sm-bdw0 {
+  border-width: 0;
+}
+
+.sm-bdw0-25 {
+  border-width: 0.0625rem;
+}
+
+.sm-bdw0-5 {
+  border-width: 0.125rem;
+}
+
+.sm-bdw1 {
+  border-width: 0.25rem;
+}
+
+.sm-bdw2 {
+  border-width: 0.5rem;
+}
+
+.sm-bdw3 {
+  border-width: 0.75rem;
+}
+
+.sm-bdw4 {
+  border-width: 1rem;
+}
+
+.sm-bdrd0-125 {
+  border-radius: 0.125rem;
+}
+
+.sm-bdrd0-25 {
+  border-radius: 0.25rem;
+}
+
+.sm-bdrd0-5 {
+  border-radius: 0.5rem;
+}
+
+.sm-bdrd0-75 {
+  border-radius: 0.75rem;
+}
+
+.sm-bdrd1 {
+  border-radius: 1rem;
+}
+
+.sm-bdrd100 {
+  border-radius: 100%;
+}
