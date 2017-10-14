@@ -3,7 +3,6 @@ const plugins = require('gulp-load-plugins')();
 
 /**
  * Styles
- * 
  */
 gulp.task('styles', ['lint'], () =>
   gulp.src('./src/fn.css')
@@ -13,7 +12,6 @@ gulp.task('styles', ['lint'], () =>
 
 /**
  * Lint
- * 
  */
 gulp.task('lint', () =>
   gulp.src('./src/**/*.css')
@@ -26,6 +24,5 @@ gulp.task('lint', () =>
 
 /**
  * Default
- * Builds, serves and watches for changes
  */
 gulp.task('default', ['lint', 'styles']);

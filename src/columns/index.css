@@ -1,5 +1,0 @@
-@import 'xs-columns';
-@import 'sm-columns' (--sm);
-@import 'md-columns' (--md);
-@import 'lg-columns' (--lg);
-@import 'xl-columns' (--xl);
