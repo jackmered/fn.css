@@ -21,6 +21,6 @@
     "stylelint-config-standard": "^17.0.0"
   },
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "gulp"
   }
 }
