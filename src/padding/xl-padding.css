@@ -1,209 +1,209 @@
 .xl-p0 {
-  margin: 0;
+  padding: 0;
 }
 
 .xl-p0-25 {
-  margin: var(--spacer0-25x);
+  padding: var(--spacer0-25x);
 }
 
 .xl-p0-5 {
-  margin: var(--spacer0-5x);
+  padding: var(--spacer0-5x);
 }
 
 .xl-p1 {
-  margin: var(--spacer);
+  padding: var(--spacer);
 }
 
 .xl-p1-5 {
-  margin: var(--spacer1-5x);
+  padding: var(--spacer1-5x);
 }
 
 .xl-p2 {
-  margin: var(--spacer2x);
+  padding: var(--spacer2x);
 }
 
 .xl-p3 {
-  margin: var(--spacer3x);
+  padding: var(--spacer3x);
 }
 
 .xl-pt0 {
-  margin-top: 0;
+  padding-top: 0;
 }
 
 .xl-pt0-25 {
-  margin-top: var(--spacer0-25x);
+  padding-top: var(--spacer0-25x);
 }
 
 .xl-pt0-5 {
-  margin-top: var(--spacer0-5x);
+  padding-top: var(--spacer0-5x);
 }
 
 .xl-pt1 {
-  margin-top: var(--spacer);
+  padding-top: var(--spacer);
 }
 
 .xl-pt1-5 {
-  margin-top: var(--spacer1-5x);
+  padding-top: var(--spacer1-5x);
 }
 
 .xl-pt2 {
-  margin-top: var(--spacer2x);
+  padding-top: var(--spacer2x);
 }
 
 .xl-pt3 {
-  margin-top: var(--spacer3x);
+  padding-top: var(--spacer3x);
 }
 
 .xl-pr0 {
-  margin-right: 0;
+  padding-right: 0;
 }
 
 .xl-pr0-25 {
-  margin-right: var(--spacer0-25x);
+  padding-right: var(--spacer0-25x);
 }
 
 .xl-pr0-5 {
-  margin-right: var(--spacer0-5x);
+  padding-right: var(--spacer0-5x);
 }
 
 .xl-pr1 {
-  margin-right: var(--spacer);
+  padding-right: var(--spacer);
 }
 
 .xl-pr1-5 {
-  margin-right: var(--spacer1-5x);
+  padding-right: var(--spacer1-5x);
 }
 
 .xl-pr2 {
-  margin-right: var(--spacer2x);
+  padding-right: var(--spacer2x);
 }
 
 .xl-pr3 {
-  margin-right: var(--spacer3x);
+  padding-right: var(--spacer3x);
 }
 
 .xl-pb0 {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .xl-pb0-25 {
-  margin-bottom: var(--spacer0-25x);
+  padding-bottom: var(--spacer0-25x);
 }
 
 .xl-pb0-5 {
-  margin-bottom: var(--spacer0-5x);
+  padding-bottom: var(--spacer0-5x);
 }
 
 .xl-pb1 {
-  margin-bottom: var(--spacer);
+  padding-bottom: var(--spacer);
 }
 
 .xl-pb1-5 {
-  margin-bottom: var(--spacer1-5x);
+  padding-bottom: var(--spacer1-5x);
 }
 
 .xl-pb2 {
-  margin-bottom: var(--spacer2x);
+  padding-bottom: var(--spacer2x);
 }
 
 .xl-pb3 {
-  margin-bottom: var(--spacer3x);
+  padding-bottom: var(--spacer3x);
 }
 
 .xl-pl0 {
-  margin-left: 0;
+  padding-left: 0;
 }
 
 .xl-pl0-25 {
-  margin-left: var(--spacer0-25x);
+  padding-left: var(--spacer0-25x);
 }
 
 .xl-pl0-5 {
-  margin-left: var(--spacer0-5x);
+  padding-left: var(--spacer0-5x);
 }
 
 .xl-pl1 {
-  margin-left: var(--spacer);
+  padding-left: var(--spacer);
 }
 
 .xl-pl1-5 {
-  margin-left: var(--spacer1-5x);
+  padding-left: var(--spacer1-5x);
 }
 
 .xl-pl2 {
-  margin-left: var(--spacer2x);
+  padding-left: var(--spacer2x);
 }
 
 .xl-pl3 {
-  margin-left: var(--spacer3x);
+  padding-left: var(--spacer3x);
 }
 
 .xl-px0 {
-  margin-left: 0;
-  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .xl-px0-25 {
-  margin-left: var(--spacer0-25x);
-  margin-right: var(--spacer0-25x);
+  padding-left: var(--spacer0-25x);
+  padding-right: var(--spacer0-25x);
 }
 
 .xl-px0-5 {
-  margin-left: var(--spacer0-5x);
-  margin-right: var(--spacer0-5x);
+  padding-left: var(--spacer0-5x);
+  padding-right: var(--spacer0-5x);
 }
 
 .xl-px1 {
-  margin-left: var(--spacer);
-  margin-right: var(--spacer);
+  padding-left: var(--spacer);
+  padding-right: var(--spacer);
 }
 
 .xl-px1-5 {
-  margin-left: var(--spacer1-5x);
-  margin-right: var(--spacer1-5x);
+  padding-left: var(--spacer1-5x);
+  padding-right: var(--spacer1-5x);
 }
 
 .xl-px2 {
-  margin-left: var(--spacer2x);
-  margin-right: var(--spacer2x);
+  padding-left: var(--spacer2x);
+  padding-right: var(--spacer2x);
 }
 
 .xl-px3 {
-  margin-left: var(--spacer3x);
-  margin-right: var(--spacer3x);
+  padding-left: var(--spacer3x);
+  padding-right: var(--spacer3x);
 }
 
 .xl-py0 {
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .xl-py0-25 {
-  margin-top: var(--spacer0-25x);
-  margin-bottom: var(--spacer0-25x);
+  padding-top: var(--spacer0-25x);
+  padding-bottom: var(--spacer0-25x);
 }
 
 .xl-py0-5 {
-  margin-top: var(--spacer0-5x);
-  margin-bottom: var(--spacer0-5x);
+  padding-top: var(--spacer0-5x);
+  padding-bottom: var(--spacer0-5x);
 }
 
 .xl-py1 {
-  margin-top: var(--spacer);
-  margin-bottom: var(--spacer);
+  padding-top: var(--spacer);
+  padding-bottom: var(--spacer);
 }
 
 .xl-py1-5 {
-  margin-top: var(--spacer1-5x);
-  margin-bottom: var(--spacer1-5x);
+  padding-top: var(--spacer1-5x);
+  padding-bottom: var(--spacer1-5x);
 }
 
 .xl-py2 {
-  margin-top: var(--spacer2x);
-  margin-bottom: var(--spacer2x);
+  padding-top: var(--spacer2x);
+  padding-bottom: var(--spacer2x);
 }
 
 .xl-py3 {
-  margin-top: var(--spacer3x);
-  margin-bottom: var(--spacer3x);
+  padding-top: var(--spacer3x);
+  padding-bottom: var(--spacer3x);
 }
