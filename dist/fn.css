@@ -1488,6 +1488,592 @@
   border-radius: 100%;
 }
 
+.lspo {
+  list-style-position: outside;
+}
+
+.lspi {
+  list-style-position: inside;
+}
+
+.lstc {
+  list-style-type: circle;
+}
+
+.lstd {
+  list-style-type: disc;
+}
+
+.lsts {
+  list-style-type: square;
+}
+
+.lsta {
+  list-style-type: armenian;
+}
+
+.lstci {
+  list-style-type: cjk-ideographic;
+}
+
+.lstdi {
+  list-style-type: decimal;
+}
+
+.lstdlz {
+  list-style-type: decimal-leading-zero;
+}
+
+.lstg {
+  list-style-type: georgian;
+}
+
+.lsthb {
+  list-style-type: hebrew;
+}
+
+.lsthg {
+  list-style-type: hiragana;
+}
+
+.lsthi {
+  list-style-type: hiragana-iroha;
+}
+
+.lstk {
+  list-style-type: katakana;
+}
+
+.lstki {
+  list-style-type: katakana-iroha;
+}
+
+.lstla {
+  list-style-type: lower-alpha;
+}
+
+.lstlg {
+  list-style-type: lower-greek;
+}
+
+.lstll {
+  list-style-type: lower-latin;
+}
+
+.lstlr {
+  list-style-type: lower-roman;
+}
+
+.lstua {
+  list-style-type: upper-alpha;
+}
+
+.lstug {
+  list-style-type: upper-greek;
+}
+
+.lstul {
+  list-style-type: upper-latin;
+}
+
+.lstur {
+  list-style-type: upper-roman;
+}
+
+.lstn {
+  list-style-type: none;
+}
+
+.lsti {
+  list-style-type: inherit;
+}
+
+.cl-white {
+  color: #fff;
+}
+
+.bgcl-white {
+  background-color: #fff;
+}
+
+.bdcl-white {
+  border-color: #fff;
+}
+
+.hvcl-white:hover,
+.hvcl-white:focus {
+  color: #fff;
+}
+
+.hvbgcl-white:hover,
+.hvbgcl-white:focus {
+  background-color: #fff;
+}
+
+.hvbdcl-white:hover,
+.hvbdcl-white:focus {
+  border-color: #fff;
+}
+
+.cl-black {
+  color: #000;
+}
+
+.bgcl-black {
+  background-color: #000;
+}
+
+.bdcl-black {
+  border-color: #000;
+}
+
+.hvcl-black:hover,
+.hvcl-black:focus {
+  color: #000;
+}
+
+.hvbgcl-black:hover,
+.hvbgcl-black:focus {
+  background-color: #000;
+}
+
+.hvbdcl-black:hover,
+.hvbdcl-black:focus {
+  border-color: #000;
+}
+
+.cl-red {
+  color: #e84118;
+}
+
+.bgcl-red {
+  background-color: #e84118;
+}
+
+.bdcl-red {
+  border-color: #e84118;
+}
+
+.hvcl-red:hover,
+.hvcl-red:focus {
+  color: #e84118;
+}
+
+.hvbgcl-red:hover,
+.hvbgcl-red:focus {
+  background-color: #e84118;
+}
+
+.hvbdcl-red:hover,
+.hvbdcl-red:focus {
+  border-color: #e84118;
+}
+
+.cl-dark-red {
+  color: #c23616;
+}
+
+.bgcl-dark-red {
+  background-color: #c23616;
+}
+
+.bdcl-dark-red {
+  border-color: #c23616;
+}
+
+.hvcl-dark-red:hover,
+.hvcl-dark-red:focus {
+  color: #c23616;
+}
+
+.hvbgcl-dark-red:hover,
+.hvbgcl-dark-red:focus {
+  background-color: #c23616;
+}
+
+.hvbdcl-dark-red:hover,
+.hvbdcl-dark-red:focus {
+  border-color: #c23616;
+}
+
+.cl-blue {
+  color: #00a8ff;
+}
+
+.bgcl-blue {
+  background-color: #00a8ff;
+}
+
+.bdcl-blue {
+  border-color: #00a8ff;
+}
+
+.hvcl-blue:hover,
+.hvcl-blue:focus {
+  color: #00a8ff;
+}
+
+.hvbgcl-blue:hover,
+.hvbgcl-blue:focus {
+  background-color: #00a8ff;
+}
+
+.hvbdcl-blue:hover,
+.hvbdcl-blue:focus {
+  border-color: #00a8ff;
+}
+
+.cl-dark-blue {
+  color: #0097e6;
+}
+
+.bgcl-dark-blue {
+  background-color: #0097e6;
+}
+
+.bdcl-dark-blue {
+  border-color: #0097e6;
+}
+
+.hvcl-dark-blue:hover,
+.hvcl-dark-blue:focus {
+  color: #0097e6;
+}
+
+.hvbgcl-dark-blue:hover,
+.hvbgcl-dark-blue:focus {
+  background-color: #0097e6;
+}
+
+.hvbdcl-dark-blue:hover,
+.hvbdcl-dark-blue:focus {
+  border-color: #0097e6;
+}
+
+.cl-green {
+  color: #4cd137;
+}
+
+.bgcl-green {
+  background-color: #4cd137;
+}
+
+.bdcl-green {
+  border-color: #4cd137;
+}
+
+.hvcl-green:hover,
+.hvcl-green:focus {
+  color: #4cd137;
+}
+
+.hvbgcl-green:hover,
+.hvbgcl-green:focus {
+  background-color: #4cd137;
+}
+
+.hvbdcl-green:hover,
+.hvbdcl-green:focus {
+  border-color: #4cd137;
+}
+
+.cl-dark-green {
+  color: #44bd32;
+}
+
+.bgcl-dark-green {
+  background-color: #44bd32;
+}
+
+.bdcl-dark-green {
+  border-color: #44bd32;
+}
+
+.hvcl-dark-green:hover,
+.hvcl-dark-green:focus {
+  color: #44bd32;
+}
+
+.hvbgcl-dark-green:hover,
+.hvbgcl-dark-green:focus {
+  background-color: #44bd32;
+}
+
+.hvbdcl-dark-green:hover,
+.hvbdcl-dark-green:focus {
+  border-color: #44bd32;
+}
+
+.cl-yellow {
+  color: #fbc531;
+}
+
+.bgcl-yellow {
+  background-color: #fbc531;
+}
+
+.bdcl-yellow {
+  border-color: #fbc531;
+}
+
+.hvcl-yellow:hover,
+.hvcl-yellow:focus {
+  color: #fbc531;
+}
+
+.hvbgcl-yellow:hover,
+.hvbgcl-yellow:focus {
+  background-color: #fbc531;
+}
+
+.hvbdcl-yellow:hover,
+.hvbdcl-yellow:focus {
+  border-color: #fbc531;
+}
+
+.cl-dark-yellow {
+  color: #e1b12c;
+}
+
+.bgcl-dark-yellow {
+  background-color: #e1b12c;
+}
+
+.bdcl-dark-yellow {
+  border-color: #e1b12c;
+}
+
+.hvcl-dark-yellow:hover,
+.hvcl-dark-yellow:focus {
+  color: #e1b12c;
+}
+
+.hvbgcl-dark-yellow:hover,
+.hvbgcl-dark-yellow:focus {
+  background-color: #e1b12c;
+}
+
+.hvbdcl-dark-yellow:hover,
+.hvbdcl-dark-yellow:focus {
+  border-color: #e1b12c;
+}
+
+.cl-purple {
+  color: #7f8fa6;
+}
+
+.bgcl-purple {
+  background-color: #7f8fa6;
+}
+
+.bdcl-purple {
+  border-color: #7f8fa6;
+}
+
+.hvcl-purple:hover,
+.hvcl-purple:focus {
+  color: #7f8fa6;
+}
+
+.hvbgcl-purple:hover,
+.hvbgcl-purple:focus {
+  background-color: #7f8fa6;
+}
+
+.hvbdcl-purple:hover,
+.hvbdcl-purple:focus {
+  border-color: #7f8fa6;
+}
+
+.cl-dark-purple {
+  color: #8c7ae6;
+}
+
+.bgcl-dark-purple {
+  background-color: #8c7ae6;
+}
+
+.bdcl-dark-purple {
+  border-color: #8c7ae6;
+}
+
+.hvcl-dark-purple:hover,
+.hvcl-dark-purple:focus {
+  color: #8c7ae6;
+}
+
+.hvbgcl-dark-purple:hover,
+.hvbgcl-dark-purple:focus {
+  background-color: #8c7ae6;
+}
+
+.hvbdcl-dark-purple:hover,
+.hvbdcl-dark-purple:focus {
+  border-color: #8c7ae6;
+}
+
+.cl-grey {
+  color: #7f8fa6;
+}
+
+.bgcl-grey {
+  background-color: #7f8fa6;
+}
+
+.bdcl-grey {
+  border-color: #7f8fa6;
+}
+
+.hvcl-grey:hover,
+.hvcl-grey:focus {
+  color: #7f8fa6;
+}
+
+.hvbgcl-grey:hover,
+.hvbgcl-grey:focus {
+  background-color: #7f8fa6;
+}
+
+.hvbdcl-grey:hover,
+.hvbdcl-grey:focus {
+  border-color: #7f8fa6;
+}
+
+.cl-dark-grey {
+  color: #718093;
+}
+
+.bgcl-dark-grey {
+  background-color: #718093;
+}
+
+.bdcl-dark-grey {
+  border-color: #718093;
+}
+
+.hvcl-dark-grey:hover,
+.hvcl-dark-grey:focus {
+  color: #718093;
+}
+
+.hvbgcl-dark-grey:hover,
+.hvbgcl-dark-grey:focus {
+  background-color: #718093;
+}
+
+.hvbdcl-dark-grey:hover,
+.hvbdcl-dark-grey:focus {
+  border-color: #718093;
+}
+
+.cl-light {
+  color: #f5f6fa;
+}
+
+.bgcl-light {
+  background-color: #f5f6fa;
+}
+
+.bdcl-light {
+  border-color: #f5f6fa;
+}
+
+.hvcl-light:hover,
+.hvcl-light:focus {
+  color: #f5f6fa;
+}
+
+.hvbgcl-light:hover,
+.hvbgcl-light:focus {
+  background-color: #f5f6fa;
+}
+
+.hvbdcl-light:hover,
+.hvbdcl-light:focus {
+  border-color: #f5f6fa;
+}
+
+.cl-dark-light {
+  color: #dcdde1;
+}
+
+.bgcl-dark-light {
+  background-color: #dcdde1;
+}
+
+.bdcl-dark-light {
+  border-color: #dcdde1;
+}
+
+.hvcl-dark-light:hover,
+.hvcl-dark-light:focus {
+  color: #dcdde1;
+}
+
+.hvbgcl-dark-light:hover,
+.hvbgcl-dark-light:focus {
+  background-color: #dcdde1;
+}
+
+.hvbdcl-dark-light:hover,
+.hvbdcl-dark-light:focus {
+  border-color: #dcdde1;
+}
+
+.cl-dark {
+  color: #353b48;
+}
+
+.bgcl-dark {
+  background-color: #353b48;
+}
+
+.bdcl-dark {
+  border-color: #353b48;
+}
+
+.hvcl-dark:hover,
+.hvcl-dark:focus {
+  color: #353b48;
+}
+
+.hvbgcl-dark:hover,
+.hvbgcl-dark:focus {
+  background-color: #353b48;
+}
+
+.hvbdcl-dark:hover,
+.hvbdcl-dark:focus {
+  border-color: #353b48;
+}
+
+.cl-dark-dark {
+  color: #2f3640;
+}
+
+.bgcl-dark-dark {
+  background-color: #2f3640;
+}
+
+.bdcl-dark-dark {
+  border-color: #2f3640;
+}
+
+.hvcl-dark-dark:hover,
+.hvcl-dark-dark:focus {
+  color: #2f3640;
+}
+
+.hvbgcl-dark-dark:hover,
+.hvbgcl-dark-dark:focus {
+  background-color: #2f3640;
+}
+
+.hvbdcl-dark-dark:hover,
+.hvbdcl-dark-dark:focus {
+  border-color: #2f3640;
+}
+
 @media (min-width: 576px) {
   .sm-df {
     display: -webkit-box;
@@ -2975,6 +3561,106 @@
 
   .sm-bdrd100 {
     border-radius: 100%;
+  }
+
+  .sm-lspo {
+    list-style-position: outside;
+  }
+
+  .sm-lspi {
+    list-style-position: inside;
+  }
+
+  .sm-lstc {
+    list-style-type: circle;
+  }
+
+  .sm-lstd {
+    list-style-type: disc;
+  }
+
+  .sm-lsts {
+    list-style-type: square;
+  }
+
+  .sm-lsta {
+    list-style-type: armenian;
+  }
+
+  .sm-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .sm-lstdi {
+    list-style-type: decimal;
+  }
+
+  .sm-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .sm-lstg {
+    list-style-type: georgian;
+  }
+
+  .sm-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .sm-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .sm-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .sm-lstk {
+    list-style-type: katakana;
+  }
+
+  .sm-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .sm-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .sm-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .sm-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .sm-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .sm-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .sm-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .sm-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .sm-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .sm-lstn {
+    list-style-type: none;
+  }
+
+  .sm-lsti {
+    list-style-type: inherit;
   }
 }
 
@@ -4466,6 +5152,106 @@
   .md-bdrd100 {
     border-radius: 100%;
   }
+
+  .md-lspo {
+    list-style-position: outside;
+  }
+
+  .md-lspi {
+    list-style-position: inside;
+  }
+
+  .md-lstc {
+    list-style-type: circle;
+  }
+
+  .md-lstd {
+    list-style-type: disc;
+  }
+
+  .md-lsts {
+    list-style-type: square;
+  }
+
+  .md-lsta {
+    list-style-type: armenian;
+  }
+
+  .md-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .md-lstdi {
+    list-style-type: decimal;
+  }
+
+  .md-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .md-lstg {
+    list-style-type: georgian;
+  }
+
+  .md-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .md-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .md-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .md-lstk {
+    list-style-type: katakana;
+  }
+
+  .md-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .md-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .md-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .md-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .md-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .md-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .md-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .md-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .md-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .md-lstn {
+    list-style-type: none;
+  }
+
+  .md-lsti {
+    list-style-type: inherit;
+  }
 }
 
 @media (min-width: 992px) {
@@ -5956,6 +6742,106 @@
   .lg-bdrd100 {
     border-radius: 100%;
   }
+
+  .lg-lspo {
+    list-style-position: outside;
+  }
+
+  .lg-lspi {
+    list-style-position: inside;
+  }
+
+  .lg-lstc {
+    list-style-type: circle;
+  }
+
+  .lg-lstd {
+    list-style-type: disc;
+  }
+
+  .lg-lsts {
+    list-style-type: square;
+  }
+
+  .lg-lsta {
+    list-style-type: armenian;
+  }
+
+  .lg-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .lg-lstdi {
+    list-style-type: decimal;
+  }
+
+  .lg-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .lg-lstg {
+    list-style-type: georgian;
+  }
+
+  .lg-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .lg-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .lg-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .lg-lstk {
+    list-style-type: katakana;
+  }
+
+  .lg-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .lg-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .lg-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .lg-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .lg-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .lg-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .lg-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .lg-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .lg-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .lg-lstn {
+    list-style-type: none;
+  }
+
+  .lg-lsti {
+    list-style-type: inherit;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -7445,5 +8331,105 @@
 
   .xl-bdrd100 {
     border-radius: 100%;
+  }
+
+  .xl-lspo {
+    list-style-position: outside;
+  }
+
+  .xl-lspi {
+    list-style-position: inside;
+  }
+
+  .xl-lstc {
+    list-style-type: circle;
+  }
+
+  .xl-lstd {
+    list-style-type: disc;
+  }
+
+  .xl-lsts {
+    list-style-type: square;
+  }
+
+  .xl-lsta {
+    list-style-type: armenian;
+  }
+
+  .xl-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .xl-lstdi {
+    list-style-type: decimal;
+  }
+
+  .xl-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .xl-lstg {
+    list-style-type: georgian;
+  }
+
+  .xl-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .xl-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .xl-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .xl-lstk {
+    list-style-type: katakana;
+  }
+
+  .xl-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .xl-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .xl-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .xl-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .xl-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .xl-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .xl-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .xl-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .xl-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .xl-lstn {
+    list-style-type: none;
+  }
+
+  .xl-lsti {
+    list-style-type: inherit;
   }
 }

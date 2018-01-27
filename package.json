@@ -1,6 +1,6 @@
 {
   "name": "fn.css",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "main": "dist/fn.css",
   "style": "dist/fn.css",
   "license": "MIT",
@@ -17,7 +17,9 @@
     "postcss-custom-media": "^6.0.0",
     "postcss-custom-properties": "^6.1.0",
     "postcss-import": "^11.0.0",
+    "postcss-mixins": "^6.2.0",
     "postcss-nested": "^2.1.2",
+    "postcss-simple-vars": "^4.1.0",
     "stylelint-config-standard": "^17.0.0"
   },
   "scripts": {
