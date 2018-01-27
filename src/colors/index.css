@@ -1,0 +1,34 @@
+:root {
+  --white: #fff;
+}
+
+@define-mixin color $colorName, $colorHex {
+  .cl-$(colorName) {
+    color: $colorHex;
+  }
+
+  .bgcl-$(colorName) {
+    background-color: $colorHex;
+  }
+
+  .bdcl-$(colorName) {
+    border-color: $colorHex;
+  }
+
+  .hvcl-$(colorName):hover,
+  .hvcl-$(colorName):focus {
+    color: $colorHex;
+  }
+
+  .hvbgcl-$(colorName):hover,
+  .hvbgcl-$(colorName):focus {
+    background-color: $colorHex;
+  }
+
+  .hvbdcl-$(colorName):hover,
+  .hvbdcl-$(colorName):focus {
+    border-color: $colorHex;
+  }
+}
+
+@mixin color white, #fff;

@@ -1488,6 +1488,30 @@
   border-radius: 100%;
 }
 
+.cl-white {
+  color: #fff;
+}
+
+.bgcl-white {
+  background-color: #fff;
+}
+
+.bdcl-white {
+  border-color: #fff;
+}
+
+.hvcl-white:hover, .hvcl-white:focus {
+  color: #fff;
+}
+
+.hvbgcl-white:hover, .hvbgcl-white:focus {
+  background-color: #fff;
+}
+
+.hvbdcl-white:hover, .hvbdcl-white:focus {
+  border-color: #fff;
+}
+
 @media (min-width: 576px) {
   .sm-df {
     display: -webkit-box;
