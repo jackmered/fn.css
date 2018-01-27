@@ -13,6 +13,7 @@ module.exports = {
       cascade: false,
       indentSize: 2,
       trimLeadingZero: false,
+      maxSelectorLength: 1,
     }),
   ],
 }
