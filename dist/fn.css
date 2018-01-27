@@ -1488,6 +1488,106 @@
   border-radius: 100%;
 }
 
+.lspo {
+  list-style-position: outside;
+}
+
+.lspi {
+  list-style-position: inside;
+}
+
+.lstc {
+  list-style-type: circle;
+}
+
+.lstd {
+  list-style-type: disc;
+}
+
+.lsts {
+  list-style-type: square;
+}
+
+.lsta {
+  list-style-type: armenian;
+}
+
+.lstci {
+  list-style-type: cjk-ideographic;
+}
+
+.lstdi {
+  list-style-type: decimal;
+}
+
+.lstdlz {
+  list-style-type: decimal-leading-zero;
+}
+
+.lstg {
+  list-style-type: georgian;
+}
+
+.lsthb {
+  list-style-type: hebrew;
+}
+
+.lsthg {
+  list-style-type: hiragana;
+}
+
+.lsthi {
+  list-style-type: hiragana-iroha;
+}
+
+.lstk {
+  list-style-type: katakana;
+}
+
+.lstki {
+  list-style-type: katakana-iroha;
+}
+
+.lstla {
+  list-style-type: lower-alpha;
+}
+
+.lstlg {
+  list-style-type: lower-greek;
+}
+
+.lstll {
+  list-style-type: lower-latin;
+}
+
+.lstlr {
+  list-style-type: lower-roman;
+}
+
+.lstua {
+  list-style-type: upper-alpha;
+}
+
+.lstug {
+  list-style-type: upper-greek;
+}
+
+.lstul {
+  list-style-type: upper-latin;
+}
+
+.lstur {
+  list-style-type: upper-roman;
+}
+
+.lstn {
+  list-style-type: none;
+}
+
+.lsti {
+  list-style-type: inherit;
+}
+
 .cl-white {
   color: #fff;
 }
@@ -3462,6 +3562,106 @@
   .sm-bdrd100 {
     border-radius: 100%;
   }
+
+  .sm-lspo {
+    list-style-position: outside;
+  }
+
+  .sm-lspi {
+    list-style-position: inside;
+  }
+
+  .sm-lstc {
+    list-style-type: circle;
+  }
+
+  .sm-lstd {
+    list-style-type: disc;
+  }
+
+  .sm-lsts {
+    list-style-type: square;
+  }
+
+  .sm-lsta {
+    list-style-type: armenian;
+  }
+
+  .sm-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .sm-lstdi {
+    list-style-type: decimal;
+  }
+
+  .sm-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .sm-lstg {
+    list-style-type: georgian;
+  }
+
+  .sm-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .sm-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .sm-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .sm-lstk {
+    list-style-type: katakana;
+  }
+
+  .sm-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .sm-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .sm-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .sm-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .sm-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .sm-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .sm-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .sm-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .sm-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .sm-lstn {
+    list-style-type: none;
+  }
+
+  .sm-lsti {
+    list-style-type: inherit;
+  }
 }
 
 @media (min-width: 768px) {
@@ -4951,6 +5151,106 @@
 
   .md-bdrd100 {
     border-radius: 100%;
+  }
+
+  .md-lspo {
+    list-style-position: outside;
+  }
+
+  .md-lspi {
+    list-style-position: inside;
+  }
+
+  .md-lstc {
+    list-style-type: circle;
+  }
+
+  .md-lstd {
+    list-style-type: disc;
+  }
+
+  .md-lsts {
+    list-style-type: square;
+  }
+
+  .md-lsta {
+    list-style-type: armenian;
+  }
+
+  .md-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .md-lstdi {
+    list-style-type: decimal;
+  }
+
+  .md-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .md-lstg {
+    list-style-type: georgian;
+  }
+
+  .md-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .md-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .md-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .md-lstk {
+    list-style-type: katakana;
+  }
+
+  .md-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .md-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .md-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .md-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .md-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .md-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .md-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .md-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .md-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .md-lstn {
+    list-style-type: none;
+  }
+
+  .md-lsti {
+    list-style-type: inherit;
   }
 }
 
@@ -6442,6 +6742,106 @@
   .lg-bdrd100 {
     border-radius: 100%;
   }
+
+  .lg-lspo {
+    list-style-position: outside;
+  }
+
+  .lg-lspi {
+    list-style-position: inside;
+  }
+
+  .lg-lstc {
+    list-style-type: circle;
+  }
+
+  .lg-lstd {
+    list-style-type: disc;
+  }
+
+  .lg-lsts {
+    list-style-type: square;
+  }
+
+  .lg-lsta {
+    list-style-type: armenian;
+  }
+
+  .lg-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .lg-lstdi {
+    list-style-type: decimal;
+  }
+
+  .lg-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .lg-lstg {
+    list-style-type: georgian;
+  }
+
+  .lg-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .lg-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .lg-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .lg-lstk {
+    list-style-type: katakana;
+  }
+
+  .lg-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .lg-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .lg-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .lg-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .lg-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .lg-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .lg-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .lg-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .lg-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .lg-lstn {
+    list-style-type: none;
+  }
+
+  .lg-lsti {
+    list-style-type: inherit;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -7931,5 +8331,105 @@
 
   .xl-bdrd100 {
     border-radius: 100%;
+  }
+
+  .xl-lspo {
+    list-style-position: outside;
+  }
+
+  .xl-lspi {
+    list-style-position: inside;
+  }
+
+  .xl-lstc {
+    list-style-type: circle;
+  }
+
+  .xl-lstd {
+    list-style-type: disc;
+  }
+
+  .xl-lsts {
+    list-style-type: square;
+  }
+
+  .xl-lsta {
+    list-style-type: armenian;
+  }
+
+  .xl-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .xl-lstdi {
+    list-style-type: decimal;
+  }
+
+  .xl-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .xl-lstg {
+    list-style-type: georgian;
+  }
+
+  .xl-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .xl-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .xl-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .xl-lstk {
+    list-style-type: katakana;
+  }
+
+  .xl-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .xl-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .xl-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .xl-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .xl-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .xl-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .xl-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .xl-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .xl-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .xl-lstn {
+    list-style-type: none;
+  }
+
+  .xl-lsti {
+    list-style-type: inherit;
   }
 }
