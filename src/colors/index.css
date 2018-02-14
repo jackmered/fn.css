@@ -7,26 +7,26 @@
     color: $colorHex;
   }
 
-  .bgcl-$(colorName) {
+  .bg-$(colorName) {
     background-color: $colorHex;
   }
 
-  .bdcl-$(colorName) {
+  .bd-$(colorName) {
     border-color: $colorHex;
   }
 
-  .hvcl-$(colorName):hover,
-  .hvcl-$(colorName):focus {
+  .clh-$(colorName):hover,
+  .clh-$(colorName):focus {
     color: $colorHex;
   }
 
-  .hvbgcl-$(colorName):hover,
-  .hvbgcl-$(colorName):focus {
+  .bgh-$(colorName):hover,
+  .bgh-$(colorName):focus {
     background-color: $colorHex;
   }
 
-  .hvbdcl-$(colorName):hover,
-  .hvbdcl-$(colorName):focus {
+  .bdh-$(colorName):hover,
+  .bdh-$(colorName):focus {
     border-color: $colorHex;
   }
 }
@@ -41,7 +41,7 @@
 @mixin color dark-green, #44bd32;
 @mixin color yellow, #fbc531;
 @mixin color dark-yellow, #e1b12c;
-@mixin color purple, #7f8fa6;
+@mixin color purple, #9c88ff;
 @mixin color dark-purple, #8c7ae6;
 @mixin color grey, #7f8fa6;
 @mixin color dark-grey, #718093;
