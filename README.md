@@ -29,4 +29,4 @@ A selection of variables can be changed in `fn.css/src/_variables.css` including
 
 ### Acknowledgments
 
-`fn.css` is heavily inspired by [gr8](https://github.com/jongacnik/gr8) by [jongacnik](https://github.com/jongacnik) which was initally used to build the project.
+`fn.css` is heavily inspired by [gr8](https://github.com/jongacnik/gr8) by [jongacnik](https://github.com/jongacnik) which was initially used to build the project.
