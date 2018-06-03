@@ -1502,25 +1502,21 @@
 
 .tc1 {
   -webkit-columns: 1;
-  -moz-columns: 1;
   columns: 1;
 }
 
 .tc2 {
   -webkit-columns: 2;
-  -moz-columns: 2;
   columns: 2;
 }
 
 .tc3 {
   -webkit-columns: 3;
-  -moz-columns: 3;
   columns: 3;
 }
 
 .tc4 {
   -webkit-columns: 4;
-  -moz-columns: 4;
   columns: 4;
 }
 
@@ -3743,25 +3739,21 @@
 
   .sm-tc1 {
     -webkit-columns: 1;
-    -moz-columns: 1;
     columns: 1;
   }
 
   .sm-tc2 {
     -webkit-columns: 2;
-    -moz-columns: 2;
     columns: 2;
   }
 
   .sm-tc3 {
     -webkit-columns: 3;
-    -moz-columns: 3;
     columns: 3;
   }
 
   .sm-tc4 {
     -webkit-columns: 4;
-    -moz-columns: 4;
     columns: 4;
   }
 
@@ -5495,25 +5487,21 @@
 
   .md-tc1 {
     -webkit-columns: 1;
-    -moz-columns: 1;
     columns: 1;
   }
 
   .md-tc2 {
     -webkit-columns: 2;
-    -moz-columns: 2;
     columns: 2;
   }
 
   .md-tc3 {
     -webkit-columns: 3;
-    -moz-columns: 3;
     columns: 3;
   }
 
   .md-tc4 {
     -webkit-columns: 4;
-    -moz-columns: 4;
     columns: 4;
   }
 
@@ -7247,25 +7235,21 @@
 
   .lg-tc1 {
     -webkit-columns: 1;
-    -moz-columns: 1;
     columns: 1;
   }
 
   .lg-tc2 {
     -webkit-columns: 2;
-    -moz-columns: 2;
     columns: 2;
   }
 
   .lg-tc3 {
     -webkit-columns: 3;
-    -moz-columns: 3;
     columns: 3;
   }
 
   .lg-tc4 {
     -webkit-columns: 4;
-    -moz-columns: 4;
     columns: 4;
   }
 
@@ -8999,25 +8983,21 @@
 
   .xl-tc1 {
     -webkit-columns: 1;
-    -moz-columns: 1;
     columns: 1;
   }
 
   .xl-tc2 {
     -webkit-columns: 2;
-    -moz-columns: 2;
     columns: 2;
   }
 
   .xl-tc3 {
     -webkit-columns: 3;
-    -moz-columns: 3;
     columns: 3;
   }
 
   .xl-tc4 {
     -webkit-columns: 4;
-    -moz-columns: 4;
     columns: 4;
   }
 
