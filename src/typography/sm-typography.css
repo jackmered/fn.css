@@ -1,25 +1,33 @@
+.sm-fs0-75 {
+  font-size: 0.75rem;
+}
+
+.sm-fs0-875 {
+  font-size: 0.875rem;
+}
+
 .sm-fs1 {
   font-size: 1rem;
 }
 
-.sm-fs1-2 {
-  font-size: 1.2rem;
+.sm-fs1-5 {
+  font-size: 1.5rem;
 }
 
-.sm-fs1-6 {
-  font-size: 1.6rem;
+.sm-fs2 {
+  font-size: 2rem;
 }
 
-.sm-fs2-4 {
-  font-size: 2.4rem;
+.sm-fs3 {
+  font-size: 3rem;
 }
 
-.sm-fs3-2 {
-  font-size: 3.2rem;
+.sm-fs4 {
+  font-size: 4rem;
 }
 
-.sm-fs6-4 {
-  font-size: 6.4rem;
+.sm-fs6 {
+  font-size: 6rem;
 }
 
 .sm-lh1 {

@@ -1,25 +1,33 @@
+.xl-fs0-75 {
+  font-size: 0.75rem;
+}
+
+.xl-fs0-875 {
+  font-size: 0.875rem;
+}
+
 .xl-fs1 {
   font-size: 1rem;
 }
 
-.xl-fs1-2 {
-  font-size: 1.2rem;
+.xl-fs1-5 {
+  font-size: 1.5rem;
 }
 
-.xl-fs1-6 {
-  font-size: 1.6rem;
+.xl-fs2 {
+  font-size: 2rem;
 }
 
-.xl-fs2-4 {
-  font-size: 2.4rem;
+.xl-fs3 {
+  font-size: 3rem;
 }
 
-.xl-fs3-2 {
-  font-size: 3.2rem;
+.xl-fs4 {
+  font-size: 4rem;
 }
 
-.xl-fs6-4 {
-  font-size: 6.4rem;
+.xl-fs6 {
+  font-size: 6rem;
 }
 
 .xl-lh1 {

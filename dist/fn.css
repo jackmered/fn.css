@@ -1,4 +1,4 @@
-/*! fn.css v2.1.3 | MIT License | github.com/jackmered/fn.css */
+/*! fn.css v2.2.0 | MIT License | github.com/jackmered/fn.css */
 
 :root {
   --spacer: 1rem;
@@ -1353,28 +1353,36 @@
   padding-top: 100%;
 }
 
+.fs0-75 {
+  font-size: 0.75rem;
+}
+
+.fs0-875 {
+  font-size: 0.875rem;
+}
+
 .fs1 {
   font-size: 1rem;
 }
 
-.fs1-2 {
-  font-size: 1.2rem;
+.fs1-5 {
+  font-size: 1.5rem;
 }
 
-.fs1-6 {
-  font-size: 1.6rem;
+.fs2 {
+  font-size: 2rem;
 }
 
-.fs2-4 {
-  font-size: 2.4rem;
+.fs3 {
+  font-size: 3rem;
 }
 
-.fs3-2 {
-  font-size: 3.2rem;
+.fs4 {
+  font-size: 4rem;
 }
 
-.fs6-4 {
-  font-size: 6.4rem;
+.fs6 {
+  font-size: 6rem;
 }
 
 .lh1 {
@@ -3590,28 +3598,36 @@
     padding-top: 100%;
   }
 
+  .sm-fs0-75 {
+    font-size: 0.75rem;
+  }
+
+  .sm-fs0-875 {
+    font-size: 0.875rem;
+  }
+
   .sm-fs1 {
     font-size: 1rem;
   }
 
-  .sm-fs1-2 {
-    font-size: 1.2rem;
+  .sm-fs1-5 {
+    font-size: 1.5rem;
   }
 
-  .sm-fs1-6 {
-    font-size: 1.6rem;
+  .sm-fs2 {
+    font-size: 2rem;
   }
 
-  .sm-fs2-4 {
-    font-size: 2.4rem;
+  .sm-fs3 {
+    font-size: 3rem;
   }
 
-  .sm-fs3-2 {
-    font-size: 3.2rem;
+  .sm-fs4 {
+    font-size: 4rem;
   }
 
-  .sm-fs6-4 {
-    font-size: 6.4rem;
+  .sm-fs6 {
+    font-size: 6rem;
   }
 
   .sm-lh1 {
@@ -5338,28 +5354,36 @@
     padding-top: 100%;
   }
 
+  .md-fs0-75 {
+    font-size: 0.75rem;
+  }
+
+  .md-fs0-875 {
+    font-size: 0.875rem;
+  }
+
   .md-fs1 {
     font-size: 1rem;
   }
 
-  .md-fs1-2 {
-    font-size: 1.2rem;
+  .md-fs1-5 {
+    font-size: 1.5rem;
   }
 
-  .md-fs1-6 {
-    font-size: 1.6rem;
+  .md-fs2 {
+    font-size: 2rem;
   }
 
-  .md-fs2-4 {
-    font-size: 2.4rem;
+  .md-fs3 {
+    font-size: 3rem;
   }
 
-  .md-fs3-2 {
-    font-size: 3.2rem;
+  .md-fs4 {
+    font-size: 4rem;
   }
 
-  .md-fs6-4 {
-    font-size: 6.4rem;
+  .md-fs6 {
+    font-size: 6rem;
   }
 
   .md-lh1 {
@@ -7086,28 +7110,36 @@
     padding-top: 100%;
   }
 
+  .lg-fs0-75 {
+    font-size: 0.75rem;
+  }
+
+  .lg-fs0-875 {
+    font-size: 0.875rem;
+  }
+
   .lg-fs1 {
     font-size: 1rem;
   }
 
-  .lg-fs1-2 {
-    font-size: 1.2rem;
+  .lg-fs1-5 {
+    font-size: 1.5rem;
   }
 
-  .lg-fs1-6 {
-    font-size: 1.6rem;
+  .lg-fs2 {
+    font-size: 2rem;
   }
 
-  .lg-fs2-4 {
-    font-size: 2.4rem;
+  .lg-fs3 {
+    font-size: 3rem;
   }
 
-  .lg-fs3-2 {
-    font-size: 3.2rem;
+  .lg-fs4 {
+    font-size: 4rem;
   }
 
-  .lg-fs6-4 {
-    font-size: 6.4rem;
+  .lg-fs6 {
+    font-size: 6rem;
   }
 
   .lg-lh1 {
@@ -8834,28 +8866,36 @@
     padding-top: 100%;
   }
 
+  .xl-fs0-75 {
+    font-size: 0.75rem;
+  }
+
+  .xl-fs0-875 {
+    font-size: 0.875rem;
+  }
+
   .xl-fs1 {
     font-size: 1rem;
   }
 
-  .xl-fs1-2 {
-    font-size: 1.2rem;
+  .xl-fs1-5 {
+    font-size: 1.5rem;
   }
 
-  .xl-fs1-6 {
-    font-size: 1.6rem;
+  .xl-fs2 {
+    font-size: 2rem;
   }
 
-  .xl-fs2-4 {
-    font-size: 2.4rem;
+  .xl-fs3 {
+    font-size: 3rem;
   }
 
-  .xl-fs3-2 {
-    font-size: 3.2rem;
+  .xl-fs4 {
+    font-size: 4rem;
   }
 
-  .xl-fs6-4 {
-    font-size: 6.4rem;
+  .xl-fs6 {
+    font-size: 6rem;
   }
 
   .xl-lh1 {
