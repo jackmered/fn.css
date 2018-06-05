@@ -1,25 +1,33 @@
+.fs0-75 {
+  font-size: 0.75rem;
+}
+
+.fs0-875 {
+  font-size: 0.875rem;
+}
+
 .fs1 {
   font-size: 1rem;
 }
 
-.fs1-2 {
-  font-size: 1.2rem;
+.fs1-5 {
+  font-size: 1.5rem;
 }
 
-.fs1-6 {
-  font-size: 1.6rem;
+.fs2 {
+  font-size: 2rem;
 }
 
-.fs2-4 {
-  font-size: 2.4rem;
+.fs3 {
+  font-size: 3rem;
 }
 
-.fs3-2 {
-  font-size: 3.2rem;
+.fs4 {
+  font-size: 4rem;
 }
 
-.fs6-4 {
-  font-size: 6.4rem;
+.fs6 {
+  font-size: 6rem;
 }
 
 .lh1 {
