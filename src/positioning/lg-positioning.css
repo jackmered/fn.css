@@ -30,6 +30,22 @@
   left: 0;
 }
 
+.lg-ta {
+  top: auto;
+}
+
+.lg-ra {
+  right: auto;
+}
+
+.lg-ba {
+  bottom: auto;
+}
+
+.lg-la {
+  bottom: auto;
+}
+
 .lg-z0 {
   z-index: 0;
 }
