@@ -21,3 +21,7 @@
 .md-oys {
   overflow-y: scroll;
 }
+
+.md-oa {
+  overflow: auto;
+}
