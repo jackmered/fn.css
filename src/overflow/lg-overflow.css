@@ -21,3 +21,7 @@
 .lg-oys {
   overflow-y: scroll;
 }
+
+.lg-oa {
+  overflow: auto;
+}

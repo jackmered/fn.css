@@ -21,3 +21,7 @@
 .sm-oys {
   overflow-y: scroll;
 }
+
+.sm-oa {
+  overflow: auto;
+}

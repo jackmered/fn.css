@@ -21,3 +21,7 @@
 .xl-oys {
   overflow-y: scroll;
 }
+
+.xl-oa {
+  overflow: auto;
+}

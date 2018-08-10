@@ -30,6 +30,22 @@
   left: 0;
 }
 
+.sm-ta {
+  top: auto;
+}
+
+.sm-ra {
+  right: auto;
+}
+
+.sm-ba {
+  bottom: auto;
+}
+
+.sm-la {
+  bottom: auto;
+}
+
 .sm-z0 {
   z-index: 0;
 }

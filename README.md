@@ -13,7 +13,7 @@ For example:
 
 `.mt1-5 { margin-top: 1.5rem }`
 
-`.fs1-2 { font-size: 1.2rem }`
+`.fs1-5 { font-size: 1.5rem }`
 
 ### Installation
 
