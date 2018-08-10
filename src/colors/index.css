@@ -1,5 +1,22 @@
 :root {
   --white: #fff;
+  --black: #000;
+  --red: #e84118;
+  --dark-red: #c23616;
+  --blue: #00a8ff;
+  --dark-blue: #0097e6;
+  --green: #4cd137;
+  --dark-green: #44bd32;
+  --yellow: #fbc531;
+  --dark-yellow: #e1b12c;
+  --purple: #9c88ff;
+  --dark-purple: #8c7ae6;
+  --grey: #7f8fa6;
+  --dark-grey: #718093;
+  --light: #f5f6fa;
+  --dark-light: #dcdde1;
+  --dark: #353b48;
+  --dark-dark: #2f3640;
 }
 
 @define-mixin color $colorName, $colorHex {
@@ -7,12 +24,84 @@
     color: $colorHex;
   }
 
+  @media (--sm) {
+    .sm-cl-$(colorName) {
+      color: $colorHex;
+    }
+  }
+
+  @media (--md) {
+    .md-cl-$(colorName) {
+      color: $colorHex;
+    }
+  }
+
+  @media (--lg) {
+    .lg-cl-$(colorName) {
+      color: $colorHex;
+    }
+  }
+
+  @media (--xl) {
+    .xl-cl-$(colorName) {
+      color: $colorHex;
+    }
+  }
+
   .bg-$(colorName) {
     background-color: $colorHex;
   }
 
+  @media (--sm) {
+    .sm-bg-$(colorName) {
+      background-color: $colorHex;
+    }
+  }
+
+  @media (--md) {
+    .md-bg-$(colorName) {
+      background-color: $colorHex;
+    }
+  }
+
+  @media (--lg) {
+    .lg-bg-$(colorName) {
+      background-color: $colorHex;
+    }
+  }
+
+  @media (--xl) {
+    .xl-bg-$(colorName) {
+      background-color: $colorHex;
+    }
+  }
+
   .bd-$(colorName) {
     border-color: $colorHex;
+  }
+
+  @media (--sm) {
+    .sm-bd-$(colorName) {
+      border-color: $colorHex;
+    }
+  }
+
+  @media (--md) {
+    .md-bd-$(colorName) {
+      border-color: $colorHex;
+    }
+  }
+
+  @media (--lg) {
+    .lg-bd-$(colorName) {
+      border-color: $colorHex;
+    }
+  }
+
+  @media (--xl) {
+    .xl-bd-$(colorName) {
+      border-color: $colorHex;
+    }
   }
 
   .clh-$(colorName):hover,
@@ -20,33 +109,119 @@
     color: $colorHex;
   }
 
+  @media (--sm) {
+    .sm-clh-$(colorName):hover,
+    .sm-clh-$(colorName):focus {
+      color: $colorHex;
+    }
+  }
+
+  @media (--md) {
+    .md-clh-$(colorName):hover,
+    .md-clh-$(colorName):focus {
+      color: $colorHex;
+    }
+  }
+
+  @media (--lg) {
+    .lg-clh-$(colorName):hover,
+    .lg-clh-$(colorName):focus {
+      color: $colorHex;
+    }
+  }
+
+  @media (--xl) {
+    .xl-clh-$(colorName):hover,
+    .xl-clh-$(colorName):focus {
+      color: $colorHex;
+    }
+  }
+
   .bgh-$(colorName):hover,
   .bgh-$(colorName):focus {
     background-color: $colorHex;
+  }
+
+  @media (--sm) {
+    .sm-bgh-$(colorName):hover,
+    .sm-bgh-$(colorName):focus {
+      background-color: $colorHex;
+    }
+  }
+
+  @media (--md) {
+    .md-bgh-$(colorName):hover,
+    .md-bgh-$(colorName):focus {
+      background-color: $colorHex;
+    }
+  }
+
+  @media (--lg) {
+    .lg-bgh-$(colorName):hover,
+    .lg-bgh-$(colorName):focus {
+      background-color: $colorHex;
+    }
+  }
+
+  @media (--xl) {
+    .xl-bgh-$(colorName):hover,
+    .xl-bgh-$(colorName):focus {
+      background-color: $colorHex;
+    }
   }
 
   .bdh-$(colorName):hover,
   .bdh-$(colorName):focus {
     border-color: $colorHex;
   }
+
+  @media (--sm) {
+    .sm-bdh-$(colorName):hover,
+    .sm-bdh-$(colorName):focus {
+      border-color: $colorHex;
+    }
+  }
+
+  @media (--md) {
+    .md-bdh-$(colorName):hover,
+    .md-bdh-$(colorName):focus {
+      border-color: $colorHex;
+    }
+  }
+
+  @media (--lg) {
+    .lg-bdh-$(colorName):hover,
+    .lg-bdh-$(colorName):focus {
+      border-color: $colorHex;
+    }
+  }
+
+  @media (--xl) {
+    .xl-bdh-$(colorName):hover,
+    .xl-bdh-$(colorName):focus {
+      border-color: $colorHex;
+    }
+  }
 }
 
-@mixin color white, #fff;
-@mixin color black, #000;
-@mixin color red, #e84118;
-@mixin color dark-red, #c23616;
-@mixin color blue, #00a8ff;
-@mixin color dark-blue, #0097e6;
-@mixin color green, #4cd137;
-@mixin color dark-green, #44bd32;
-@mixin color yellow, #fbc531;
-@mixin color dark-yellow, #e1b12c;
-@mixin color purple, #9c88ff;
-@mixin color dark-purple, #8c7ae6;
-@mixin color grey, #7f8fa6;
-@mixin color dark-grey, #718093;
-@mixin color light, #f5f6fa;
-@mixin color dark-light, #dcdde1;
-@mixin color dark, #353b48;
-@mixin color dark-dark, #2f3640;
+@mixin color transparent, transparent;
+@mixin color white, var(--white);
+@mixin color black, var(--black);
+@mixin color red, var(--red);
+@mixin color dark-red, var(--dark-red);
+@mixin color blue, var(--blue);
+@mixin color dark-blue, var(--dark-blue);
+@mixin color green, var(--green);
+@mixin color dark-green, var(--dark-green);
+@mixin color yellow, var(--yellow);
+@mixin color dark-yellow, var(--dark-yellow);
+@mixin color purple, var(--purple);
+@mixin color dark-purple, var(--dark-purple);
+@mixin color grey, var(--grey);
+@mixin color dark-grey, var(--dark-grey);
+@mixin color light, var(--light);
+@mixin color dark-light, var(--dark-light);
+@mixin color dark, var(--dark);
+@mixin color dark-dark, var(--dark-dark);
+@mixin color inherit, inherit;
 
