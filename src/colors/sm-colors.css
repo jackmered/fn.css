@@ -1,0 +1,50 @@
+@define-mixin color $colorName, $colorHex {
+  .sm-cl-$(colorName) {
+    color: $colorHex;
+  }
+
+  .sm-bg-$(colorName) {
+    background-color: $colorHex;
+  }
+
+  .sm-bd-$(colorName) {
+    border-color: $colorHex;
+  }
+
+  .sm-clh-$(colorName):hover,
+  .sm-clh-$(colorName):focus {
+    color: $colorHex;
+  }
+
+  .sm-bgh-$(colorName):hover,
+  .sm-bgh-$(colorName):focus {
+    background-color: $colorHex;
+  }
+
+  .sm-bdh-$(colorName):hover,
+  .sm-bdh-$(colorName):focus {
+    border-color: $colorHex;
+  }
+}
+
+@mixin color transparent, transparent;
+@mixin color white, var(--white);
+@mixin color black, var(--black);
+@mixin color red, var(--red);
+@mixin color dark-red, var(--dark-red);
+@mixin color blue, var(--blue);
+@mixin color dark-blue, var(--dark-blue);
+@mixin color green, var(--green);
+@mixin color dark-green, var(--dark-green);
+@mixin color yellow, var(--yellow);
+@mixin color dark-yellow, var(--dark-yellow);
+@mixin color purple, var(--purple);
+@mixin color dark-purple, var(--dark-purple);
+@mixin color grey, var(--grey);
+@mixin color dark-grey, var(--dark-grey);
+@mixin color light, var(--light);
+@mixin color dark-light, var(--dark-light);
+@mixin color dark, var(--dark);
+@mixin color dark-dark, var(--dark-dark);
+@mixin color inherit, inherit;
+

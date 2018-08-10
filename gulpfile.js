@@ -5,7 +5,7 @@ const plugins = require('gulp-load-plugins')();
  * Styles
  */
 gulp.task('styles', ['lint'], () =>
-  gulp.src('./src/fn.css')
+  gulp.src(['./src/fn.css', './src/fn-xs.css'])
     .pipe(plugins.postcss())
     .pipe(gulp.dest('./dist'))
 );
