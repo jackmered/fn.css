@@ -1,0 +1,2457 @@
+/*! fn.css [xl] v2.2.0 | MIT License | github.com/jackmered/fn.css */
+
+:root {
+  --spacer: 1rem;
+  --spacer0-25x: 0.25rem;
+  --spacer0-25x: calc(var(--spacer) * 0.25);
+  --spacer0-5x: 0.5rem;
+  --spacer0-5x: calc(var(--spacer) * 0.5);
+  --spacer1-5x: 1.5rem;
+  --spacer1-5x: calc(var(--spacer) * 1.5);
+  --spacer2x: 2rem;
+  --spacer2x: calc(var(--spacer) * 2);
+  --spacer3x: 3rem;
+  --spacer3x: calc(var(--spacer) * 3);
+  --white: #fff;
+  --black: #000;
+  --red: #e84118;
+  --dark-red: #c23616;
+  --blue: #00a8ff;
+  --dark-blue: #0097e6;
+  --green: #4cd137;
+  --dark-green: #44bd32;
+  --yellow: #fbc531;
+  --dark-yellow: #e1b12c;
+  --purple: #9c88ff;
+  --dark-purple: #8c7ae6;
+  --grey: #7f8fa6;
+  --dark-grey: #718093;
+  --light: #f5f6fa;
+  --dark-light: #dcdde1;
+  --dark: #353b48;
+  --dark-dark: #2f3640;
+}
+
+@media (min-width: 1200px) {
+  .xl-df {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .xl-db {
+    display: block;
+  }
+
+  .xl-dib {
+    display: inline-block;
+  }
+
+  .xl-di {
+    display: inline;
+  }
+
+  .xl-dt {
+    display: table;
+  }
+
+  .xl-dtc {
+    display: table-cell;
+  }
+
+  .xl-dtr {
+    display: table-row;
+  }
+
+  .xl-dn {
+    display: none;
+  }
+
+  .xl-m0 {
+    margin: 0;
+  }
+
+  .xl-m0-25 {
+    margin: 0.25rem;
+    margin: var(--spacer0-25x);
+  }
+
+  .xl-m0-5 {
+    margin: 0.5rem;
+    margin: var(--spacer0-5x);
+  }
+
+  .xl-m1 {
+    margin: 1rem;
+    margin: var(--spacer);
+  }
+
+  .xl-m1-5 {
+    margin: 1.5rem;
+    margin: var(--spacer1-5x);
+  }
+
+  .xl-m2 {
+    margin: 2rem;
+    margin: var(--spacer2x);
+  }
+
+  .xl-m3 {
+    margin: 3rem;
+    margin: var(--spacer3x);
+  }
+
+  .xl-mt0 {
+    margin-top: 0;
+  }
+
+  .xl-mt0-25 {
+    margin-top: 0.25rem;
+    margin-top: var(--spacer0-25x);
+  }
+
+  .xl-mt0-5 {
+    margin-top: 0.5rem;
+    margin-top: var(--spacer0-5x);
+  }
+
+  .xl-mt1 {
+    margin-top: 1rem;
+    margin-top: var(--spacer);
+  }
+
+  .xl-mt1-5 {
+    margin-top: 1.5rem;
+    margin-top: var(--spacer1-5x);
+  }
+
+  .xl-mt2 {
+    margin-top: 2rem;
+    margin-top: var(--spacer2x);
+  }
+
+  .xl-mt3 {
+    margin-top: 3rem;
+    margin-top: var(--spacer3x);
+  }
+
+  .xl-mr0 {
+    margin-right: 0;
+  }
+
+  .xl-mr0-25 {
+    margin-right: 0.25rem;
+    margin-right: var(--spacer0-25x);
+  }
+
+  .xl-mr0-5 {
+    margin-right: 0.5rem;
+    margin-right: var(--spacer0-5x);
+  }
+
+  .xl-mr1 {
+    margin-right: 1rem;
+    margin-right: var(--spacer);
+  }
+
+  .xl-mr1-5 {
+    margin-right: 1.5rem;
+    margin-right: var(--spacer1-5x);
+  }
+
+  .xl-mr2 {
+    margin-right: 2rem;
+    margin-right: var(--spacer2x);
+  }
+
+  .xl-mr3 {
+    margin-right: 3rem;
+    margin-right: var(--spacer3x);
+  }
+
+  .xl-mb0 {
+    margin-bottom: 0;
+  }
+
+  .xl-mb0-25 {
+    margin-bottom: 0.25rem;
+    margin-bottom: var(--spacer0-25x);
+  }
+
+  .xl-mb0-5 {
+    margin-bottom: 0.5rem;
+    margin-bottom: var(--spacer0-5x);
+  }
+
+  .xl-mb1 {
+    margin-bottom: 1rem;
+    margin-bottom: var(--spacer);
+  }
+
+  .xl-mb1-5 {
+    margin-bottom: 1.5rem;
+    margin-bottom: var(--spacer1-5x);
+  }
+
+  .xl-mb2 {
+    margin-bottom: 2rem;
+    margin-bottom: var(--spacer2x);
+  }
+
+  .xl-mb3 {
+    margin-bottom: 3rem;
+    margin-bottom: var(--spacer3x);
+  }
+
+  .xl-ml0 {
+    margin-left: 0;
+  }
+
+  .xl-ml0-25 {
+    margin-left: 0.25rem;
+    margin-left: var(--spacer0-25x);
+  }
+
+  .xl-ml0-5 {
+    margin-left: 0.5rem;
+    margin-left: var(--spacer0-5x);
+  }
+
+  .xl-ml1 {
+    margin-left: 1rem;
+    margin-left: var(--spacer);
+  }
+
+  .xl-ml1-5 {
+    margin-left: 1.5rem;
+    margin-left: var(--spacer1-5x);
+  }
+
+  .xl-ml2 {
+    margin-left: 2rem;
+    margin-left: var(--spacer2x);
+  }
+
+  .xl-ml3 {
+    margin-left: 3rem;
+    margin-left: var(--spacer3x);
+  }
+
+  .xl-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .xl-mx0-25 {
+    margin-left: 0.25rem;
+    margin-left: var(--spacer0-25x);
+    margin-right: 0.25rem;
+    margin-right: var(--spacer0-25x);
+  }
+
+  .xl-mx0-5 {
+    margin-left: 0.5rem;
+    margin-left: var(--spacer0-5x);
+    margin-right: 0.5rem;
+    margin-right: var(--spacer0-5x);
+  }
+
+  .xl-mx1 {
+    margin-left: 1rem;
+    margin-left: var(--spacer);
+    margin-right: 1rem;
+    margin-right: var(--spacer);
+  }
+
+  .xl-mx1-5 {
+    margin-left: 1.5rem;
+    margin-left: var(--spacer1-5x);
+    margin-right: 1.5rem;
+    margin-right: var(--spacer1-5x);
+  }
+
+  .xl-mx2 {
+    margin-left: 2rem;
+    margin-left: var(--spacer2x);
+    margin-right: 2rem;
+    margin-right: var(--spacer2x);
+  }
+
+  .xl-mx3 {
+    margin-left: 3rem;
+    margin-left: var(--spacer3x);
+    margin-right: 3rem;
+    margin-right: var(--spacer3x);
+  }
+
+  .xl-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .xl-my0-25 {
+    margin-top: 0.25rem;
+    margin-top: var(--spacer0-25x);
+    margin-bottom: 0.25rem;
+    margin-bottom: var(--spacer0-25x);
+  }
+
+  .xl-my0-5 {
+    margin-top: 0.5rem;
+    margin-top: var(--spacer0-5x);
+    margin-bottom: 0.5rem;
+    margin-bottom: var(--spacer0-5x);
+  }
+
+  .xl-my1 {
+    margin-top: 1rem;
+    margin-top: var(--spacer);
+    margin-bottom: 1rem;
+    margin-bottom: var(--spacer);
+  }
+
+  .xl-my1-5 {
+    margin-top: 1.5rem;
+    margin-top: var(--spacer1-5x);
+    margin-bottom: 1.5rem;
+    margin-bottom: var(--spacer1-5x);
+  }
+
+  .xl-my2 {
+    margin-top: 2rem;
+    margin-top: var(--spacer2x);
+    margin-bottom: 2rem;
+    margin-bottom: var(--spacer2x);
+  }
+
+  .xl-my3 {
+    margin-top: 3rem;
+    margin-top: var(--spacer3x);
+    margin-bottom: 3rem;
+    margin-bottom: var(--spacer3x);
+  }
+
+  .xl-mla {
+    margin-left: auto;
+  }
+
+  .xl-mra {
+    margin-right: auto;
+  }
+
+  .xl-mxa {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .xl-m-0-25 {
+    margin: -0.25rem;
+    margin: calc(-1 * var(--spacer0-25x));
+  }
+
+  .xl-m-0-5 {
+    margin: -0.5rem;
+    margin: calc(-1 * var(--spacer0-5x));
+  }
+
+  .xl-m-1 {
+    margin: -1rem;
+    margin: calc(-1 * var(--spacer));
+  }
+
+  .xl-m-1-5 {
+    margin: -1.5rem;
+    margin: calc(-1 * var(--spacer1-5x));
+  }
+
+  .xl-m-2 {
+    margin: -2rem;
+    margin: calc(-1 * var(--spacer2x));
+  }
+
+  .xl-m-3 {
+    margin: -3rem;
+    margin: calc(-1 * var(--spacer3x));
+  }
+
+  .xl-mt-0-25 {
+    margin-top: -0.25rem;
+    margin-top: calc(-1 * var(--spacer0-25x));
+  }
+
+  .xl-mt-0-5 {
+    margin-top: -0.5rem;
+    margin-top: calc(-1 * var(--spacer0-5x));
+  }
+
+  .xl-mt-1 {
+    margin-top: -1rem;
+    margin-top: calc(-1 * var(--spacer));
+  }
+
+  .xl-mt-1-5 {
+    margin-top: -1.5rem;
+    margin-top: calc(-1 * var(--spacer1-5x));
+  }
+
+  .xl-mt-2 {
+    margin-top: -2rem;
+    margin-top: calc(-1 * var(--spacer2x));
+  }
+
+  .xl-mt-3 {
+    margin-top: -3rem;
+    margin-top: calc(-1 * var(--spacer3x));
+  }
+
+  .xl-mr-0-25 {
+    margin-right: -0.25rem;
+    margin-right: calc(-1 * var(--spacer0-25x));
+  }
+
+  .xl-mr-0-5 {
+    margin-right: -0.5rem;
+    margin-right: calc(-1 * var(--spacer0-5x));
+  }
+
+  .xl-mr-1 {
+    margin-right: -1rem;
+    margin-right: calc(-1 * var(--spacer));
+  }
+
+  .xl-mr-1-5 {
+    margin-right: -1.5rem;
+    margin-right: calc(-1 * var(--spacer1-5x));
+  }
+
+  .xl-mr-2 {
+    margin-right: -2rem;
+    margin-right: calc(-1 * var(--spacer2x));
+  }
+
+  .xl-mr-3 {
+    margin-right: -3rem;
+    margin-right: calc(-1 * var(--spacer3x));
+  }
+
+  .xl-mb-0-25 {
+    margin-bottom: -0.25rem;
+    margin-bottom: calc(-1 * var(--spacer0-25x));
+  }
+
+  .xl-mb-0-5 {
+    margin-bottom: -0.5rem;
+    margin-bottom: calc(-1 * var(--spacer0-5x));
+  }
+
+  .xl-mb-1 {
+    margin-bottom: -1rem;
+    margin-bottom: calc(-1 * var(--spacer));
+  }
+
+  .xl-mb-1-5 {
+    margin-bottom: -1.5rem;
+    margin-bottom: calc(-1 * var(--spacer1-5x));
+  }
+
+  .xl-mb-2 {
+    margin-bottom: -2rem;
+    margin-bottom: calc(-1 * var(--spacer2x));
+  }
+
+  .xl-mb-3 {
+    margin-bottom: -3rem;
+    margin-bottom: calc(-1 * var(--spacer3x));
+  }
+
+  .xl-ml-0-25 {
+    margin-left: -0.25rem;
+    margin-left: calc(-1 * var(--spacer0-25x));
+  }
+
+  .xl-ml-0-5 {
+    margin-left: -0.5rem;
+    margin-left: calc(-1 * var(--spacer0-5x));
+  }
+
+  .xl-ml-1 {
+    margin-left: -1rem;
+    margin-left: calc(-1 * var(--spacer));
+  }
+
+  .xl-ml-1-5 {
+    margin-left: -1.5rem;
+    margin-left: calc(-1 * var(--spacer1-5x));
+  }
+
+  .xl-ml-2 {
+    margin-left: -2rem;
+    margin-left: calc(-1 * var(--spacer2x));
+  }
+
+  .xl-ml-3 {
+    margin-left: -3rem;
+    margin-left: calc(-1 * var(--spacer3x));
+  }
+
+  .xl-mx-0-25 {
+    margin-left: -0.25rem;
+    margin-left: calc(-1 * var(--spacer0-25x));
+    margin-right: -0.25rem;
+    margin-right: calc(-1 * var(--spacer0-25x));
+  }
+
+  .xl-mx-0-5 {
+    margin-left: -0.5rem;
+    margin-left: calc(-1 * var(--spacer0-5x));
+    margin-right: -0.5rem;
+    margin-right: calc(-1 * var(--spacer0-5x));
+  }
+
+  .xl-mx-1 {
+    margin-left: -1rem;
+    margin-left: calc(-1 * var(--spacer));
+    margin-right: -1rem;
+    margin-right: calc(-1 * var(--spacer));
+  }
+
+  .xl-mx-1-5 {
+    margin-left: -1.5rem;
+    margin-left: calc(-1 * var(--spacer1-5x));
+    margin-right: -1.5rem;
+    margin-right: calc(-1 * var(--spacer1-5x));
+  }
+
+  .xl-mx-2 {
+    margin-left: -2rem;
+    margin-left: calc(-1 * var(--spacer2x));
+    margin-right: -2rem;
+    margin-right: calc(-1 * var(--spacer2x));
+  }
+
+  .xl-mx-3 {
+    margin-left: -3rem;
+    margin-left: calc(-1 * var(--spacer3x));
+    margin-right: -3rem;
+    margin-right: calc(-1 * var(--spacer3x));
+  }
+
+  .xl-my-0-25 {
+    margin-top: -0.25rem;
+    margin-top: calc(-1 * var(--spacer0-25x));
+    margin-bottom: -0.25rem;
+    margin-bottom: calc(-1 * var(--spacer0-25x));
+  }
+
+  .xl-my-0-5 {
+    margin-top: -0.5rem;
+    margin-top: calc(-1 * var(--spacer0-5x));
+    margin-bottom: -0.5rem;
+    margin-bottom: calc(-1 * var(--spacer0-5x));
+  }
+
+  .xl-my-1 {
+    margin-top: -1rem;
+    margin-top: calc(-1 * var(--spacer));
+    margin-bottom: -1rem;
+    margin-bottom: calc(-1 * var(--spacer));
+  }
+
+  .xl-my-1-5 {
+    margin-top: -1.5rem;
+    margin-top: calc(-1 * var(--spacer1-5x));
+    margin-bottom: -1.5rem;
+    margin-bottom: calc(-1 * var(--spacer1-5x));
+  }
+
+  .xl-my-2 {
+    margin-top: -2rem;
+    margin-top: calc(-1 * var(--spacer2x));
+    margin-bottom: -2rem;
+    margin-bottom: calc(-1 * var(--spacer2x));
+  }
+
+  .xl-my-3 {
+    margin-top: -3rem;
+    margin-top: calc(-1 * var(--spacer3x));
+    margin-bottom: -3rem;
+    margin-bottom: calc(-1 * var(--spacer3x));
+  }
+
+  .xl-p0 {
+    padding: 0;
+  }
+
+  .xl-p0-25 {
+    padding: 0.25rem;
+    padding: var(--spacer0-25x);
+  }
+
+  .xl-p0-5 {
+    padding: 0.5rem;
+    padding: var(--spacer0-5x);
+  }
+
+  .xl-p1 {
+    padding: 1rem;
+    padding: var(--spacer);
+  }
+
+  .xl-p1-5 {
+    padding: 1.5rem;
+    padding: var(--spacer1-5x);
+  }
+
+  .xl-p2 {
+    padding: 2rem;
+    padding: var(--spacer2x);
+  }
+
+  .xl-p3 {
+    padding: 3rem;
+    padding: var(--spacer3x);
+  }
+
+  .xl-pt0 {
+    padding-top: 0;
+  }
+
+  .xl-pt0-25 {
+    padding-top: 0.25rem;
+    padding-top: var(--spacer0-25x);
+  }
+
+  .xl-pt0-5 {
+    padding-top: 0.5rem;
+    padding-top: var(--spacer0-5x);
+  }
+
+  .xl-pt1 {
+    padding-top: 1rem;
+    padding-top: var(--spacer);
+  }
+
+  .xl-pt1-5 {
+    padding-top: 1.5rem;
+    padding-top: var(--spacer1-5x);
+  }
+
+  .xl-pt2 {
+    padding-top: 2rem;
+    padding-top: var(--spacer2x);
+  }
+
+  .xl-pt3 {
+    padding-top: 3rem;
+    padding-top: var(--spacer3x);
+  }
+
+  .xl-pr0 {
+    padding-right: 0;
+  }
+
+  .xl-pr0-25 {
+    padding-right: 0.25rem;
+    padding-right: var(--spacer0-25x);
+  }
+
+  .xl-pr0-5 {
+    padding-right: 0.5rem;
+    padding-right: var(--spacer0-5x);
+  }
+
+  .xl-pr1 {
+    padding-right: 1rem;
+    padding-right: var(--spacer);
+  }
+
+  .xl-pr1-5 {
+    padding-right: 1.5rem;
+    padding-right: var(--spacer1-5x);
+  }
+
+  .xl-pr2 {
+    padding-right: 2rem;
+    padding-right: var(--spacer2x);
+  }
+
+  .xl-pr3 {
+    padding-right: 3rem;
+    padding-right: var(--spacer3x);
+  }
+
+  .xl-pb0 {
+    padding-bottom: 0;
+  }
+
+  .xl-pb0-25 {
+    padding-bottom: 0.25rem;
+    padding-bottom: var(--spacer0-25x);
+  }
+
+  .xl-pb0-5 {
+    padding-bottom: 0.5rem;
+    padding-bottom: var(--spacer0-5x);
+  }
+
+  .xl-pb1 {
+    padding-bottom: 1rem;
+    padding-bottom: var(--spacer);
+  }
+
+  .xl-pb1-5 {
+    padding-bottom: 1.5rem;
+    padding-bottom: var(--spacer1-5x);
+  }
+
+  .xl-pb2 {
+    padding-bottom: 2rem;
+    padding-bottom: var(--spacer2x);
+  }
+
+  .xl-pb3 {
+    padding-bottom: 3rem;
+    padding-bottom: var(--spacer3x);
+  }
+
+  .xl-pl0 {
+    padding-left: 0;
+  }
+
+  .xl-pl0-25 {
+    padding-left: 0.25rem;
+    padding-left: var(--spacer0-25x);
+  }
+
+  .xl-pl0-5 {
+    padding-left: 0.5rem;
+    padding-left: var(--spacer0-5x);
+  }
+
+  .xl-pl1 {
+    padding-left: 1rem;
+    padding-left: var(--spacer);
+  }
+
+  .xl-pl1-5 {
+    padding-left: 1.5rem;
+    padding-left: var(--spacer1-5x);
+  }
+
+  .xl-pl2 {
+    padding-left: 2rem;
+    padding-left: var(--spacer2x);
+  }
+
+  .xl-pl3 {
+    padding-left: 3rem;
+    padding-left: var(--spacer3x);
+  }
+
+  .xl-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .xl-px0-25 {
+    padding-left: 0.25rem;
+    padding-left: var(--spacer0-25x);
+    padding-right: 0.25rem;
+    padding-right: var(--spacer0-25x);
+  }
+
+  .xl-px0-5 {
+    padding-left: 0.5rem;
+    padding-left: var(--spacer0-5x);
+    padding-right: 0.5rem;
+    padding-right: var(--spacer0-5x);
+  }
+
+  .xl-px1 {
+    padding-left: 1rem;
+    padding-left: var(--spacer);
+    padding-right: 1rem;
+    padding-right: var(--spacer);
+  }
+
+  .xl-px1-5 {
+    padding-left: 1.5rem;
+    padding-left: var(--spacer1-5x);
+    padding-right: 1.5rem;
+    padding-right: var(--spacer1-5x);
+  }
+
+  .xl-px2 {
+    padding-left: 2rem;
+    padding-left: var(--spacer2x);
+    padding-right: 2rem;
+    padding-right: var(--spacer2x);
+  }
+
+  .xl-px3 {
+    padding-left: 3rem;
+    padding-left: var(--spacer3x);
+    padding-right: 3rem;
+    padding-right: var(--spacer3x);
+  }
+
+  .xl-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .xl-py0-25 {
+    padding-top: 0.25rem;
+    padding-top: var(--spacer0-25x);
+    padding-bottom: 0.25rem;
+    padding-bottom: var(--spacer0-25x);
+  }
+
+  .xl-py0-5 {
+    padding-top: 0.5rem;
+    padding-top: var(--spacer0-5x);
+    padding-bottom: 0.5rem;
+    padding-bottom: var(--spacer0-5x);
+  }
+
+  .xl-py1 {
+    padding-top: 1rem;
+    padding-top: var(--spacer);
+    padding-bottom: 1rem;
+    padding-bottom: var(--spacer);
+  }
+
+  .xl-py1-5 {
+    padding-top: 1.5rem;
+    padding-top: var(--spacer1-5x);
+    padding-bottom: 1.5rem;
+    padding-bottom: var(--spacer1-5x);
+  }
+
+  .xl-py2 {
+    padding-top: 2rem;
+    padding-top: var(--spacer2x);
+    padding-bottom: 2rem;
+    padding-bottom: var(--spacer2x);
+  }
+
+  .xl-py3 {
+    padding-top: 3rem;
+    padding-top: var(--spacer3x);
+    padding-bottom: 3rem;
+    padding-bottom: var(--spacer3x);
+  }
+
+  .xl-c1 {
+    width: 8.333333333333332%;
+  }
+
+  .xl-c2 {
+    width: 16.666666666666664%;
+  }
+
+  .xl-c3 {
+    width: 25%;
+  }
+
+  .xl-c4 {
+    width: 33.33333333333333%;
+  }
+
+  .xl-c5 {
+    width: 41.66666666666667%;
+  }
+
+  .xl-c6 {
+    width: 50%;
+  }
+
+  .xl-c7 {
+    width: 58.333333333333336%;
+  }
+
+  .xl-c8 {
+    width: 66.66666666666666%;
+  }
+
+  .xl-c9 {
+    width: 75%;
+  }
+
+  .xl-c10 {
+    width: 83.33333333333334%;
+  }
+
+  .xl-c11 {
+    width: 91.66666666666666%;
+  }
+
+  .xl-c12 {
+    width: 100%;
+  }
+
+  .xl-co0 {
+    margin-left: 0;
+  }
+
+  .xl-co1 {
+    margin-left: 8.333333333333332%;
+  }
+
+  .xl-co2 {
+    margin-left: 16.666666666666664%;
+  }
+
+  .xl-co3 {
+    margin-left: 25%;
+  }
+
+  .xl-co4 {
+    margin-left: 33.33333333333333%;
+  }
+
+  .xl-co5 {
+    margin-left: 41.66666666666667%;
+  }
+
+  .xl-co6 {
+    margin-left: 50%;
+  }
+
+  .xl-co7 {
+    margin-left: 58.333333333333336%;
+  }
+
+  .xl-co8 {
+    margin-left: 66.66666666666666%;
+  }
+
+  .xl-co9 {
+    margin-left: 75%;
+  }
+
+  .xl-co10 {
+    margin-left: 83.33333333333334%;
+  }
+
+  .xl-co11 {
+    margin-left: 91.66666666666666%;
+  }
+
+  .xl-co12 {
+    margin-left: 100%;
+  }
+
+  .xl-op0 {
+    opacity: 0;
+  }
+
+  .xl-op25 {
+    opacity: 0.25;
+  }
+
+  .xl-op50 {
+    opacity: 0.5;
+  }
+
+  .xl-op75 {
+    opacity: 0.75;
+  }
+
+  .xl-op100 {
+    opacity: 1;
+  }
+
+  .xl-bgsc {
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .xl-bgsct {
+    -webkit-background-size: contain;
+    background-size: contain;
+  }
+
+  .xl-bgpc {
+    background-position: center;
+  }
+
+  .xl-bgpt {
+    background-position: top;
+  }
+
+  .xl-bgpr {
+    background-position: right;
+  }
+
+  .xl-bgpb {
+    background-position: bottom;
+  }
+
+  .xl-bgpl {
+    background-position: left;
+  }
+
+  .xl-bgrn {
+    background-repeat: no-repeat;
+  }
+
+  .xl-bgrx {
+    background-repeat: repeat-x;
+  }
+
+  .xl-bgry {
+    background-repeat: repeat-y;
+  }
+
+  .xl-x {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .xl-xac {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .xl-xab {
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+
+  .xl-xas {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
+  .xl-xafs {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .xl-xafe {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  .xl-xdr {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .xl-xdrr {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+
+  .xl-xdc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .xl-xdcr {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .xl-xjc {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .xl-xjb {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .xl-xja {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  .xl-xjs {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .xl-xje {
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .xl-xw {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .xl-xwr {
+    -webkit-flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+  }
+
+  .xl-xwn {
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+
+  .xl-xi {
+    -webkit-box-flex: initial;
+    -webkit-flex: initial;
+    -ms-flex: initial;
+    flex: initial;
+  }
+
+  .xl-xx {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .xl-xa {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+  }
+
+  .xl-xn {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+  }
+
+  .xl-xo0 {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+
+  .xl-xo1 {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+  }
+
+  .xl-xo2 {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+
+  .xl-xo3 {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .xl-xo4 {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+
+  .xl-xot {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
+  .xl-xob {
+    -webkit-box-ordinal-group: 100;
+    -webkit-order: 99;
+    -ms-flex-order: 99;
+    order: 99;
+  }
+
+  .xl-fl {
+    float: left;
+  }
+
+  .xl-fr {
+    float: right;
+  }
+
+  .xl-fn {
+    float: none;
+  }
+
+  .xl-cf::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .xl-oh {
+    overflow: hidden;
+  }
+
+  .xl-os {
+    overflow: scroll;
+  }
+
+  .xl-oxh {
+    overflow-x: hidden;
+  }
+
+  .xl-oxs {
+    overflow-x: scroll;
+  }
+
+  .xl-oyh {
+    overflow-y: hidden;
+  }
+
+  .xl-oys {
+    overflow-y: scroll;
+  }
+
+  .xl-oa {
+    overflow: auto;
+  }
+
+  .xl-psa {
+    position: absolute;
+  }
+
+  .xl-psr {
+    position: relative;
+  }
+
+  .xl-psf {
+    position: fixed;
+  }
+
+  .xl-pss {
+    position: static;
+  }
+
+  .xl-t0 {
+    top: 0;
+  }
+
+  .xl-r0 {
+    right: 0;
+  }
+
+  .xl-b0 {
+    bottom: 0;
+  }
+
+  .xl-l0 {
+    left: 0;
+  }
+
+  .xl-ta {
+    top: auto;
+  }
+
+  .xl-ra {
+    right: auto;
+  }
+
+  .xl-ba {
+    bottom: auto;
+  }
+
+  .xl-la {
+    bottom: auto;
+  }
+
+  .xl-z0 {
+    z-index: 0;
+  }
+
+  .xl-z1 {
+    z-index: 1;
+  }
+
+  .xl-z2 {
+    z-index: 2;
+  }
+
+  .xl-z3 {
+    z-index: 3;
+  }
+
+  .xl-z4 {
+    z-index: 4;
+  }
+
+  .xl-w0 {
+    width: 0;
+  }
+
+  .xl-w100 {
+    width: 100%;
+  }
+
+  .xl-h0 {
+    height: 0;
+  }
+
+  .xl-h100 {
+    height: 100%;
+  }
+
+  .xl-vw100 {
+    width: 100vw;
+  }
+
+  .xl-vh100 {
+    height: 100vh;
+  }
+
+  .xl-vwmn100 {
+    min-width: 100vw;
+  }
+
+  .xl-vhmn100 {
+    min-height: 100vh;
+  }
+
+  .xl-vwmx100 {
+    max-width: 100vw;
+  }
+
+  .xl-vhmx100 {
+    max-height: 100vh;
+  }
+
+  .xl-ar0 {
+    content: "";
+    display: block;
+    padding-top: 0;
+  }
+
+  .xl-ar20 {
+    content: "";
+    display: block;
+    padding-top: 20%;
+  }
+
+  .xl-ar50 {
+    content: "";
+    display: block;
+    padding-top: 50%;
+  }
+
+  .xl-ar75 {
+    content: "";
+    display: block;
+    padding-top: 75%;
+  }
+
+  .xl-ar100 {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  .xl-fs0-75 {
+    font-size: 0.75rem;
+  }
+
+  .xl-fs0-875 {
+    font-size: 0.875rem;
+  }
+
+  .xl-fs1 {
+    font-size: 1rem;
+  }
+
+  .xl-fs1-5 {
+    font-size: 1.5rem;
+  }
+
+  .xl-fs2 {
+    font-size: 2rem;
+  }
+
+  .xl-fs3 {
+    font-size: 3rem;
+  }
+
+  .xl-fs4 {
+    font-size: 4rem;
+  }
+
+  .xl-fs6 {
+    font-size: 6rem;
+  }
+
+  .xl-lh1 {
+    line-height: 1;
+  }
+
+  .xl-lh1-2 {
+    line-height: 1.2;
+  }
+
+  .xl-lh1-5 {
+    line-height: 1.5;
+  }
+
+  .xl-fsn {
+    font-style: normal;
+  }
+
+  .xl-fsi {
+    font-style: italic;
+  }
+
+  .xl-fwn {
+    font-weight: normal;
+  }
+
+  .xl-fwb {
+    font-weight: bold;
+  }
+
+  .xl-tal {
+    text-align: left;
+  }
+
+  .xl-tac {
+    text-align: center;
+  }
+
+  .xl-tar {
+    text-align: right;
+  }
+
+  .xl-taj {
+    text-align: justify;
+  }
+
+  .xl-toi {
+    -o-text-overflow: initial;
+    text-overflow: initial;
+  }
+
+  .xl-toc {
+    -o-text-overflow: clip;
+    text-overflow: clip;
+  }
+
+  .xl-toe {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+
+  .xl-tdu {
+    text-decoration: underline;
+  }
+
+  .xl-tdo {
+    text-decoration: overline;
+  }
+
+  .xl-tdlt {
+    text-decoration: line-through;
+  }
+
+  .xl-tdn {
+    text-decoration: none;
+  }
+
+  .xl-ttu {
+    text-transform: uppercase;
+  }
+
+  .xl-ttl {
+    text-transform: lowercase;
+  }
+
+  .xl-ttc {
+    text-transform: capitalize;
+  }
+
+  .xl-ttn {
+    text-transform: none;
+  }
+
+  .xl-vabl {
+    vertical-align: baseline;
+  }
+
+  .xl-vat {
+    vertical-align: top;
+  }
+
+  .xl-vam {
+    vertical-align: middle;
+  }
+
+  .xl-vab {
+    vertical-align: bottom;
+  }
+
+  .xl-wsn {
+    white-space: normal;
+  }
+
+  .xl-wsnw {
+    white-space: nowrap;
+  }
+
+  .xl-wsp {
+    white-space: pre;
+  }
+
+  .xl-wsi {
+    white-space: inherit;
+  }
+
+  .xl-tc1 {
+    -webkit-columns: 1;
+    columns: 1;
+  }
+
+  .xl-tc2 {
+    -webkit-columns: 2;
+    columns: 2;
+  }
+
+  .xl-tc3 {
+    -webkit-columns: 3;
+    columns: 3;
+  }
+
+  .xl-tc4 {
+    -webkit-columns: 4;
+    columns: 4;
+  }
+
+  .xl-vh {
+    visibility: hidden;
+  }
+
+  .xl-vv {
+    visibility: visible;
+  }
+
+  .xl-vc {
+    visibility: collapse;
+  }
+
+  .xl-curp {
+    cursor: pointer;
+  }
+
+  .xl-curd {
+    cursor: default;
+  }
+
+  .xl-cura {
+    cursor: alias;
+  }
+
+  .xl-curzi {
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+  }
+
+  .xl-curzo {
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+  }
+
+  .xl-usn {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .xl-usa {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+  }
+
+  .xl-ust {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+
+  .xl-pen {
+    pointer-events: none;
+  }
+
+  .xl-pea {
+    pointer-events: auto;
+  }
+
+  .xl-bd {
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .xl-bdt {
+    border-top-style: solid;
+    border-top-width: 1px;
+  }
+
+  .xl-bdr {
+    border-right-style: solid;
+    border-right-width: 1px;
+  }
+
+  .xl-bdb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+
+  .xl-bdl {
+    border-left-style: solid;
+    border-left-width: 1px;
+  }
+
+  .xl-bdw0 {
+    border-width: 0;
+  }
+
+  .xl-bdw0-25 {
+    border-width: 0.0625rem;
+  }
+
+  .xl-bdw0-5 {
+    border-width: 0.125rem;
+  }
+
+  .xl-bdw1 {
+    border-width: 0.25rem;
+  }
+
+  .xl-bdw2 {
+    border-width: 0.5rem;
+  }
+
+  .xl-bdw3 {
+    border-width: 0.75rem;
+  }
+
+  .xl-bdw4 {
+    border-width: 1rem;
+  }
+
+  .xl-bdrd0-125 {
+    border-radius: 0.125rem;
+  }
+
+  .xl-bdrd0-25 {
+    border-radius: 0.25rem;
+  }
+
+  .xl-bdrd0-5 {
+    border-radius: 0.5rem;
+  }
+
+  .xl-bdrd0-75 {
+    border-radius: 0.75rem;
+  }
+
+  .xl-bdrd1 {
+    border-radius: 1rem;
+  }
+
+  .xl-bdrd100 {
+    border-radius: 100%;
+  }
+
+  .xl-lspo {
+    list-style-position: outside;
+  }
+
+  .xl-lspi {
+    list-style-position: inside;
+  }
+
+  .xl-lstc {
+    list-style-type: circle;
+  }
+
+  .xl-lstd {
+    list-style-type: disc;
+  }
+
+  .xl-lsts {
+    list-style-type: square;
+  }
+
+  .xl-lsta {
+    list-style-type: armenian;
+  }
+
+  .xl-lstci {
+    list-style-type: cjk-ideographic;
+  }
+
+  .xl-lstdi {
+    list-style-type: decimal;
+  }
+
+  .xl-lstdlz {
+    list-style-type: decimal-leading-zero;
+  }
+
+  .xl-lstg {
+    list-style-type: georgian;
+  }
+
+  .xl-lsthb {
+    list-style-type: hebrew;
+  }
+
+  .xl-lsthg {
+    list-style-type: hiragana;
+  }
+
+  .xl-lsthi {
+    list-style-type: hiragana-iroha;
+  }
+
+  .xl-lstk {
+    list-style-type: katakana;
+  }
+
+  .xl-lstki {
+    list-style-type: katakana-iroha;
+  }
+
+  .xl-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .xl-lstlg {
+    list-style-type: lower-greek;
+  }
+
+  .xl-lstll {
+    list-style-type: lower-latin;
+  }
+
+  .xl-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .xl-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .xl-lstug {
+    list-style-type: upper-greek;
+  }
+
+  .xl-lstul {
+    list-style-type: upper-latin;
+  }
+
+  .xl-lstur {
+    list-style-type: upper-roman;
+  }
+
+  .xl-lstn {
+    list-style-type: none;
+  }
+
+  .xl-lsti {
+    list-style-type: inherit;
+  }
+
+  .xl-cl-transparent {
+    color: transparent;
+  }
+
+  .xl-bg-transparent {
+    background-color: transparent;
+  }
+
+  .xl-bd-transparent {
+    border-color: transparent;
+  }
+
+  .xl-clh-transparent:hover,
+  .xl-clh-transparent:focus {
+    color: transparent;
+  }
+
+  .xl-bgh-transparent:hover,
+  .xl-bgh-transparent:focus {
+    background-color: transparent;
+  }
+
+  .xl-bdh-transparent:hover,
+  .xl-bdh-transparent:focus {
+    border-color: transparent;
+  }
+
+  .xl-cl-white {
+    color: #fff;
+    color: var(--white);
+  }
+
+  .xl-bg-white {
+    background-color: #fff;
+    background-color: var(--white);
+  }
+
+  .xl-bd-white {
+    border-color: #fff;
+    border-color: var(--white);
+  }
+
+  .xl-clh-white:hover,
+  .xl-clh-white:focus {
+    color: #fff;
+    color: var(--white);
+  }
+
+  .xl-bgh-white:hover,
+  .xl-bgh-white:focus {
+    background-color: #fff;
+    background-color: var(--white);
+  }
+
+  .xl-bdh-white:hover,
+  .xl-bdh-white:focus {
+    border-color: #fff;
+    border-color: var(--white);
+  }
+
+  .xl-cl-black {
+    color: #000;
+    color: var(--black);
+  }
+
+  .xl-bg-black {
+    background-color: #000;
+    background-color: var(--black);
+  }
+
+  .xl-bd-black {
+    border-color: #000;
+    border-color: var(--black);
+  }
+
+  .xl-clh-black:hover,
+  .xl-clh-black:focus {
+    color: #000;
+    color: var(--black);
+  }
+
+  .xl-bgh-black:hover,
+  .xl-bgh-black:focus {
+    background-color: #000;
+    background-color: var(--black);
+  }
+
+  .xl-bdh-black:hover,
+  .xl-bdh-black:focus {
+    border-color: #000;
+    border-color: var(--black);
+  }
+
+  .xl-cl-red {
+    color: #e84118;
+    color: var(--red);
+  }
+
+  .xl-bg-red {
+    background-color: #e84118;
+    background-color: var(--red);
+  }
+
+  .xl-bd-red {
+    border-color: #e84118;
+    border-color: var(--red);
+  }
+
+  .xl-clh-red:hover,
+  .xl-clh-red:focus {
+    color: #e84118;
+    color: var(--red);
+  }
+
+  .xl-bgh-red:hover,
+  .xl-bgh-red:focus {
+    background-color: #e84118;
+    background-color: var(--red);
+  }
+
+  .xl-bdh-red:hover,
+  .xl-bdh-red:focus {
+    border-color: #e84118;
+    border-color: var(--red);
+  }
+
+  .xl-cl-dark-red {
+    color: #c23616;
+    color: var(--dark-red);
+  }
+
+  .xl-bg-dark-red {
+    background-color: #c23616;
+    background-color: var(--dark-red);
+  }
+
+  .xl-bd-dark-red {
+    border-color: #c23616;
+    border-color: var(--dark-red);
+  }
+
+  .xl-clh-dark-red:hover,
+  .xl-clh-dark-red:focus {
+    color: #c23616;
+    color: var(--dark-red);
+  }
+
+  .xl-bgh-dark-red:hover,
+  .xl-bgh-dark-red:focus {
+    background-color: #c23616;
+    background-color: var(--dark-red);
+  }
+
+  .xl-bdh-dark-red:hover,
+  .xl-bdh-dark-red:focus {
+    border-color: #c23616;
+    border-color: var(--dark-red);
+  }
+
+  .xl-cl-blue {
+    color: #00a8ff;
+    color: var(--blue);
+  }
+
+  .xl-bg-blue {
+    background-color: #00a8ff;
+    background-color: var(--blue);
+  }
+
+  .xl-bd-blue {
+    border-color: #00a8ff;
+    border-color: var(--blue);
+  }
+
+  .xl-clh-blue:hover,
+  .xl-clh-blue:focus {
+    color: #00a8ff;
+    color: var(--blue);
+  }
+
+  .xl-bgh-blue:hover,
+  .xl-bgh-blue:focus {
+    background-color: #00a8ff;
+    background-color: var(--blue);
+  }
+
+  .xl-bdh-blue:hover,
+  .xl-bdh-blue:focus {
+    border-color: #00a8ff;
+    border-color: var(--blue);
+  }
+
+  .xl-cl-dark-blue {
+    color: #0097e6;
+    color: var(--dark-blue);
+  }
+
+  .xl-bg-dark-blue {
+    background-color: #0097e6;
+    background-color: var(--dark-blue);
+  }
+
+  .xl-bd-dark-blue {
+    border-color: #0097e6;
+    border-color: var(--dark-blue);
+  }
+
+  .xl-clh-dark-blue:hover,
+  .xl-clh-dark-blue:focus {
+    color: #0097e6;
+    color: var(--dark-blue);
+  }
+
+  .xl-bgh-dark-blue:hover,
+  .xl-bgh-dark-blue:focus {
+    background-color: #0097e6;
+    background-color: var(--dark-blue);
+  }
+
+  .xl-bdh-dark-blue:hover,
+  .xl-bdh-dark-blue:focus {
+    border-color: #0097e6;
+    border-color: var(--dark-blue);
+  }
+
+  .xl-cl-green {
+    color: #4cd137;
+    color: var(--green);
+  }
+
+  .xl-bg-green {
+    background-color: #4cd137;
+    background-color: var(--green);
+  }
+
+  .xl-bd-green {
+    border-color: #4cd137;
+    border-color: var(--green);
+  }
+
+  .xl-clh-green:hover,
+  .xl-clh-green:focus {
+    color: #4cd137;
+    color: var(--green);
+  }
+
+  .xl-bgh-green:hover,
+  .xl-bgh-green:focus {
+    background-color: #4cd137;
+    background-color: var(--green);
+  }
+
+  .xl-bdh-green:hover,
+  .xl-bdh-green:focus {
+    border-color: #4cd137;
+    border-color: var(--green);
+  }
+
+  .xl-cl-dark-green {
+    color: #44bd32;
+    color: var(--dark-green);
+  }
+
+  .xl-bg-dark-green {
+    background-color: #44bd32;
+    background-color: var(--dark-green);
+  }
+
+  .xl-bd-dark-green {
+    border-color: #44bd32;
+    border-color: var(--dark-green);
+  }
+
+  .xl-clh-dark-green:hover,
+  .xl-clh-dark-green:focus {
+    color: #44bd32;
+    color: var(--dark-green);
+  }
+
+  .xl-bgh-dark-green:hover,
+  .xl-bgh-dark-green:focus {
+    background-color: #44bd32;
+    background-color: var(--dark-green);
+  }
+
+  .xl-bdh-dark-green:hover,
+  .xl-bdh-dark-green:focus {
+    border-color: #44bd32;
+    border-color: var(--dark-green);
+  }
+
+  .xl-cl-yellow {
+    color: #fbc531;
+    color: var(--yellow);
+  }
+
+  .xl-bg-yellow {
+    background-color: #fbc531;
+    background-color: var(--yellow);
+  }
+
+  .xl-bd-yellow {
+    border-color: #fbc531;
+    border-color: var(--yellow);
+  }
+
+  .xl-clh-yellow:hover,
+  .xl-clh-yellow:focus {
+    color: #fbc531;
+    color: var(--yellow);
+  }
+
+  .xl-bgh-yellow:hover,
+  .xl-bgh-yellow:focus {
+    background-color: #fbc531;
+    background-color: var(--yellow);
+  }
+
+  .xl-bdh-yellow:hover,
+  .xl-bdh-yellow:focus {
+    border-color: #fbc531;
+    border-color: var(--yellow);
+  }
+
+  .xl-cl-dark-yellow {
+    color: #e1b12c;
+    color: var(--dark-yellow);
+  }
+
+  .xl-bg-dark-yellow {
+    background-color: #e1b12c;
+    background-color: var(--dark-yellow);
+  }
+
+  .xl-bd-dark-yellow {
+    border-color: #e1b12c;
+    border-color: var(--dark-yellow);
+  }
+
+  .xl-clh-dark-yellow:hover,
+  .xl-clh-dark-yellow:focus {
+    color: #e1b12c;
+    color: var(--dark-yellow);
+  }
+
+  .xl-bgh-dark-yellow:hover,
+  .xl-bgh-dark-yellow:focus {
+    background-color: #e1b12c;
+    background-color: var(--dark-yellow);
+  }
+
+  .xl-bdh-dark-yellow:hover,
+  .xl-bdh-dark-yellow:focus {
+    border-color: #e1b12c;
+    border-color: var(--dark-yellow);
+  }
+
+  .xl-cl-purple {
+    color: #9c88ff;
+    color: var(--purple);
+  }
+
+  .xl-bg-purple {
+    background-color: #9c88ff;
+    background-color: var(--purple);
+  }
+
+  .xl-bd-purple {
+    border-color: #9c88ff;
+    border-color: var(--purple);
+  }
+
+  .xl-clh-purple:hover,
+  .xl-clh-purple:focus {
+    color: #9c88ff;
+    color: var(--purple);
+  }
+
+  .xl-bgh-purple:hover,
+  .xl-bgh-purple:focus {
+    background-color: #9c88ff;
+    background-color: var(--purple);
+  }
+
+  .xl-bdh-purple:hover,
+  .xl-bdh-purple:focus {
+    border-color: #9c88ff;
+    border-color: var(--purple);
+  }
+
+  .xl-cl-dark-purple {
+    color: #8c7ae6;
+    color: var(--dark-purple);
+  }
+
+  .xl-bg-dark-purple {
+    background-color: #8c7ae6;
+    background-color: var(--dark-purple);
+  }
+
+  .xl-bd-dark-purple {
+    border-color: #8c7ae6;
+    border-color: var(--dark-purple);
+  }
+
+  .xl-clh-dark-purple:hover,
+  .xl-clh-dark-purple:focus {
+    color: #8c7ae6;
+    color: var(--dark-purple);
+  }
+
+  .xl-bgh-dark-purple:hover,
+  .xl-bgh-dark-purple:focus {
+    background-color: #8c7ae6;
+    background-color: var(--dark-purple);
+  }
+
+  .xl-bdh-dark-purple:hover,
+  .xl-bdh-dark-purple:focus {
+    border-color: #8c7ae6;
+    border-color: var(--dark-purple);
+  }
+
+  .xl-cl-grey {
+    color: #7f8fa6;
+    color: var(--grey);
+  }
+
+  .xl-bg-grey {
+    background-color: #7f8fa6;
+    background-color: var(--grey);
+  }
+
+  .xl-bd-grey {
+    border-color: #7f8fa6;
+    border-color: var(--grey);
+  }
+
+  .xl-clh-grey:hover,
+  .xl-clh-grey:focus {
+    color: #7f8fa6;
+    color: var(--grey);
+  }
+
+  .xl-bgh-grey:hover,
+  .xl-bgh-grey:focus {
+    background-color: #7f8fa6;
+    background-color: var(--grey);
+  }
+
+  .xl-bdh-grey:hover,
+  .xl-bdh-grey:focus {
+    border-color: #7f8fa6;
+    border-color: var(--grey);
+  }
+
+  .xl-cl-dark-grey {
+    color: #718093;
+    color: var(--dark-grey);
+  }
+
+  .xl-bg-dark-grey {
+    background-color: #718093;
+    background-color: var(--dark-grey);
+  }
+
+  .xl-bd-dark-grey {
+    border-color: #718093;
+    border-color: var(--dark-grey);
+  }
+
+  .xl-clh-dark-grey:hover,
+  .xl-clh-dark-grey:focus {
+    color: #718093;
+    color: var(--dark-grey);
+  }
+
+  .xl-bgh-dark-grey:hover,
+  .xl-bgh-dark-grey:focus {
+    background-color: #718093;
+    background-color: var(--dark-grey);
+  }
+
+  .xl-bdh-dark-grey:hover,
+  .xl-bdh-dark-grey:focus {
+    border-color: #718093;
+    border-color: var(--dark-grey);
+  }
+
+  .xl-cl-light {
+    color: #f5f6fa;
+    color: var(--light);
+  }
+
+  .xl-bg-light {
+    background-color: #f5f6fa;
+    background-color: var(--light);
+  }
+
+  .xl-bd-light {
+    border-color: #f5f6fa;
+    border-color: var(--light);
+  }
+
+  .xl-clh-light:hover,
+  .xl-clh-light:focus {
+    color: #f5f6fa;
+    color: var(--light);
+  }
+
+  .xl-bgh-light:hover,
+  .xl-bgh-light:focus {
+    background-color: #f5f6fa;
+    background-color: var(--light);
+  }
+
+  .xl-bdh-light:hover,
+  .xl-bdh-light:focus {
+    border-color: #f5f6fa;
+    border-color: var(--light);
+  }
+
+  .xl-cl-dark-light {
+    color: #dcdde1;
+    color: var(--dark-light);
+  }
+
+  .xl-bg-dark-light {
+    background-color: #dcdde1;
+    background-color: var(--dark-light);
+  }
+
+  .xl-bd-dark-light {
+    border-color: #dcdde1;
+    border-color: var(--dark-light);
+  }
+
+  .xl-clh-dark-light:hover,
+  .xl-clh-dark-light:focus {
+    color: #dcdde1;
+    color: var(--dark-light);
+  }
+
+  .xl-bgh-dark-light:hover,
+  .xl-bgh-dark-light:focus {
+    background-color: #dcdde1;
+    background-color: var(--dark-light);
+  }
+
+  .xl-bdh-dark-light:hover,
+  .xl-bdh-dark-light:focus {
+    border-color: #dcdde1;
+    border-color: var(--dark-light);
+  }
+
+  .xl-cl-dark {
+    color: #353b48;
+    color: var(--dark);
+  }
+
+  .xl-bg-dark {
+    background-color: #353b48;
+    background-color: var(--dark);
+  }
+
+  .xl-bd-dark {
+    border-color: #353b48;
+    border-color: var(--dark);
+  }
+
+  .xl-clh-dark:hover,
+  .xl-clh-dark:focus {
+    color: #353b48;
+    color: var(--dark);
+  }
+
+  .xl-bgh-dark:hover,
+  .xl-bgh-dark:focus {
+    background-color: #353b48;
+    background-color: var(--dark);
+  }
+
+  .xl-bdh-dark:hover,
+  .xl-bdh-dark:focus {
+    border-color: #353b48;
+    border-color: var(--dark);
+  }
+
+  .xl-cl-dark-dark {
+    color: #2f3640;
+    color: var(--dark-dark);
+  }
+
+  .xl-bg-dark-dark {
+    background-color: #2f3640;
+    background-color: var(--dark-dark);
+  }
+
+  .xl-bd-dark-dark {
+    border-color: #2f3640;
+    border-color: var(--dark-dark);
+  }
+
+  .xl-clh-dark-dark:hover,
+  .xl-clh-dark-dark:focus {
+    color: #2f3640;
+    color: var(--dark-dark);
+  }
+
+  .xl-bgh-dark-dark:hover,
+  .xl-bgh-dark-dark:focus {
+    background-color: #2f3640;
+    background-color: var(--dark-dark);
+  }
+
+  .xl-bdh-dark-dark:hover,
+  .xl-bdh-dark-dark:focus {
+    border-color: #2f3640;
+    border-color: var(--dark-dark);
+  }
+
+  .xl-cl-inherit {
+    color: inherit;
+  }
+
+  .xl-bg-inherit {
+    background-color: inherit;
+  }
+
+  .xl-bd-inherit {
+    border-color: inherit;
+  }
+
+  .xl-clh-inherit:hover,
+  .xl-clh-inherit:focus {
+    color: inherit;
+  }
+
+  .xl-bgh-inherit:hover,
+  .xl-bgh-inherit:focus {
+    background-color: inherit;
+  }
+
+  .xl-bdh-inherit:hover,
+  .xl-bdh-inherit:focus {
+    border-color: inherit;
+  }
+}
