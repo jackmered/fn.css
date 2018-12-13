@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.lg-wa {
+  width: auto;
+}
+
 .lg-h0 {
   height: 0;
 }
@@ -38,32 +42,3 @@
   max-height: 100vh;
 }
 
-.lg-ar0 {
-  content: "";
-  display: block;
-  padding-top: 0;
-}
-
-.lg-ar20 {
-  content: "";
-  display: block;
-  padding-top: 20%;
-}
-
-.lg-ar50 {
-  content: "";
-  display: block;
-  padding-top: 50%;
-}
-
-.lg-ar75 {
-  content: "";
-  display: block;
-  padding-top: 75%;
-}
-
-.lg-ar100 {
-  content: "";
-  display: block;
-  padding-top: 100%;
-}

@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.xl-wa {
+  width: auto;
+}
+
 .xl-h0 {
   height: 0;
 }
@@ -36,34 +40,4 @@
 
 .xl-vhmx100 {
   max-height: 100vh;
-}
-
-.xl-ar0 {
-  content: "";
-  display: block;
-  padding-top: 0;
-}
-
-.xl-ar20 {
-  content: "";
-  display: block;
-  padding-top: 20%;
-}
-
-.xl-ar50 {
-  content: "";
-  display: block;
-  padding-top: 50%;
-}
-
-.xl-ar75 {
-  content: "";
-  display: block;
-  padding-top: 75%;
-}
-
-.xl-ar100 {
-  content: "";
-  display: block;
-  padding-top: 100%;
 }
