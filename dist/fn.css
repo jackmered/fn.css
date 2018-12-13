@@ -1,4 +1,4 @@
-/*! fn.css v2.3.0 | MIT License | github.com/jackmered/fn.css */
+/*! fn.css v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1329,6 +1329,10 @@
   width: 100%;
 }
 
+.wa {
+  width: auto;
+}
+
 .h0 {
   height: 0;
 }
@@ -1359,36 +1363,6 @@
 
 .vhmx100 {
   max-height: 100vh;
-}
-
-.ar0 {
-  content: "";
-  display: block;
-  padding-top: 0;
-}
-
-.ar20 {
-  content: "";
-  display: block;
-  padding-top: 20%;
-}
-
-.ar50 {
-  content: "";
-  display: block;
-  padding-top: 50%;
-}
-
-.ar75 {
-  content: "";
-  display: block;
-  padding-top: 75%;
-}
-
-.ar100 {
-  content: "";
-  display: block;
-  padding-top: 100%;
 }
 
 .fs0-75 {
@@ -1726,76 +1700,12 @@
   list-style-type: square;
 }
 
-.lsta {
-  list-style-type: armenian;
-}
-
-.lstci {
-  list-style-type: cjk-ideographic;
-}
-
 .lstdi {
   list-style-type: decimal;
 }
 
 .lstdlz {
   list-style-type: decimal-leading-zero;
-}
-
-.lstg {
-  list-style-type: georgian;
-}
-
-.lsthb {
-  list-style-type: hebrew;
-}
-
-.lsthg {
-  list-style-type: hiragana;
-}
-
-.lsthi {
-  list-style-type: hiragana-iroha;
-}
-
-.lstk {
-  list-style-type: katakana;
-}
-
-.lstki {
-  list-style-type: katakana-iroha;
-}
-
-.lstla {
-  list-style-type: lower-alpha;
-}
-
-.lstlg {
-  list-style-type: lower-greek;
-}
-
-.lstll {
-  list-style-type: lower-latin;
-}
-
-.lstlr {
-  list-style-type: lower-roman;
-}
-
-.lstua {
-  list-style-type: upper-alpha;
-}
-
-.lstug {
-  list-style-type: upper-greek;
-}
-
-.lstul {
-  list-style-type: upper-latin;
-}
-
-.lstur {
-  list-style-type: upper-roman;
 }
 
 .lstn {
@@ -3752,6 +3662,10 @@
     width: 100%;
   }
 
+  .sm-wa {
+    width: auto;
+  }
+
   .sm-h0 {
     height: 0;
   }
@@ -3782,36 +3696,6 @@
 
   .sm-vhmx100 {
     max-height: 100vh;
-  }
-
-  .sm-ar0 {
-    content: "";
-    display: block;
-    padding-top: 0;
-  }
-
-  .sm-ar20 {
-    content: "";
-    display: block;
-    padding-top: 20%;
-  }
-
-  .sm-ar50 {
-    content: "";
-    display: block;
-    padding-top: 50%;
-  }
-
-  .sm-ar75 {
-    content: "";
-    display: block;
-    padding-top: 75%;
-  }
-
-  .sm-ar100 {
-    content: "";
-    display: block;
-    padding-top: 100%;
   }
 
   .sm-fs0-75 {
@@ -4149,76 +4033,12 @@
     list-style-type: square;
   }
 
-  .sm-lsta {
-    list-style-type: armenian;
-  }
-
-  .sm-lstci {
-    list-style-type: cjk-ideographic;
-  }
-
   .sm-lstdi {
     list-style-type: decimal;
   }
 
   .sm-lstdlz {
     list-style-type: decimal-leading-zero;
-  }
-
-  .sm-lstg {
-    list-style-type: georgian;
-  }
-
-  .sm-lsthb {
-    list-style-type: hebrew;
-  }
-
-  .sm-lsthg {
-    list-style-type: hiragana;
-  }
-
-  .sm-lsthi {
-    list-style-type: hiragana-iroha;
-  }
-
-  .sm-lstk {
-    list-style-type: katakana;
-  }
-
-  .sm-lstki {
-    list-style-type: katakana-iroha;
-  }
-
-  .sm-lstla {
-    list-style-type: lower-alpha;
-  }
-
-  .sm-lstlg {
-    list-style-type: lower-greek;
-  }
-
-  .sm-lstll {
-    list-style-type: lower-latin;
-  }
-
-  .sm-lstlr {
-    list-style-type: lower-roman;
-  }
-
-  .sm-lstua {
-    list-style-type: upper-alpha;
-  }
-
-  .sm-lstug {
-    list-style-type: upper-greek;
-  }
-
-  .sm-lstul {
-    list-style-type: upper-latin;
-  }
-
-  .sm-lstur {
-    list-style-type: upper-roman;
   }
 
   .sm-lstn {
@@ -6176,6 +5996,10 @@
     width: 100%;
   }
 
+  .md-wa {
+    width: auto;
+  }
+
   .md-h0 {
     height: 0;
   }
@@ -6206,36 +6030,6 @@
 
   .md-vhmx100 {
     max-height: 100vh;
-  }
-
-  .md-ar0 {
-    content: "";
-    display: block;
-    padding-top: 0;
-  }
-
-  .md-ar20 {
-    content: "";
-    display: block;
-    padding-top: 20%;
-  }
-
-  .md-ar50 {
-    content: "";
-    display: block;
-    padding-top: 50%;
-  }
-
-  .md-ar75 {
-    content: "";
-    display: block;
-    padding-top: 75%;
-  }
-
-  .md-ar100 {
-    content: "";
-    display: block;
-    padding-top: 100%;
   }
 
   .md-fs0-75 {
@@ -6573,76 +6367,12 @@
     list-style-type: square;
   }
 
-  .md-lsta {
-    list-style-type: armenian;
-  }
-
-  .md-lstci {
-    list-style-type: cjk-ideographic;
-  }
-
   .md-lstdi {
     list-style-type: decimal;
   }
 
   .md-lstdlz {
     list-style-type: decimal-leading-zero;
-  }
-
-  .md-lstg {
-    list-style-type: georgian;
-  }
-
-  .md-lsthb {
-    list-style-type: hebrew;
-  }
-
-  .md-lsthg {
-    list-style-type: hiragana;
-  }
-
-  .md-lsthi {
-    list-style-type: hiragana-iroha;
-  }
-
-  .md-lstk {
-    list-style-type: katakana;
-  }
-
-  .md-lstki {
-    list-style-type: katakana-iroha;
-  }
-
-  .md-lstla {
-    list-style-type: lower-alpha;
-  }
-
-  .md-lstlg {
-    list-style-type: lower-greek;
-  }
-
-  .md-lstll {
-    list-style-type: lower-latin;
-  }
-
-  .md-lstlr {
-    list-style-type: lower-roman;
-  }
-
-  .md-lstua {
-    list-style-type: upper-alpha;
-  }
-
-  .md-lstug {
-    list-style-type: upper-greek;
-  }
-
-  .md-lstul {
-    list-style-type: upper-latin;
-  }
-
-  .md-lstur {
-    list-style-type: upper-roman;
   }
 
   .md-lstn {
@@ -7952,6 +7682,10 @@
     width: 100%;
   }
 
+  .lg-wa {
+    width: auto;
+  }
+
   .lg-h0 {
     height: 0;
   }
@@ -7982,36 +7716,6 @@
 
   .lg-vhmx100 {
     max-height: 100vh;
-  }
-
-  .lg-ar0 {
-    content: "";
-    display: block;
-    padding-top: 0;
-  }
-
-  .lg-ar20 {
-    content: "";
-    display: block;
-    padding-top: 20%;
-  }
-
-  .lg-ar50 {
-    content: "";
-    display: block;
-    padding-top: 50%;
-  }
-
-  .lg-ar75 {
-    content: "";
-    display: block;
-    padding-top: 75%;
-  }
-
-  .lg-ar100 {
-    content: "";
-    display: block;
-    padding-top: 100%;
   }
 
   .lg-fs0-75 {
@@ -8349,76 +8053,12 @@
     list-style-type: square;
   }
 
-  .lg-lsta {
-    list-style-type: armenian;
-  }
-
-  .lg-lstci {
-    list-style-type: cjk-ideographic;
-  }
-
   .lg-lstdi {
     list-style-type: decimal;
   }
 
   .lg-lstdlz {
     list-style-type: decimal-leading-zero;
-  }
-
-  .lg-lstg {
-    list-style-type: georgian;
-  }
-
-  .lg-lsthb {
-    list-style-type: hebrew;
-  }
-
-  .lg-lsthg {
-    list-style-type: hiragana;
-  }
-
-  .lg-lsthi {
-    list-style-type: hiragana-iroha;
-  }
-
-  .lg-lstk {
-    list-style-type: katakana;
-  }
-
-  .lg-lstki {
-    list-style-type: katakana-iroha;
-  }
-
-  .lg-lstla {
-    list-style-type: lower-alpha;
-  }
-
-  .lg-lstlg {
-    list-style-type: lower-greek;
-  }
-
-  .lg-lstll {
-    list-style-type: lower-latin;
-  }
-
-  .lg-lstlr {
-    list-style-type: lower-roman;
-  }
-
-  .lg-lstua {
-    list-style-type: upper-alpha;
-  }
-
-  .lg-lstug {
-    list-style-type: upper-greek;
-  }
-
-  .lg-lstul {
-    list-style-type: upper-latin;
-  }
-
-  .lg-lstur {
-    list-style-type: upper-roman;
   }
 
   .lg-lstn {
@@ -9728,6 +9368,10 @@
     width: 100%;
   }
 
+  .xl-wa {
+    width: auto;
+  }
+
   .xl-h0 {
     height: 0;
   }
@@ -9758,36 +9402,6 @@
 
   .xl-vhmx100 {
     max-height: 100vh;
-  }
-
-  .xl-ar0 {
-    content: "";
-    display: block;
-    padding-top: 0;
-  }
-
-  .xl-ar20 {
-    content: "";
-    display: block;
-    padding-top: 20%;
-  }
-
-  .xl-ar50 {
-    content: "";
-    display: block;
-    padding-top: 50%;
-  }
-
-  .xl-ar75 {
-    content: "";
-    display: block;
-    padding-top: 75%;
-  }
-
-  .xl-ar100 {
-    content: "";
-    display: block;
-    padding-top: 100%;
   }
 
   .xl-fs0-75 {
@@ -10125,76 +9739,12 @@
     list-style-type: square;
   }
 
-  .xl-lsta {
-    list-style-type: armenian;
-  }
-
-  .xl-lstci {
-    list-style-type: cjk-ideographic;
-  }
-
   .xl-lstdi {
     list-style-type: decimal;
   }
 
   .xl-lstdlz {
     list-style-type: decimal-leading-zero;
-  }
-
-  .xl-lstg {
-    list-style-type: georgian;
-  }
-
-  .xl-lsthb {
-    list-style-type: hebrew;
-  }
-
-  .xl-lsthg {
-    list-style-type: hiragana;
-  }
-
-  .xl-lsthi {
-    list-style-type: hiragana-iroha;
-  }
-
-  .xl-lstk {
-    list-style-type: katakana;
-  }
-
-  .xl-lstki {
-    list-style-type: katakana-iroha;
-  }
-
-  .xl-lstla {
-    list-style-type: lower-alpha;
-  }
-
-  .xl-lstlg {
-    list-style-type: lower-greek;
-  }
-
-  .xl-lstll {
-    list-style-type: lower-latin;
-  }
-
-  .xl-lstlr {
-    list-style-type: lower-roman;
-  }
-
-  .xl-lstua {
-    list-style-type: upper-alpha;
-  }
-
-  .xl-lstug {
-    list-style-type: upper-greek;
-  }
-
-  .xl-lstul {
-    list-style-type: upper-latin;
-  }
-
-  .xl-lstur {
-    list-style-type: upper-roman;
   }
 
   .xl-lstn {

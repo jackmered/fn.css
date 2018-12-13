@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+.sm-wa {
+  width: auto;
+}
+
 .sm-h0 {
   height: 0;
 }
@@ -36,34 +40,4 @@
 
 .sm-vhmx100 {
   max-height: 100vh;
-}
-
-.sm-ar0 {
-  content: "";
-  display: block;
-  padding-top: 0;
-}
-
-.sm-ar20 {
-  content: "";
-  display: block;
-  padding-top: 20%;
-}
-
-.sm-ar50 {
-  content: "";
-  display: block;
-  padding-top: 50%;
-}
-
-.sm-ar75 {
-  content: "";
-  display: block;
-  padding-top: 75%;
-}
-
-.sm-ar100 {
-  content: "";
-  display: block;
-  padding-top: 100%;
 }

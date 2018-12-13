@@ -1,101 +1,35 @@
-.sm {
-  &-lspo {
-    list-style-position: outside;
-  }
+.sm-lspo {
+  list-style-position: outside;
+}
 
-  &-lspi {
-    list-style-position: inside;
-  }
+.sm-lspi {
+  list-style-position: inside;
+}
 
-  &-lstc {
-    list-style-type: circle;
-  }
+.sm-lstc {
+  list-style-type: circle;
+}
 
-  &-lstd {
-    list-style-type: disc;
-  }
+.sm-lstd {
+  list-style-type: disc;
+}
 
-  &-lsts {
-    list-style-type: square;
-  }
+.sm-lsts {
+  list-style-type: square;
+}
 
-  &-lsta {
-    list-style-type: armenian;
-  }
+.sm-lstdi {
+  list-style-type: decimal;
+}
 
-  &-lstci {
-    list-style-type: cjk-ideographic;
-  }
+.sm-lstdlz {
+  list-style-type: decimal-leading-zero;
+}
 
-  &-lstdi {
-    list-style-type: decimal;
-  }
+.sm-lstn {
+  list-style-type: none;
+}
 
-  &-lstdlz {
-    list-style-type: decimal-leading-zero;
-  }
-
-  &-lstg {
-    list-style-type: georgian;
-  }
-
-  &-lsthb {
-    list-style-type: hebrew;
-  }
-
-  &-lsthg {
-    list-style-type: hiragana;
-  }
-
-  &-lsthi {
-    list-style-type: hiragana-iroha;
-  }
-
-  &-lstk {
-    list-style-type: katakana;
-  }
-
-  &-lstki {
-    list-style-type: katakana-iroha;
-  }
-
-  &-lstla {
-    list-style-type: lower-alpha;
-  }
-
-  &-lstlg {
-    list-style-type: lower-greek;
-  }
-
-  &-lstll {
-    list-style-type: lower-latin;
-  }
-
-  &-lstlr {
-    list-style-type: lower-roman;
-  }
-
-  &-lstua {
-    list-style-type: upper-alpha;
-  }
-
-  &-lstug {
-    list-style-type: upper-greek;
-  }
-
-  &-lstul {
-    list-style-type: upper-latin;
-  }
-
-  &-lstur {
-    list-style-type: upper-roman;
-  }
-
-  &-lstn {
-    list-style-type: none;
-  }
-
-  &-lsti {
-    list-style-type: inherit;
-  }
+.sm-lsti {
+  list-style-type: inherit;
 }
