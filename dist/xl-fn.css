@@ -1,4 +1,4 @@
-/*! fn.css [xl] v2.3.0 | MIT License | github.com/jackmered/fn.css */
+/*! fn.css [xl] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1330,6 +1330,10 @@
     width: 100%;
   }
 
+  .xl-wa {
+    width: auto;
+  }
+
   .xl-h0 {
     height: 0;
   }
@@ -1360,36 +1364,6 @@
 
   .xl-vhmx100 {
     max-height: 100vh;
-  }
-
-  .xl-ar0 {
-    content: "";
-    display: block;
-    padding-top: 0;
-  }
-
-  .xl-ar20 {
-    content: "";
-    display: block;
-    padding-top: 20%;
-  }
-
-  .xl-ar50 {
-    content: "";
-    display: block;
-    padding-top: 50%;
-  }
-
-  .xl-ar75 {
-    content: "";
-    display: block;
-    padding-top: 75%;
-  }
-
-  .xl-ar100 {
-    content: "";
-    display: block;
-    padding-top: 100%;
   }
 
   .xl-fs0-75 {
@@ -1727,76 +1701,12 @@
     list-style-type: square;
   }
 
-  .xl-lsta {
-    list-style-type: armenian;
-  }
-
-  .xl-lstci {
-    list-style-type: cjk-ideographic;
-  }
-
   .xl-lstdi {
     list-style-type: decimal;
   }
 
   .xl-lstdlz {
     list-style-type: decimal-leading-zero;
-  }
-
-  .xl-lstg {
-    list-style-type: georgian;
-  }
-
-  .xl-lsthb {
-    list-style-type: hebrew;
-  }
-
-  .xl-lsthg {
-    list-style-type: hiragana;
-  }
-
-  .xl-lsthi {
-    list-style-type: hiragana-iroha;
-  }
-
-  .xl-lstk {
-    list-style-type: katakana;
-  }
-
-  .xl-lstki {
-    list-style-type: katakana-iroha;
-  }
-
-  .xl-lstla {
-    list-style-type: lower-alpha;
-  }
-
-  .xl-lstlg {
-    list-style-type: lower-greek;
-  }
-
-  .xl-lstll {
-    list-style-type: lower-latin;
-  }
-
-  .xl-lstlr {
-    list-style-type: lower-roman;
-  }
-
-  .xl-lstua {
-    list-style-type: upper-alpha;
-  }
-
-  .xl-lstug {
-    list-style-type: upper-greek;
-  }
-
-  .xl-lstul {
-    list-style-type: upper-latin;
-  }
-
-  .xl-lstur {
-    list-style-type: upper-roman;
   }
 
   .xl-lstn {

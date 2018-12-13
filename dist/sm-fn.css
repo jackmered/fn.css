@@ -1,4 +1,4 @@
-/*! fn.css [sm] v2.3.0 | MIT License | github.com/jackmered/fn.css */
+/*! fn.css [sm] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1330,6 +1330,10 @@
     width: 100%;
   }
 
+  .sm-wa {
+    width: auto;
+  }
+
   .sm-h0 {
     height: 0;
   }
@@ -1360,36 +1364,6 @@
 
   .sm-vhmx100 {
     max-height: 100vh;
-  }
-
-  .sm-ar0 {
-    content: "";
-    display: block;
-    padding-top: 0;
-  }
-
-  .sm-ar20 {
-    content: "";
-    display: block;
-    padding-top: 20%;
-  }
-
-  .sm-ar50 {
-    content: "";
-    display: block;
-    padding-top: 50%;
-  }
-
-  .sm-ar75 {
-    content: "";
-    display: block;
-    padding-top: 75%;
-  }
-
-  .sm-ar100 {
-    content: "";
-    display: block;
-    padding-top: 100%;
   }
 
   .sm-fs0-75 {
@@ -1727,76 +1701,12 @@
     list-style-type: square;
   }
 
-  .sm-lsta {
-    list-style-type: armenian;
-  }
-
-  .sm-lstci {
-    list-style-type: cjk-ideographic;
-  }
-
   .sm-lstdi {
     list-style-type: decimal;
   }
 
   .sm-lstdlz {
     list-style-type: decimal-leading-zero;
-  }
-
-  .sm-lstg {
-    list-style-type: georgian;
-  }
-
-  .sm-lsthb {
-    list-style-type: hebrew;
-  }
-
-  .sm-lsthg {
-    list-style-type: hiragana;
-  }
-
-  .sm-lsthi {
-    list-style-type: hiragana-iroha;
-  }
-
-  .sm-lstk {
-    list-style-type: katakana;
-  }
-
-  .sm-lstki {
-    list-style-type: katakana-iroha;
-  }
-
-  .sm-lstla {
-    list-style-type: lower-alpha;
-  }
-
-  .sm-lstlg {
-    list-style-type: lower-greek;
-  }
-
-  .sm-lstll {
-    list-style-type: lower-latin;
-  }
-
-  .sm-lstlr {
-    list-style-type: lower-roman;
-  }
-
-  .sm-lstua {
-    list-style-type: upper-alpha;
-  }
-
-  .sm-lstug {
-    list-style-type: upper-greek;
-  }
-
-  .sm-lstul {
-    list-style-type: upper-latin;
-  }
-
-  .sm-lstur {
-    list-style-type: upper-roman;
   }
 
   .sm-lstn {
