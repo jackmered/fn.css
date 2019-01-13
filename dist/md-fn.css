@@ -1,4 +1,4 @@
-/*! fn.css [md] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css [md] v2.5.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1342,6 +1342,10 @@
     height: 100%;
   }
 
+  .md-ha {
+    height: auto;
+  }
+
   .md-vw100 {
     width: 100vw;
   }
@@ -1707,6 +1711,22 @@
 
   .md-lstdlz {
     list-style-type: decimal-leading-zero;
+  }
+
+  .md-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .md-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .md-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .md-lstur {
+    list-style-type: upper-roman;
   }
 
   .md-lstn {

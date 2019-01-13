@@ -1,4 +1,4 @@
-/*! fn.css [xl] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css [xl] v2.5.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1342,6 +1342,10 @@
     height: 100%;
   }
 
+  .xl-ha {
+    height: auto;
+  }
+
   .xl-vw100 {
     width: 100vw;
   }
@@ -1707,6 +1711,22 @@
 
   .xl-lstdlz {
     list-style-type: decimal-leading-zero;
+  }
+
+  .xl-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .xl-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .xl-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .xl-lstur {
+    list-style-type: upper-roman;
   }
 
   .xl-lstn {

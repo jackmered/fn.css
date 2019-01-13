@@ -1,4 +1,4 @@
-/*! fn.css [sm] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css [sm] v2.5.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1342,6 +1342,10 @@
     height: 100%;
   }
 
+  .sm-ha {
+    height: auto;
+  }
+
   .sm-vw100 {
     width: 100vw;
   }
@@ -1707,6 +1711,22 @@
 
   .sm-lstdlz {
     list-style-type: decimal-leading-zero;
+  }
+
+  .sm-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .sm-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .sm-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .sm-lstur {
+    list-style-type: upper-roman;
   }
 
   .sm-lstn {
