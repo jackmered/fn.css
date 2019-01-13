@@ -1709,6 +1709,22 @@
     list-style-type: decimal-leading-zero;
   }
 
+  .md-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .md-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .md-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .md-lstur {
+    list-style-type: upper-roman;
+  }
+
   .md-lstn {
     list-style-type: none;
   }

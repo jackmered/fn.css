@@ -1708,6 +1708,22 @@
   list-style-type: decimal-leading-zero;
 }
 
+.lstla {
+  list-style-type: lower-alpha;
+}
+
+.lstua {
+  list-style-type: upper-alpha;
+}
+
+.lstlr {
+  list-style-type: lower-roman;
+}
+
+.lstur {
+  list-style-type: upper-roman;
+}
+
 .lstn {
   list-style-type: none;
 }
@@ -4039,6 +4055,22 @@
 
   .sm-lstdlz {
     list-style-type: decimal-leading-zero;
+  }
+
+  .sm-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .sm-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .sm-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .sm-lstur {
+    list-style-type: upper-roman;
   }
 
   .sm-lstn {
@@ -6375,6 +6407,22 @@
     list-style-type: decimal-leading-zero;
   }
 
+  .md-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .md-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .md-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .md-lstur {
+    list-style-type: upper-roman;
+  }
+
   .md-lstn {
     list-style-type: none;
   }
@@ -8061,6 +8109,22 @@
     list-style-type: decimal-leading-zero;
   }
 
+  .lg-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .lg-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .lg-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .lg-lstur {
+    list-style-type: upper-roman;
+  }
+
   .lg-lstn {
     list-style-type: none;
   }
@@ -9745,6 +9809,22 @@
 
   .xl-lstdlz {
     list-style-type: decimal-leading-zero;
+  }
+
+  .xl-lstla {
+    list-style-type: lower-alpha;
+  }
+
+  .xl-lstua {
+    list-style-type: upper-alpha;
+  }
+
+  .xl-lstlr {
+    list-style-type: lower-roman;
+  }
+
+  .xl-lstur {
+    list-style-type: upper-roman;
   }
 
   .xl-lstn {

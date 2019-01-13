@@ -26,6 +26,22 @@
   list-style-type: decimal-leading-zero;
 }
 
+.lg-lstla {
+  list-style-type: lower-alpha;
+}
+
+.lg-lstua {
+  list-style-type: upper-alpha;
+}
+
+.lg-lstlr {
+  list-style-type: lower-roman;
+}
+
+.lg-lstur {
+  list-style-type: upper-roman;
+}
+
 .lg-lstn {
   list-style-type: none;
 }
