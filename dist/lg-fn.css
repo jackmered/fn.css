@@ -1,4 +1,4 @@
-/*! fn.css [lg] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css [lg] v2.5.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1340,6 +1340,10 @@
 
   .lg-h100 {
     height: 100%;
+  }
+
+  .lg-ha {
+    height: auto;
   }
 
   .lg-vw100 {
