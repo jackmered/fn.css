@@ -1,4 +1,4 @@
-/*! fn.css [sm] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css [sm] v2.5.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1340,6 +1340,10 @@
 
   .sm-h100 {
     height: 100%;
+  }
+
+  .sm-ha {
+    height: auto;
   }
 
   .sm-vw100 {

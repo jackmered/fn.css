@@ -1,4 +1,4 @@
-/*! fn.css v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css v2.5.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1339,6 +1339,10 @@
 
 .h100 {
   height: 100%;
+}
+
+.ha {
+  height: auto;
 }
 
 .vw100 {
@@ -3688,6 +3692,10 @@
 
   .sm-h100 {
     height: 100%;
+  }
+
+  .sm-ha {
+    height: auto;
   }
 
   .sm-vw100 {
@@ -6040,6 +6048,10 @@
     height: 100%;
   }
 
+  .md-ha {
+    height: auto;
+  }
+
   .md-vw100 {
     width: 100vw;
   }
@@ -7742,6 +7754,10 @@
     height: 100%;
   }
 
+  .lg-ha {
+    height: auto;
+  }
+
   .lg-vw100 {
     width: 100vw;
   }
@@ -9442,6 +9458,10 @@
 
   .xl-h100 {
     height: 100%;
+  }
+
+  .xl-ha {
+    height: auto;
   }
 
   .xl-vw100 {

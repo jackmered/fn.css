@@ -1,4 +1,4 @@
-/*! fn.css [xl] v2.4.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css [xl] v2.5.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --spacer: 1rem;
@@ -1340,6 +1340,10 @@
 
   .xl-h100 {
     height: 100%;
+  }
+
+  .xl-ha {
+    height: auto;
   }
 
   .xl-vw100 {
