@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+.lg-ha {
+  height: auto;
+}
+
 .lg-vw100 {
   width: 100vw;
 }

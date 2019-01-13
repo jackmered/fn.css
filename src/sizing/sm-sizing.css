@@ -18,6 +18,10 @@
   height: 100%;
 }
 
+.sm-ha {
+  height: auto;
+}
+
 .sm-vw100 {
   width: 100vw;
 }
