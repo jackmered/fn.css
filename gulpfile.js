@@ -4,7 +4,7 @@ const plugins = require('gulp-load-plugins')();
 /**
  * Styles
  */
-gulp.task('styles', ['lint'], () =>
+gulp.task('styles', () =>
   gulp.src([
       './src/fn.css',
       './src/xs-fn.css',
@@ -24,7 +24,7 @@ gulp.task('lint', () =>
   gulp.src('./src/**/*.css')
     .pipe(plugins.stylelint({
       reporters: [
-        {formatter: 'string', console: true}
+        { formatter: 'string', console: true }
       ]
     }))
 );
@@ -32,4 +32,4 @@ gulp.task('lint', () =>
 /**
  * Default
  */
-gulp.task('default', ['lint', 'styles']);
+gulp.task('default', gulp.series('lint', 'styles'));

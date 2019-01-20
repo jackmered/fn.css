@@ -2,16 +2,11 @@
 
 :root {
   --spacer: 1rem;
-  --spacer0-25x: 0.25rem;
-  --spacer0-25x: calc(var(--spacer) * 0.25);
-  --spacer0-5x: 0.5rem;
-  --spacer0-5x: calc(var(--spacer) * 0.5);
-  --spacer1-5x: 1.5rem;
-  --spacer1-5x: calc(var(--spacer) * 1.5);
-  --spacer2x: 2rem;
-  --spacer2x: calc(var(--spacer) * 2);
-  --spacer3x: 3rem;
-  --spacer3x: calc(var(--spacer) * 3);
+  --spacer0-25x: calc(var(--spacer)*0.25);
+  --spacer0-5x: calc(var(--spacer)*0.5);
+  --spacer1-5x: calc(var(--spacer)*1.5);
+  --spacer2x: calc(var(--spacer)*2);
+  --spacer3x: calc(var(--spacer)*3);
   --white: #fff;
   --black: #000;
   --red: #e84118;
@@ -347,236 +342,236 @@
 
   .xl-m-0-25 {
     margin: -0.25rem;
-    margin: calc(-1 * var(--spacer0-25x));
+    margin: calc(-1*var(--spacer0-25x));
   }
 
   .xl-m-0-5 {
     margin: -0.5rem;
-    margin: calc(-1 * var(--spacer0-5x));
+    margin: calc(-1*var(--spacer0-5x));
   }
 
   .xl-m-1 {
     margin: -1rem;
-    margin: calc(-1 * var(--spacer));
+    margin: calc(-1*var(--spacer));
   }
 
   .xl-m-1-5 {
     margin: -1.5rem;
-    margin: calc(-1 * var(--spacer1-5x));
+    margin: calc(-1*var(--spacer1-5x));
   }
 
   .xl-m-2 {
     margin: -2rem;
-    margin: calc(-1 * var(--spacer2x));
+    margin: calc(-1*var(--spacer2x));
   }
 
   .xl-m-3 {
     margin: -3rem;
-    margin: calc(-1 * var(--spacer3x));
+    margin: calc(-1*var(--spacer3x));
   }
 
   .xl-mt-0-25 {
     margin-top: -0.25rem;
-    margin-top: calc(-1 * var(--spacer0-25x));
+    margin-top: calc(-1*var(--spacer0-25x));
   }
 
   .xl-mt-0-5 {
     margin-top: -0.5rem;
-    margin-top: calc(-1 * var(--spacer0-5x));
+    margin-top: calc(-1*var(--spacer0-5x));
   }
 
   .xl-mt-1 {
     margin-top: -1rem;
-    margin-top: calc(-1 * var(--spacer));
+    margin-top: calc(-1*var(--spacer));
   }
 
   .xl-mt-1-5 {
     margin-top: -1.5rem;
-    margin-top: calc(-1 * var(--spacer1-5x));
+    margin-top: calc(-1*var(--spacer1-5x));
   }
 
   .xl-mt-2 {
     margin-top: -2rem;
-    margin-top: calc(-1 * var(--spacer2x));
+    margin-top: calc(-1*var(--spacer2x));
   }
 
   .xl-mt-3 {
     margin-top: -3rem;
-    margin-top: calc(-1 * var(--spacer3x));
+    margin-top: calc(-1*var(--spacer3x));
   }
 
   .xl-mr-0-25 {
     margin-right: -0.25rem;
-    margin-right: calc(-1 * var(--spacer0-25x));
+    margin-right: calc(-1*var(--spacer0-25x));
   }
 
   .xl-mr-0-5 {
     margin-right: -0.5rem;
-    margin-right: calc(-1 * var(--spacer0-5x));
+    margin-right: calc(-1*var(--spacer0-5x));
   }
 
   .xl-mr-1 {
     margin-right: -1rem;
-    margin-right: calc(-1 * var(--spacer));
+    margin-right: calc(-1*var(--spacer));
   }
 
   .xl-mr-1-5 {
     margin-right: -1.5rem;
-    margin-right: calc(-1 * var(--spacer1-5x));
+    margin-right: calc(-1*var(--spacer1-5x));
   }
 
   .xl-mr-2 {
     margin-right: -2rem;
-    margin-right: calc(-1 * var(--spacer2x));
+    margin-right: calc(-1*var(--spacer2x));
   }
 
   .xl-mr-3 {
     margin-right: -3rem;
-    margin-right: calc(-1 * var(--spacer3x));
+    margin-right: calc(-1*var(--spacer3x));
   }
 
   .xl-mb-0-25 {
     margin-bottom: -0.25rem;
-    margin-bottom: calc(-1 * var(--spacer0-25x));
+    margin-bottom: calc(-1*var(--spacer0-25x));
   }
 
   .xl-mb-0-5 {
     margin-bottom: -0.5rem;
-    margin-bottom: calc(-1 * var(--spacer0-5x));
+    margin-bottom: calc(-1*var(--spacer0-5x));
   }
 
   .xl-mb-1 {
     margin-bottom: -1rem;
-    margin-bottom: calc(-1 * var(--spacer));
+    margin-bottom: calc(-1*var(--spacer));
   }
 
   .xl-mb-1-5 {
     margin-bottom: -1.5rem;
-    margin-bottom: calc(-1 * var(--spacer1-5x));
+    margin-bottom: calc(-1*var(--spacer1-5x));
   }
 
   .xl-mb-2 {
     margin-bottom: -2rem;
-    margin-bottom: calc(-1 * var(--spacer2x));
+    margin-bottom: calc(-1*var(--spacer2x));
   }
 
   .xl-mb-3 {
     margin-bottom: -3rem;
-    margin-bottom: calc(-1 * var(--spacer3x));
+    margin-bottom: calc(-1*var(--spacer3x));
   }
 
   .xl-ml-0-25 {
     margin-left: -0.25rem;
-    margin-left: calc(-1 * var(--spacer0-25x));
+    margin-left: calc(-1*var(--spacer0-25x));
   }
 
   .xl-ml-0-5 {
     margin-left: -0.5rem;
-    margin-left: calc(-1 * var(--spacer0-5x));
+    margin-left: calc(-1*var(--spacer0-5x));
   }
 
   .xl-ml-1 {
     margin-left: -1rem;
-    margin-left: calc(-1 * var(--spacer));
+    margin-left: calc(-1*var(--spacer));
   }
 
   .xl-ml-1-5 {
     margin-left: -1.5rem;
-    margin-left: calc(-1 * var(--spacer1-5x));
+    margin-left: calc(-1*var(--spacer1-5x));
   }
 
   .xl-ml-2 {
     margin-left: -2rem;
-    margin-left: calc(-1 * var(--spacer2x));
+    margin-left: calc(-1*var(--spacer2x));
   }
 
   .xl-ml-3 {
     margin-left: -3rem;
-    margin-left: calc(-1 * var(--spacer3x));
+    margin-left: calc(-1*var(--spacer3x));
   }
 
   .xl-mx-0-25 {
     margin-left: -0.25rem;
-    margin-left: calc(-1 * var(--spacer0-25x));
+    margin-left: calc(-1*var(--spacer0-25x));
     margin-right: -0.25rem;
-    margin-right: calc(-1 * var(--spacer0-25x));
+    margin-right: calc(-1*var(--spacer0-25x));
   }
 
   .xl-mx-0-5 {
     margin-left: -0.5rem;
-    margin-left: calc(-1 * var(--spacer0-5x));
+    margin-left: calc(-1*var(--spacer0-5x));
     margin-right: -0.5rem;
-    margin-right: calc(-1 * var(--spacer0-5x));
+    margin-right: calc(-1*var(--spacer0-5x));
   }
 
   .xl-mx-1 {
     margin-left: -1rem;
-    margin-left: calc(-1 * var(--spacer));
+    margin-left: calc(-1*var(--spacer));
     margin-right: -1rem;
-    margin-right: calc(-1 * var(--spacer));
+    margin-right: calc(-1*var(--spacer));
   }
 
   .xl-mx-1-5 {
     margin-left: -1.5rem;
-    margin-left: calc(-1 * var(--spacer1-5x));
+    margin-left: calc(-1*var(--spacer1-5x));
     margin-right: -1.5rem;
-    margin-right: calc(-1 * var(--spacer1-5x));
+    margin-right: calc(-1*var(--spacer1-5x));
   }
 
   .xl-mx-2 {
     margin-left: -2rem;
-    margin-left: calc(-1 * var(--spacer2x));
+    margin-left: calc(-1*var(--spacer2x));
     margin-right: -2rem;
-    margin-right: calc(-1 * var(--spacer2x));
+    margin-right: calc(-1*var(--spacer2x));
   }
 
   .xl-mx-3 {
     margin-left: -3rem;
-    margin-left: calc(-1 * var(--spacer3x));
+    margin-left: calc(-1*var(--spacer3x));
     margin-right: -3rem;
-    margin-right: calc(-1 * var(--spacer3x));
+    margin-right: calc(-1*var(--spacer3x));
   }
 
   .xl-my-0-25 {
     margin-top: -0.25rem;
-    margin-top: calc(-1 * var(--spacer0-25x));
+    margin-top: calc(-1*var(--spacer0-25x));
     margin-bottom: -0.25rem;
-    margin-bottom: calc(-1 * var(--spacer0-25x));
+    margin-bottom: calc(-1*var(--spacer0-25x));
   }
 
   .xl-my-0-5 {
     margin-top: -0.5rem;
-    margin-top: calc(-1 * var(--spacer0-5x));
+    margin-top: calc(-1*var(--spacer0-5x));
     margin-bottom: -0.5rem;
-    margin-bottom: calc(-1 * var(--spacer0-5x));
+    margin-bottom: calc(-1*var(--spacer0-5x));
   }
 
   .xl-my-1 {
     margin-top: -1rem;
-    margin-top: calc(-1 * var(--spacer));
+    margin-top: calc(-1*var(--spacer));
     margin-bottom: -1rem;
-    margin-bottom: calc(-1 * var(--spacer));
+    margin-bottom: calc(-1*var(--spacer));
   }
 
   .xl-my-1-5 {
     margin-top: -1.5rem;
-    margin-top: calc(-1 * var(--spacer1-5x));
+    margin-top: calc(-1*var(--spacer1-5x));
     margin-bottom: -1.5rem;
-    margin-bottom: calc(-1 * var(--spacer1-5x));
+    margin-bottom: calc(-1*var(--spacer1-5x));
   }
 
   .xl-my-2 {
     margin-top: -2rem;
-    margin-top: calc(-1 * var(--spacer2x));
+    margin-top: calc(-1*var(--spacer2x));
     margin-bottom: -2rem;
-    margin-bottom: calc(-1 * var(--spacer2x));
+    margin-bottom: calc(-1*var(--spacer2x));
   }
 
   .xl-my-3 {
     margin-top: -3rem;
-    margin-top: calc(-1 * var(--spacer3x));
+    margin-top: calc(-1*var(--spacer3x));
     margin-bottom: -3rem;
-    margin-bottom: calc(-1 * var(--spacer3x));
+    margin-bottom: calc(-1*var(--spacer3x));
   }
 
   .xl-p0 {
