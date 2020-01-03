@@ -30,7 +30,6 @@
 @media (min-width: 992px) {
   .lg-df {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
   }
@@ -959,12 +958,10 @@
   }
 
   .lg-bgsc {
-    -webkit-background-size: cover;
     background-size: cover;
   }
 
   .lg-bgsct {
-    -webkit-background-size: contain;
     background-size: contain;
   }
 
@@ -1002,42 +999,36 @@
 
   .lg-x {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
   }
 
   .lg-xac {
     -webkit-box-align: center;
-    -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
   }
 
   .lg-xab {
     -webkit-box-align: baseline;
-    -webkit-align-items: baseline;
     -ms-flex-align: baseline;
     align-items: baseline;
   }
 
   .lg-xas {
     -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
   }
 
   .lg-xafs {
     -webkit-box-align: start;
-    -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
   }
 
   .lg-xafe {
     -webkit-box-align: end;
-    -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
   }
@@ -1045,7 +1036,6 @@
   .lg-xdr {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
   }
@@ -1053,7 +1043,6 @@
   .lg-xdrr {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
@@ -1061,7 +1050,6 @@
   .lg-xdc {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
   }
@@ -1069,136 +1057,116 @@
   .lg-xdcr {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
 
   .lg-xjc {
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
 
   .lg-xjb {
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
 
   .lg-xja {
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
   }
 
   .lg-xjs {
     -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
 
   .lg-xje {
     -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
   }
 
   .lg-xw {
-    -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
   .lg-xwr {
-    -webkit-flex-wrap: wrap-reverse;
     -ms-flex-wrap: wrap-reverse;
     flex-wrap: wrap-reverse;
   }
 
   .lg-xwn {
-    -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
 
   .lg-xi {
     -webkit-box-flex: initial;
-    -webkit-flex: initial;
     -ms-flex: initial;
     flex: initial;
   }
 
   .lg-xx {
     -webkit-box-flex: 1;
-    -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
 
   .lg-xa {
     -webkit-box-flex: 1;
-    -webkit-flex: auto;
     -ms-flex: auto;
     flex: auto;
   }
 
   .lg-xn {
     -webkit-box-flex: 0;
-    -webkit-flex: none;
     -ms-flex: none;
     flex: none;
   }
 
   .lg-xo0 {
     -webkit-box-ordinal-group: 1;
-    -webkit-order: 0;
     -ms-flex-order: 0;
     order: 0;
   }
 
   .lg-xo1 {
     -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1;
   }
 
   .lg-xo2 {
     -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
     -ms-flex-order: 2;
     order: 2;
   }
 
   .lg-xo3 {
     -webkit-box-ordinal-group: 4;
-    -webkit-order: 3;
     -ms-flex-order: 3;
     order: 3;
   }
 
   .lg-xo4 {
     -webkit-box-ordinal-group: 5;
-    -webkit-order: 4;
     -ms-flex-order: 4;
     order: 4;
   }
 
   .lg-xot {
     -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
     -ms-flex-order: -1;
     order: -1;
   }
 
   .lg-xob {
     -webkit-box-ordinal-group: 100;
-    -webkit-order: 99;
     -ms-flex-order: 99;
     order: 99;
   }
@@ -1522,21 +1490,25 @@
 
   .lg-tc1 {
     -webkit-columns: 1;
+    -moz-columns: 1;
     columns: 1;
   }
 
   .lg-tc2 {
     -webkit-columns: 2;
+    -moz-columns: 2;
     columns: 2;
   }
 
   .lg-tc3 {
     -webkit-columns: 3;
+    -moz-columns: 3;
     columns: 3;
   }
 
   .lg-tc4 {
     -webkit-columns: 4;
+    -moz-columns: 4;
     columns: 4;
   }
 
