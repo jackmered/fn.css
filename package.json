@@ -6,24 +6,17 @@
   "license": "MIT",
   "repository": "jackmered/fn.css",
   "devDependencies": {
-    "autoprefixer": "^9.7.3",
-    "css-mqpacker": "^7.0.0",
-    "gulp": "^4.0.2",
-    "gulp-load-plugins": "^2.0.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-stylelint": "^11.0.0",
     "perfectionist": "^2.4.0",
-    "postcss-calc": "^7.0.1",
+    "postcss": "^7.0.26",
+    "postcss-at-rules-variables": "^0.1.10",
+    "postcss-conditionals": "^2.1.0",
+    "postcss-css-variables": "^0.14.0",
     "postcss-custom-media": "^7.0.8",
-    "postcss-custom-properties": "^9.0.2",
+    "postcss-each": "^0.10.0",
     "postcss-import": "^12.0.1",
-    "postcss-mixins": "^6.2.3",
-    "postcss-nested": "^4.2.1",
-    "postcss-simple-vars": "^5.0.2",
-    "stylelint": "^12.0.1",
-    "stylelint-config-standard": "^19.0.0"
+    "postcss-nested": "^4.2.1"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "npx postcss src/fn.pcss -o dist/fn.css"
   }
 }

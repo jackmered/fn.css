@@ -1,0 +1,73 @@
+/**
+ * Display
+ */
+
+@each $key in var(--breakpoints) {
+  @if $key == xs {
+    .df {
+      display: flex;
+    }
+
+    .db {
+      display: block;
+    }
+
+    .dib {
+      display: inline-block;
+    }
+
+    .di {
+      display: inline;
+    }
+
+    .dt {
+      display: table;
+    }
+
+    .dtc {
+      display: table-cell;
+    }
+
+    .dtr {
+      display: table-row;
+    }
+
+    .dn {
+      display: none;
+    }
+  } @else {
+    @media (--$key) {
+      .$(key)-df {
+        display: flex;
+      }
+
+      .$(key)-db {
+        display: block;
+      }
+
+      .$(key)-dib {
+        display: inline-block;
+      }
+
+      .$(key)-di {
+        display: inline;
+      }
+
+      .$(key)-dt {
+        display: table;
+      }
+
+      .$(key)-dtc {
+        display: table-cell;
+      }
+
+      .$(key)-dtr {
+        display: table-row;
+      }
+
+      .$(key)-dn {
+        display: none;
+      }
+    }
+  }
+}
