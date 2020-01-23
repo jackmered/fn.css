@@ -12,3 +12,4 @@
 - [ ] Improve/finish docs
 - [ ] Include fn.min.css
 - [ ] Use autoprefixer with browserlist
+- [x] Remove yarn.lock
