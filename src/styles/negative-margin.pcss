@@ -3,367 +3,185 @@
  */
 
 @each $key in var(--breakpoints) {
-  @if $key == xs {
-    .m-0-25 {
+  @media (--$key) {
+    .$(key)-m-0-25 {
       margin: calc(-1 * var(--spacer0-25x));
     }
 
-    .m-0-5 {
+    .$(key)-m-0-5 {
       margin: calc(-1 * var(--spacer0-5x));
     }
 
-    .m-1 {
+    .$(key)-m-1 {
       margin: calc(-1 * var(--spacer));
     }
 
-    .m-1-5 {
+    .$(key)-m-1-5 {
       margin: calc(-1 * var(--spacer1-5x));
     }
 
-    .m-2 {
+    .$(key)-m-2 {
       margin: calc(-1 * var(--spacer2x));
     }
 
-    .m-3 {
+    .$(key)-m-3 {
       margin: calc(-1 * var(--spacer3x));
     }
 
-    .mt-0-25 {
+    .$(key)-mt-0-25 {
       margin-top: calc(-1 * var(--spacer0-25x));
     }
 
-    .mt-0-5 {
+    .$(key)-mt-0-5 {
       margin-top: calc(-1 * var(--spacer0-5x));
     }
 
-    .mt-1 {
+    .$(key)-mt-1 {
       margin-top: calc(-1 * var(--spacer));
     }
 
-    .mt-1-5 {
+    .$(key)-mt-1-5 {
       margin-top: calc(-1 * var(--spacer1-5x));
     }
 
-    .mt-2 {
+    .$(key)-mt-2 {
       margin-top: calc(-1 * var(--spacer2x));
     }
 
-    .mt-3 {
+    .$(key)-mt-3 {
       margin-top: calc(-1 * var(--spacer3x));
     }
 
-    .mr-0-25 {
+    .$(key)-mr-0-25 {
       margin-right: calc(-1 * var(--spacer0-25x));
     }
 
-    .mr-0-5 {
+    .$(key)-mr-0-5 {
       margin-right: calc(-1 * var(--spacer0-5x));
     }
 
-    .mr-1 {
+    .$(key)-mr-1 {
       margin-right: calc(-1 * var(--spacer));
     }
 
-    .mr-1-5 {
+    .$(key)-mr-1-5 {
       margin-right: calc(-1 * var(--spacer1-5x));
     }
 
-    .mr-2 {
+    .$(key)-mr-2 {
       margin-right: calc(-1 * var(--spacer2x));
     }
 
-    .mr-3 {
+    .$(key)-mr-3 {
       margin-right: calc(-1 * var(--spacer3x));
     }
 
-    .mb-0-25 {
+    .$(key)-mb-0-25 {
       margin-bottom: calc(-1 * var(--spacer0-25x));
     }
 
-    .mb-0-5 {
+    .$(key)-mb-0-5 {
       margin-bottom: calc(-1 * var(--spacer0-5x));
     }
 
-    .mb-1 {
+    .$(key)-mb-1 {
       margin-bottom: calc(-1 * var(--spacer));
     }
 
-    .mb-1-5 {
+    .$(key)-mb-1-5 {
       margin-bottom: calc(-1 * var(--spacer1-5x));
     }
 
-    .mb-2 {
+    .$(key)-mb-2 {
       margin-bottom: calc(-1 * var(--spacer2x));
     }
 
-    .mb-3 {
+    .$(key)-mb-3 {
       margin-bottom: calc(-1 * var(--spacer3x));
     }
 
-    .ml-0-25 {
+    .$(key)-ml-0-25 {
       margin-left: calc(-1 * var(--spacer0-25x));
     }
 
-    .ml-0-5 {
+    .$(key)-ml-0-5 {
       margin-left: calc(-1 * var(--spacer0-5x));
     }
 
-    .ml-1 {
+    .$(key)-ml-1 {
       margin-left: calc(-1 * var(--spacer));
     }
 
-    .ml-1-5 {
+    .$(key)-ml-1-5 {
       margin-left: calc(-1 * var(--spacer1-5x));
     }
 
-    .ml-2 {
+    .$(key)-ml-2 {
       margin-left: calc(-1 * var(--spacer2x));
     }
 
-    .ml-3 {
+    .$(key)-ml-3 {
       margin-left: calc(-1 * var(--spacer3x));
     }
 
-    .mx-0-25 {
+    .$(key)-mx-0-25 {
       margin-left: calc(-1 * var(--spacer0-25x));
       margin-right: calc(-1 * var(--spacer0-25x));
     }
 
-    .mx-0-5 {
+    .$(key)-mx-0-5 {
       margin-left: calc(-1 * var(--spacer0-5x));
       margin-right: calc(-1 * var(--spacer0-5x));
     }
 
-    .mx-1 {
+    .$(key)-mx-1 {
       margin-left: calc(-1 * var(--spacer));
       margin-right: calc(-1 * var(--spacer));
     }
 
-    .mx-1-5 {
+    .$(key)-mx-1-5 {
       margin-left: calc(-1 * var(--spacer1-5x));
       margin-right: calc(-1 * var(--spacer1-5x));
     }
 
-    .mx-2 {
+    .$(key)-mx-2 {
       margin-left: calc(-1 * var(--spacer2x));
       margin-right: calc(-1 * var(--spacer2x));
     }
 
-    .mx-3 {
+    .$(key)-mx-3 {
       margin-left: calc(-1 * var(--spacer3x));
       margin-right: calc(-1 * var(--spacer3x));
     }
 
-    .my-0-25 {
+    .$(key)-my-0-25 {
       margin-top: calc(-1 * var(--spacer0-25x));
       margin-bottom: calc(-1 * var(--spacer0-25x));
     }
 
-    .my-0-5 {
+    .$(key)-my-0-5 {
       margin-top: calc(-1 * var(--spacer0-5x));
       margin-bottom: calc(-1 * var(--spacer0-5x));
     }
 
-    .my-1 {
+    .$(key)-my-1 {
       margin-top: calc(-1 * var(--spacer));
       margin-bottom: calc(-1 * var(--spacer));
     }
 
-    .my-1-5 {
+    .$(key)-my-1-5 {
       margin-top: calc(-1 * var(--spacer1-5x));
       margin-bottom: calc(-1 * var(--spacer1-5x));
     }
 
-    .my-2 {
+    .$(key)-my-2 {
       margin-top: calc(-1 * var(--spacer2x));
       margin-bottom: calc(-1 * var(--spacer2x));
     }
 
-    .my-3 {
+    .$(key)-my-3 {
       margin-top: calc(-1 * var(--spacer3x));
       margin-bottom: calc(-1 * var(--spacer3x));
-    }
-  } @else {
-    @media (--$key) {
-      .$(key)-m-0-25 {
-        margin: calc(-1 * var(--spacer0-25x));
-      }
-
-      .$(key)-m-0-5 {
-        margin: calc(-1 * var(--spacer0-5x));
-      }
-
-      .$(key)-m-1 {
-        margin: calc(-1 * var(--spacer));
-      }
-
-      .$(key)-m-1-5 {
-        margin: calc(-1 * var(--spacer1-5x));
-      }
-
-      .$(key)-m-2 {
-        margin: calc(-1 * var(--spacer2x));
-      }
-
-      .$(key)-m-3 {
-        margin: calc(-1 * var(--spacer3x));
-      }
-
-      .$(key)-mt-0-25 {
-        margin-top: calc(-1 * var(--spacer0-25x));
-      }
-
-      .$(key)-mt-0-5 {
-        margin-top: calc(-1 * var(--spacer0-5x));
-      }
-
-      .$(key)-mt-1 {
-        margin-top: calc(-1 * var(--spacer));
-      }
-
-      .$(key)-mt-1-5 {
-        margin-top: calc(-1 * var(--spacer1-5x));
-      }
-
-      .$(key)-mt-2 {
-        margin-top: calc(-1 * var(--spacer2x));
-      }
-
-      .$(key)-mt-3 {
-        margin-top: calc(-1 * var(--spacer3x));
-      }
-
-      .$(key)-mr-0-25 {
-        margin-right: calc(-1 * var(--spacer0-25x));
-      }
-
-      .$(key)-mr-0-5 {
-        margin-right: calc(-1 * var(--spacer0-5x));
-      }
-
-      .$(key)-mr-1 {
-        margin-right: calc(-1 * var(--spacer));
-      }
-
-      .$(key)-mr-1-5 {
-        margin-right: calc(-1 * var(--spacer1-5x));
-      }
-
-      .$(key)-mr-2 {
-        margin-right: calc(-1 * var(--spacer2x));
-      }
-
-      .$(key)-mr-3 {
-        margin-right: calc(-1 * var(--spacer3x));
-      }
-
-      .$(key)-mb-0-25 {
-        margin-bottom: calc(-1 * var(--spacer0-25x));
-      }
-
-      .$(key)-mb-0-5 {
-        margin-bottom: calc(-1 * var(--spacer0-5x));
-      }
-
-      .$(key)-mb-1 {
-        margin-bottom: calc(-1 * var(--spacer));
-      }
-
-      .$(key)-mb-1-5 {
-        margin-bottom: calc(-1 * var(--spacer1-5x));
-      }
-
-      .$(key)-mb-2 {
-        margin-bottom: calc(-1 * var(--spacer2x));
-      }
-
-      .$(key)-mb-3 {
-        margin-bottom: calc(-1 * var(--spacer3x));
-      }
-
-      .$(key)-ml-0-25 {
-        margin-left: calc(-1 * var(--spacer0-25x));
-      }
-
-      .$(key)-ml-0-5 {
-        margin-left: calc(-1 * var(--spacer0-5x));
-      }
-
-      .$(key)-ml-1 {
-        margin-left: calc(-1 * var(--spacer));
-      }
-
-      .$(key)-ml-1-5 {
-        margin-left: calc(-1 * var(--spacer1-5x));
-      }
-
-      .$(key)-ml-2 {
-        margin-left: calc(-1 * var(--spacer2x));
-      }
-
-      .$(key)-ml-3 {
-        margin-left: calc(-1 * var(--spacer3x));
-      }
-
-      .$(key)-mx-0-25 {
-        margin-left: calc(-1 * var(--spacer0-25x));
-        margin-right: calc(-1 * var(--spacer0-25x));
-      }
-
-      .$(key)-mx-0-5 {
-        margin-left: calc(-1 * var(--spacer0-5x));
-        margin-right: calc(-1 * var(--spacer0-5x));
-      }
-
-      .$(key)-mx-1 {
-        margin-left: calc(-1 * var(--spacer));
-        margin-right: calc(-1 * var(--spacer));
-      }
-
-      .$(key)-mx-1-5 {
-        margin-left: calc(-1 * var(--spacer1-5x));
-        margin-right: calc(-1 * var(--spacer1-5x));
-      }
-
-      .$(key)-mx-2 {
-        margin-left: calc(-1 * var(--spacer2x));
-        margin-right: calc(-1 * var(--spacer2x));
-      }
-
-      .$(key)-mx-3 {
-        margin-left: calc(-1 * var(--spacer3x));
-        margin-right: calc(-1 * var(--spacer3x));
-      }
-
-      .$(key)-my-0-25 {
-        margin-top: calc(-1 * var(--spacer0-25x));
-        margin-bottom: calc(-1 * var(--spacer0-25x));
-      }
-
-      .$(key)-my-0-5 {
-        margin-top: calc(-1 * var(--spacer0-5x));
-        margin-bottom: calc(-1 * var(--spacer0-5x));
-      }
-
-      .$(key)-my-1 {
-        margin-top: calc(-1 * var(--spacer));
-        margin-bottom: calc(-1 * var(--spacer));
-      }
-
-      .$(key)-my-1-5 {
-        margin-top: calc(-1 * var(--spacer1-5x));
-        margin-bottom: calc(-1 * var(--spacer1-5x));
-      }
-
-      .$(key)-my-2 {
-        margin-top: calc(-1 * var(--spacer2x));
-        margin-bottom: calc(-1 * var(--spacer2x));
-      }
-
-      .$(key)-my-3 {
-        margin-top: calc(-1 * var(--spacer3x));
-        margin-bottom: calc(-1 * var(--spacer3x));
-      }
     }
   }
 }
