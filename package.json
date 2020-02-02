@@ -7,6 +7,7 @@
   "repository": "jackmered/fn.css",
   "devDependencies": {
     "css-mqpacker": "^7.0.0",
+    "csso": "^4.0.2",
     "perfectionist": "^2.4.0",
     "postcss": "^7.0.26",
     "postcss-at-rules-variables": "^0.1.10",
@@ -26,7 +27,8 @@
   "scripts": {
     "start": "postcss src/fn.pcss -o dist/fn.css",
     "clean": "rimraf dist",
-    "lint": "stylelint src/styles/*.pcss"
+    "lint": "stylelint src/styles/*.pcss",
+    "minify": "csso dist/fn.css -o dist/fn.min.css -s file"
   },
   "dependencies": {}
 }
