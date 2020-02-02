@@ -1,0 +1,19 @@
+/**
+ * Visibility
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-vh {
+      visibility: hidden;
+    }
+
+    .$(key)-vv {
+      visibility: visible;
+    }
+
+    .$(key)-vc {
+      visibility: collapse;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+/**
+ * Cursor
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-curp {
+      cursor: pointer;
+    }
+
+    .$(key)-curd {
+      cursor: default;
+    }
+
+    .$(key)-cura {
+      cursor: alias;
+    }
+
+    .$(key)-curzi {
+      cursor: zoom-in;
+    }
+
+    .$(key)-curzo {
+      cursor: zoom-out;
+    }
+
+    .$(key)-usn {
+      user-select: none;
+    }
+
+    .$(key)-usa {
+      user-select: auto;
+    }
+
+    .$(key)-ust {
+      user-select: text;
+    }
+
+    .$(key)-pen {
+      pointer-events: none;
+    }
+
+    .$(key)-pea {
+      pointer-events: auto;
+    }
+  }
+}

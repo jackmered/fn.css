@@ -1,5 +1,0 @@
-@import 'xs-padding';
-@import 'sm-padding' (--sm);
-@import 'md-padding' (--md);
-@import 'lg-padding' (--lg);
-@import 'xl-padding' (--xl);

@@ -15,3 +15,5 @@
 - [ ] Include fn.min.css
 - [ ] Use autoprefixer with browserlist
 - [x] Remove yarn.lock
+- [ ] Break down larger files into smaller chunks
+- [ ] Replace key var with something more appropriate

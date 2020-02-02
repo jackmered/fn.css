@@ -1,0 +1,59 @@
+/**
+ * List
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-lspo {
+      list-style-position: outside;
+    }
+
+    .$(key)-lspi {
+      list-style-position: inside;
+    }
+
+    .$(key)-lstc {
+      list-style-type: circle;
+    }
+
+    .$(key)-lstd {
+      list-style-type: disc;
+    }
+
+    .$(key)-lsts {
+      list-style-type: square;
+    }
+
+    .$(key)-lstdi {
+      list-style-type: decimal;
+    }
+
+    .$(key)-lstdlz {
+      list-style-type: decimal-leading-zero;
+    }
+
+    .$(key)-lstla {
+      list-style-type: lower-alpha;
+    }
+
+    .$(key)-lstua {
+      list-style-type: upper-alpha;
+    }
+
+    .$(key)-lstlr {
+      list-style-type: lower-roman;
+    }
+
+    .$(key)-lstur {
+      list-style-type: upper-roman;
+    }
+
+    .$(key)-lstn {
+      list-style-type: none;
+    }
+
+    .$(key)-lsti {
+      list-style-type: inherit;
+    }
+  }
+}

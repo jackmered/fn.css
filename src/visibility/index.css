@@ -1,5 +1,0 @@
-@import 'xs-visibility';
-@import 'sm-visibility' (--sm);
-@import 'md-visibility' (--md);
-@import 'lg-visibility' (--lg);
-@import 'xl-visibility' (--xl);

@@ -1,0 +1,84 @@
+/**
+ * Border
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-bd {
+      border-style: solid;
+      border-width: 1px;
+    }
+
+    .$(key)-bdt {
+      border-top-style: solid;
+      border-top-width: 1px;
+    }
+
+    .$(key)-bdr {
+      border-right-style: solid;
+      border-right-width: 1px;
+    }
+
+    .$(key)-bdb {
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+    }
+
+    .$(key)-bdl {
+      border-left-style: solid;
+      border-left-width: 1px;
+    }
+
+    .$(key)-bdw0 {
+      border-width: 0;
+    }
+
+    .$(key)-bdw0-25 {
+      border-width: 0.0625rem;
+    }
+
+    .$(key)-bdw0-5 {
+      border-width: 0.125rem;
+    }
+
+    .$(key)-bdw1 {
+      border-width: 0.25rem;
+    }
+
+    .$(key)-bdw2 {
+      border-width: 0.5rem;
+    }
+
+    .$(key)-bdw3 {
+      border-width: 0.75rem;
+    }
+
+    .$(key)-bdw4 {
+      border-width: 1rem;
+    }
+
+    .$(key)-bdrd0-125 {
+      border-radius: 0.125rem;
+    }
+
+    .$(key)-bdrd0-25 {
+      border-radius: 0.25rem;
+    }
+
+    .$(key)-bdrd0-5 {
+      border-radius: 0.5rem;
+    }
+
+    .$(key)-bdrd0-75 {
+      border-radius: 0.75rem;
+    }
+
+    .$(key)-bdrd1 {
+      border-radius: 1rem;
+    }
+
+    .$(key)-bdrd100 {
+      border-radius: 100%;
+    }
+  }
+}

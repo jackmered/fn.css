@@ -1,5 +1,0 @@
-@import 'xs-list';
-@import 'sm-list' (--sm);
-@import 'md-list' (--md);
-@import 'lg-list' (--lg);
-@import 'xl-list' (--xl);

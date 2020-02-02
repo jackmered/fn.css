@@ -1,5 +1,0 @@
-@import 'xs-flex';
-@import 'sm-flex' (--sm);
-@import 'md-flex' (--md);
-@import 'lg-flex' (--lg);
-@import 'xl-flex' (--xl);

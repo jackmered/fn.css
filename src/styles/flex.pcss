@@ -1,0 +1,123 @@
+/**
+ * Flex
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-x {
+      display: flex;
+    }
+
+    .$(key)-xac {
+      align-items: center;
+    }
+
+    .$(key)-xab {
+      align-items: baseline;
+    }
+
+    .$(key)-xas {
+      align-items: stretch;
+    }
+
+    .$(key)-xafs {
+      align-items: flex-start;
+    }
+
+    .$(key)-xafe {
+      align-items: flex-end;
+    }
+
+    .$(key)-xdr {
+      flex-direction: row;
+    }
+
+    .$(key)-xdrr {
+      flex-direction: row-reverse;
+    }
+
+    .$(key)-xdc {
+      flex-direction: column;
+    }
+
+    .$(key)-xdcr {
+      flex-direction: column-reverse;
+    }
+
+    .$(key)-xjc {
+      justify-content: center;
+    }
+
+    .$(key)-xjb {
+      justify-content: space-between;
+    }
+
+    .$(key)-xja {
+      justify-content: space-around;
+    }
+
+    .$(key)-xjs {
+      justify-content: flex-start;
+    }
+
+    .$(key)-xje {
+      justify-content: flex-end;
+    }
+
+    .$(key)-xw {
+      flex-wrap: wrap;
+    }
+
+    .$(key)-xwr {
+      flex-wrap: wrap-reverse;
+    }
+
+    .$(key)-xwn {
+      flex-wrap: nowrap;
+    }
+
+    .$(key)-xi {
+      flex: initial;
+    }
+
+    .$(key)-xx {
+      flex: 1;
+    }
+
+    .$(key)-xa {
+      flex: auto;
+    }
+
+    .$(key)-xn {
+      flex: none;
+    }
+
+    .$(key)-xo0 {
+      order: 0;
+    }
+
+    .$(key)-xo1 {
+      order: 1;
+    }
+
+    .$(key)-xo2 {
+      order: 2;
+    }
+
+    .$(key)-xo3 {
+      order: 3;
+    }
+
+    .$(key)-xo4 {
+      order: 4;
+    }
+
+    .$(key)-xot {
+      order: -1;
+    }
+
+    .$(key)-xob {
+      order: 99;
+    }
+  }
+}

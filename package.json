@@ -13,6 +13,7 @@
     "postcss-conditionals": "^2.1.0",
     "postcss-css-variables": "^0.14.0",
     "postcss-custom-media": "^7.0.8",
+    "postcss-discard-comments": "^4.0.2",
     "postcss-each": "^0.10.0",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1",

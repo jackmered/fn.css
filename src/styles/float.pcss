@@ -1,0 +1,25 @@
+/**
+ * Float
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-fl {
+      float: left;
+    }
+
+    .$(key)-fr {
+      float: right;
+    }
+
+    .$(key)-fn {
+      float: none;
+    }
+
+    .$(key)-cf::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}

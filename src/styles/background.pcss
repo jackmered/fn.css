@@ -1,0 +1,47 @@
+/**
+ * Background
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-bgsc {
+      background-size: cover;
+    }
+
+    .$(key)-bgsct {
+      background-size: contain;
+    }
+
+    .$(key)-bgpc {
+      background-position: center;
+    }
+
+    .$(key)-bgpt {
+      background-position: top;
+    }
+
+    .$(key)-bgpr {
+      background-position: right;
+    }
+
+    .$(key)-bgpb {
+      background-position: bottom;
+    }
+
+    .$(key)-bgpl {
+      background-position: left;
+    }
+
+    .$(key)-bgrn {
+      background-repeat: no-repeat;
+    }
+
+    .$(key)-bgrx {
+      background-repeat: repeat-x;
+    }
+
+    .$(key)-bgry {
+      background-repeat: repeat-y;
+    }
+  }
+}

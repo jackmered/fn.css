@@ -16,6 +16,7 @@ module.exports = {
       after: ['.'],
     }),
     require('css-mqpacker'),
+    require('postcss-discard-comments'),
     require('perfectionist')({
       cascade: false,
       indentSize: 2,

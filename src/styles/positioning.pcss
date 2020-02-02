@@ -1,0 +1,75 @@
+/**
+ * Positioning
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-psa {
+      position: absolute;
+    }
+
+    .$(key)-psr {
+      position: relative;
+    }
+
+    .$(key)-psf {
+      position: fixed;
+    }
+
+    .$(key)-pss {
+      position: static;
+    }
+
+    .$(key)-t0 {
+      top: 0;
+    }
+
+    .$(key)-r0 {
+      right: 0;
+    }
+
+    .$(key)-b0 {
+      bottom: 0;
+    }
+
+    .$(key)-l0 {
+      left: 0;
+    }
+
+    .$(key)-ta {
+      top: auto;
+    }
+
+    .$(key)-ra {
+      right: auto;
+    }
+
+    .$(key)-ba {
+      bottom: auto;
+    }
+
+    .$(key)-la {
+      bottom: auto;
+    }
+
+    .$(key)-z0 {
+      z-index: 0;
+    }
+
+    .$(key)-z1 {
+      z-index: 1;
+    }
+
+    .$(key)-z2 {
+      z-index: 2;
+    }
+
+    .$(key)-z3 {
+      z-index: 3;
+    }
+
+    .$(key)-z4 {
+      z-index: 4;
+    }
+  }
+}
