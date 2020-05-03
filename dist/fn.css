@@ -1435,32 +1435,36 @@
   font-size: 1rem;
 }
 
+.fs1-25 {
+  font-size: 1.25rem;
+}
+
 .fs1-5 {
   font-size: 1.5rem;
+}
+
+.fs1-75 {
+  font-size: 1.75rem;
 }
 
 .fs2 {
   font-size: 2rem;
 }
 
+.fs2-5 {
+  font-size: 2.5rem;
+}
+
 .fs3 {
   font-size: 3rem;
-}
-
-.fs4 {
-  font-size: 4rem;
-}
-
-.fs6 {
-  font-size: 6rem;
 }
 
 .lh1 {
   line-height: 1;
 }
 
-.lh1-2 {
-  line-height: 1.2;
+.lh1-25 {
+  line-height: 1.25;
 }
 
 .lh1-5 {
@@ -3012,32 +3016,36 @@
     font-size: 1rem;
   }
 
+  .sm-fs1-25 {
+    font-size: 1.25rem;
+  }
+
   .sm-fs1-5 {
     font-size: 1.5rem;
+  }
+
+  .sm-fs1-75 {
+    font-size: 1.75rem;
   }
 
   .sm-fs2 {
     font-size: 2rem;
   }
 
+  .sm-fs2-5 {
+    font-size: 2.5rem;
+  }
+
   .sm-fs3 {
     font-size: 3rem;
-  }
-
-  .sm-fs4 {
-    font-size: 4rem;
-  }
-
-  .sm-fs6 {
-    font-size: 6rem;
   }
 
   .sm-lh1 {
     line-height: 1;
   }
 
-  .sm-lh1-2 {
-    line-height: 1.2;
+  .sm-lh1-25 {
+    line-height: 1.25;
   }
 
   .sm-lh1-5 {
@@ -4590,32 +4598,36 @@
     font-size: 1rem;
   }
 
+  .md-fs1-25 {
+    font-size: 1.25rem;
+  }
+
   .md-fs1-5 {
     font-size: 1.5rem;
+  }
+
+  .md-fs1-75 {
+    font-size: 1.75rem;
   }
 
   .md-fs2 {
     font-size: 2rem;
   }
 
+  .md-fs2-5 {
+    font-size: 2.5rem;
+  }
+
   .md-fs3 {
     font-size: 3rem;
-  }
-
-  .md-fs4 {
-    font-size: 4rem;
-  }
-
-  .md-fs6 {
-    font-size: 6rem;
   }
 
   .md-lh1 {
     line-height: 1;
   }
 
-  .md-lh1-2 {
-    line-height: 1.2;
+  .md-lh1-25 {
+    line-height: 1.25;
   }
 
   .md-lh1-5 {
@@ -6168,32 +6180,36 @@
     font-size: 1rem;
   }
 
+  .lg-fs1-25 {
+    font-size: 1.25rem;
+  }
+
   .lg-fs1-5 {
     font-size: 1.5rem;
+  }
+
+  .lg-fs1-75 {
+    font-size: 1.75rem;
   }
 
   .lg-fs2 {
     font-size: 2rem;
   }
 
+  .lg-fs2-5 {
+    font-size: 2.5rem;
+  }
+
   .lg-fs3 {
     font-size: 3rem;
-  }
-
-  .lg-fs4 {
-    font-size: 4rem;
-  }
-
-  .lg-fs6 {
-    font-size: 6rem;
   }
 
   .lg-lh1 {
     line-height: 1;
   }
 
-  .lg-lh1-2 {
-    line-height: 1.2;
+  .lg-lh1-25 {
+    line-height: 1.25;
   }
 
   .lg-lh1-5 {
@@ -7746,32 +7762,36 @@
     font-size: 1rem;
   }
 
+  .xl-fs1-25 {
+    font-size: 1.25rem;
+  }
+
   .xl-fs1-5 {
     font-size: 1.5rem;
+  }
+
+  .xl-fs1-75 {
+    font-size: 1.75rem;
   }
 
   .xl-fs2 {
     font-size: 2rem;
   }
 
+  .xl-fs2-5 {
+    font-size: 2.5rem;
+  }
+
   .xl-fs3 {
     font-size: 3rem;
-  }
-
-  .xl-fs4 {
-    font-size: 4rem;
-  }
-
-  .xl-fs6 {
-    font-size: 6rem;
   }
 
   .xl-lh1 {
     line-height: 1;
   }
 
-  .xl-lh1-2 {
-    line-height: 1.2;
+  .xl-lh1-25 {
+    line-height: 1.25;
   }
 
   .xl-lh1-5 {
