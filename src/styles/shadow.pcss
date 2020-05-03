@@ -1,0 +1,30 @@
+/**
+ * Box Shadow
+ *
+ * Based on tachyons implementation
+ * https://github.com/tachyons-css/tachyons/blob/master/src/_box-shadow.css
+ */
+
+@each $key in var(--breakpoints) {
+  @media (--$key) {
+    .$(key)-bx1 {
+      box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .$(key)-bx2 {
+      box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .$(key)-bx3 {
+      box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .$(key)-bx4 {
+      box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .$(key)-bx5 {
+      box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+  }
+}

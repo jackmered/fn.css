@@ -1607,6 +1607,26 @@
   visibility: collapse;
 }
 
+.bx1 {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bx2 {
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bx3 {
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bx4 {
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bx5 {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 @media (min-width: 576px) {
   .sm-df {
     display: flex;
@@ -3186,6 +3206,26 @@
 
   .sm-vc {
     visibility: collapse;
+  }
+
+  .sm-bx1 {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-bx2 {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-bx3 {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-bx4 {
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .sm-bx5 {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -4769,6 +4809,26 @@
   .md-vc {
     visibility: collapse;
   }
+
+  .md-bx1 {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .md-bx2 {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .md-bx3 {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .md-bx4 {
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .md-bx5 {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 }
 
 @media (min-width: 992px) {
@@ -6351,6 +6411,26 @@
   .lg-vc {
     visibility: collapse;
   }
+
+  .lg-bx1 {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-bx2 {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-bx3 {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-bx4 {
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .lg-bx5 {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 }
 
 @media (min-width: 1200px) {
@@ -7932,6 +8012,26 @@
 
   .xl-vc {
     visibility: collapse;
+  }
+
+  .xl-bx1 {
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .xl-bx2 {
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .xl-bx3 {
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .xl-bx4 {
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .xl-bx5 {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
