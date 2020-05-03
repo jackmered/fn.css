@@ -19,4 +19,4 @@
 - [x] Replace key var with something more appropriate
 - [x] Reduce file size, under 100kb minified ideally
 - [x] Refactor colours
-- [ ] Namespace all css variables
+- [x] Namespace all css variables
