@@ -6,43 +6,37 @@
 
 /* stylelint-disable */
 :root {
-  --colors: (white, black, red, dark-red, dark-blue, green, dark-green, yellow, dark-yellow, purple, dark-purple, grey, dark-grey, light, dark-light,dark, dark-dark);
+  --colors: (primary, secondary, success, danger, warning, info, light, dark, white);
 }
 /* stylelint-enable */
 
-@each $key in var(--breakpoints) {
-  @each $color in var(--colors) {
-    @media (--$key) {
-      .cl-$(color) {
-        color: var(--$color);
-      }
+@each $color in var(--colors) {
+  @media (--$key) {
+    .cl-$(color) {
+      color: var(--$color);
+    }
 
-      .cl-$(color) {
-        color: var(--$color);
-      }
+    .bg-$(color) {
+      background-color: var(--$color);
+    }
 
-      .bg-$(color) {
-        background-color: var(--$color);
-      }
+    .bd-$(color) {
+      border-color: var(--$color);
+    }
 
-      .bd-$(color) {
-        border-color: var(--$color);
-      }
+    .clh-$(color):hover,
+    .clh-$(color):focus {
+      color: var(--$color);
+    }
 
-      .clh-$(color):hover,
-      .clh-$(color):focus {
-        color: var(--$color);
-      }
+    .bgh-$(color):hover,
+    .bgh-$(color):focus {
+      background-color: var(--$color);
+    }
 
-      .bgh-$(color):hover,
-      .bgh-$(color):focus {
-        background-color: var(--$color);
-      }
-
-      .bdh-$(color):hover,
-      .bdh-$(color):focus {
-        border-color: var(--$color);
-      }
+    .bdh-$(color):hover,
+    .bdh-$(color):focus {
+      border-color: var(--$color);
     }
   }
 }

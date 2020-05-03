@@ -17,3 +17,5 @@
 - [x] Remove yarn.lock
 - [ ] Break down larger files into smaller chunks
 - [ ] Replace key var with something more appropriate
+- [x] Reduce file size, under 100kb minified ideally
+- [x] Refactor colours
