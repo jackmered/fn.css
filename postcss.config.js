@@ -17,6 +17,7 @@ module.exports = {
     }),
     require('css-mqpacker'),
     require('postcss-discard-comments'),
+    require('postcss-combine-duplicated-selectors'),
     require('perfectionist')({
       cascade: false,
       indentSize: 2,
