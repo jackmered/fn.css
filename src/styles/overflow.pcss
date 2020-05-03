@@ -2,33 +2,33 @@
  * Opacity
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-oh {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-oh {
       overflow: hidden;
     }
 
-    .$(key)-os {
+    .$(bp)-os {
       overflow: scroll;
     }
 
-    .$(key)-oxh {
+    .$(bp)-oxh {
       overflow-x: hidden;
     }
 
-    .$(key)-oxs {
+    .$(bp)-oxs {
       overflow-x: scroll;
     }
 
-    .$(key)-oyh {
+    .$(bp)-oyh {
       overflow-y: hidden;
     }
 
-    .$(key)-oys {
+    .$(bp)-oys {
       overflow-y: scroll;
     }
 
-    .$(key)-oa {
+    .$(bp)-oa {
       overflow: auto;
     }
   }

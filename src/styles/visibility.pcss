@@ -2,17 +2,17 @@
  * Visibility
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-vh {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-vh {
       visibility: hidden;
     }
 
-    .$(key)-vv {
+    .$(bp)-vv {
       visibility: visible;
     }
 
-    .$(key)-vc {
+    .$(bp)-vc {
       visibility: collapse;
     }
   }

@@ -1607,23 +1607,23 @@
   visibility: collapse;
 }
 
-.bx1 {
+.bs1 {
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
 }
 
-.bx2 {
+.bs2 {
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
 }
 
-.bx3 {
+.bs3 {
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
-.bx4 {
+.bs4 {
   box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.bx5 {
+.bs5 {
   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -3208,23 +3208,23 @@
     visibility: collapse;
   }
 
-  .sm-bx1 {
+  .sm-bs1 {
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .sm-bx2 {
+  .sm-bs2 {
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .sm-bx3 {
+  .sm-bs3 {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .sm-bx4 {
+  .sm-bs4 {
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .sm-bx5 {
+  .sm-bs5 {
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
@@ -4810,23 +4810,23 @@
     visibility: collapse;
   }
 
-  .md-bx1 {
+  .md-bs1 {
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .md-bx2 {
+  .md-bs2 {
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .md-bx3 {
+  .md-bs3 {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .md-bx4 {
+  .md-bs4 {
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .md-bx5 {
+  .md-bs5 {
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
@@ -6412,23 +6412,23 @@
     visibility: collapse;
   }
 
-  .lg-bx1 {
+  .lg-bs1 {
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .lg-bx2 {
+  .lg-bs2 {
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .lg-bx3 {
+  .lg-bs3 {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .lg-bx4 {
+  .lg-bs4 {
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .lg-bx5 {
+  .lg-bs5 {
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
@@ -8014,28 +8014,28 @@
     visibility: collapse;
   }
 
-  .xl-bx1 {
+  .xl-bs1 {
     box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .xl-bx2 {
+  .xl-bs2 {
     box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .xl-bx3 {
+  .xl-bs3 {
     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
   }
 
-  .xl-bx4 {
+  .xl-bs4 {
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
-  .xl-bx5 {
+  .xl-bs5 {
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 }
 
-@media (--$key) {
+@media (--$bp) {
   .cl-primary {
     color: #1d70b8;
     color: var(--primary);

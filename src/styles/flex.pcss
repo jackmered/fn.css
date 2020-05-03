@@ -2,121 +2,121 @@
  * Flex
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-x {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-x {
       display: flex;
     }
 
-    .$(key)-xac {
+    .$(bp)-xac {
       align-items: center;
     }
 
-    .$(key)-xab {
+    .$(bp)-xab {
       align-items: baseline;
     }
 
-    .$(key)-xas {
+    .$(bp)-xas {
       align-items: stretch;
     }
 
-    .$(key)-xafs {
+    .$(bp)-xafs {
       align-items: flex-start;
     }
 
-    .$(key)-xafe {
+    .$(bp)-xafe {
       align-items: flex-end;
     }
 
-    .$(key)-xdr {
+    .$(bp)-xdr {
       flex-direction: row;
     }
 
-    .$(key)-xdrr {
+    .$(bp)-xdrr {
       flex-direction: row-reverse;
     }
 
-    .$(key)-xdc {
+    .$(bp)-xdc {
       flex-direction: column;
     }
 
-    .$(key)-xdcr {
+    .$(bp)-xdcr {
       flex-direction: column-reverse;
     }
 
-    .$(key)-xjc {
+    .$(bp)-xjc {
       justify-content: center;
     }
 
-    .$(key)-xjb {
+    .$(bp)-xjb {
       justify-content: space-between;
     }
 
-    .$(key)-xja {
+    .$(bp)-xja {
       justify-content: space-around;
     }
 
-    .$(key)-xjs {
+    .$(bp)-xjs {
       justify-content: flex-start;
     }
 
-    .$(key)-xje {
+    .$(bp)-xje {
       justify-content: flex-end;
     }
 
-    .$(key)-xw {
+    .$(bp)-xw {
       flex-wrap: wrap;
     }
 
-    .$(key)-xwr {
+    .$(bp)-xwr {
       flex-wrap: wrap-reverse;
     }
 
-    .$(key)-xwn {
+    .$(bp)-xwn {
       flex-wrap: nowrap;
     }
 
-    .$(key)-xi {
+    .$(bp)-xi {
       flex: initial;
     }
 
-    .$(key)-xx {
+    .$(bp)-xx {
       flex: 1;
     }
 
-    .$(key)-xa {
+    .$(bp)-xa {
       flex: auto;
     }
 
-    .$(key)-xn {
+    .$(bp)-xn {
       flex: none;
     }
 
-    .$(key)-xo0 {
+    .$(bp)-xo0 {
       order: 0;
     }
 
-    .$(key)-xo1 {
+    .$(bp)-xo1 {
       order: 1;
     }
 
-    .$(key)-xo2 {
+    .$(bp)-xo2 {
       order: 2;
     }
 
-    .$(key)-xo3 {
+    .$(bp)-xo3 {
       order: 3;
     }
 
-    .$(key)-xo4 {
+    .$(bp)-xo4 {
       order: 4;
     }
 
-    .$(key)-xot {
+    .$(bp)-xot {
       order: -1;
     }
 
-    .$(key)-xob {
+    .$(bp)-xob {
       order: 99;
     }
   }

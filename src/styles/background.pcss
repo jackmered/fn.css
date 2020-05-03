@@ -2,45 +2,45 @@
  * Background
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-bgsc {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-bgsc {
       background-size: cover;
     }
 
-    .$(key)-bgsct {
+    .$(bp)-bgsct {
       background-size: contain;
     }
 
-    .$(key)-bgpc {
+    .$(bp)-bgpc {
       background-position: center;
     }
 
-    .$(key)-bgpt {
+    .$(bp)-bgpt {
       background-position: top;
     }
 
-    .$(key)-bgpr {
+    .$(bp)-bgpr {
       background-position: right;
     }
 
-    .$(key)-bgpb {
+    .$(bp)-bgpb {
       background-position: bottom;
     }
 
-    .$(key)-bgpl {
+    .$(bp)-bgpl {
       background-position: left;
     }
 
-    .$(key)-bgrn {
+    .$(bp)-bgrn {
       background-repeat: no-repeat;
     }
 
-    .$(key)-bgrx {
+    .$(bp)-bgrx {
       background-repeat: repeat-x;
     }
 
-    .$(key)-bgry {
+    .$(bp)-bgry {
       background-repeat: repeat-y;
     }
   }

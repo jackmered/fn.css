@@ -2,73 +2,73 @@
  * Positioning
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-psa {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-psa {
       position: absolute;
     }
 
-    .$(key)-psr {
+    .$(bp)-psr {
       position: relative;
     }
 
-    .$(key)-psf {
+    .$(bp)-psf {
       position: fixed;
     }
 
-    .$(key)-pss {
+    .$(bp)-pss {
       position: static;
     }
 
-    .$(key)-t0 {
+    .$(bp)-t0 {
       top: 0;
     }
 
-    .$(key)-r0 {
+    .$(bp)-r0 {
       right: 0;
     }
 
-    .$(key)-b0 {
+    .$(bp)-b0 {
       bottom: 0;
     }
 
-    .$(key)-l0 {
+    .$(bp)-l0 {
       left: 0;
     }
 
-    .$(key)-ta {
+    .$(bp)-ta {
       top: auto;
     }
 
-    .$(key)-ra {
+    .$(bp)-ra {
       right: auto;
     }
 
-    .$(key)-ba {
+    .$(bp)-ba {
       bottom: auto;
     }
 
-    .$(key)-la {
+    .$(bp)-la {
       bottom: auto;
     }
 
-    .$(key)-z0 {
+    .$(bp)-z0 {
       z-index: 0;
     }
 
-    .$(key)-z1 {
+    .$(bp)-z1 {
       z-index: 1;
     }
 
-    .$(key)-z2 {
+    .$(bp)-z2 {
       z-index: 2;
     }
 
-    .$(key)-z3 {
+    .$(bp)-z3 {
       z-index: 3;
     }
 
-    .$(key)-z4 {
+    .$(bp)-z4 {
       z-index: 4;
     }
   }

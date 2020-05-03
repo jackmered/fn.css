@@ -2,21 +2,21 @@
  * Float
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-fl {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-fl {
       float: left;
     }
 
-    .$(key)-fr {
+    .$(bp)-fr {
       float: right;
     }
 
-    .$(key)-fn {
+    .$(bp)-fn {
       float: none;
     }
 
-    .$(key)-cf::after {
+    .$(bp)-cf::after {
       content: '';
       display: block;
       clear: both;

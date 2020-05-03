@@ -2,25 +2,25 @@
  * Opacity
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-op0 {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-op0 {
       opacity: 0;
     }
 
-    .$(key)-op25 {
+    .$(bp)-op25 {
       opacity: 0.25;
     }
 
-    .$(key)-op50 {
+    .$(bp)-op50 {
       opacity: 0.5;
     }
 
-    .$(key)-op75 {
+    .$(bp)-op75 {
       opacity: 0.75;
     }
 
-    .$(key)-op100 {
+    .$(bp)-op100 {
       opacity: 1;
     }
   }

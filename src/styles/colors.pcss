@@ -11,7 +11,7 @@
 /* stylelint-enable */
 
 @each $color in var(--colors) {
-  @media (--$key) {
+  @media (--$bp) {
     .cl-$(color) {
       color: var(--$color);
     }

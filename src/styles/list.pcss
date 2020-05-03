@@ -2,57 +2,57 @@
  * List
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-lspo {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-lspo {
       list-style-position: outside;
     }
 
-    .$(key)-lspi {
+    .$(bp)-lspi {
       list-style-position: inside;
     }
 
-    .$(key)-lstc {
+    .$(bp)-lstc {
       list-style-type: circle;
     }
 
-    .$(key)-lstd {
+    .$(bp)-lstd {
       list-style-type: disc;
     }
 
-    .$(key)-lsts {
+    .$(bp)-lsts {
       list-style-type: square;
     }
 
-    .$(key)-lstdi {
+    .$(bp)-lstdi {
       list-style-type: decimal;
     }
 
-    .$(key)-lstdlz {
+    .$(bp)-lstdlz {
       list-style-type: decimal-leading-zero;
     }
 
-    .$(key)-lstla {
+    .$(bp)-lstla {
       list-style-type: lower-alpha;
     }
 
-    .$(key)-lstua {
+    .$(bp)-lstua {
       list-style-type: upper-alpha;
     }
 
-    .$(key)-lstlr {
+    .$(bp)-lstlr {
       list-style-type: lower-roman;
     }
 
-    .$(key)-lstur {
+    .$(bp)-lstur {
       list-style-type: upper-roman;
     }
 
-    .$(key)-lstn {
+    .$(bp)-lstn {
       list-style-type: none;
     }
 
-    .$(key)-lsti {
+    .$(bp)-lsti {
       list-style-type: inherit;
     }
   }

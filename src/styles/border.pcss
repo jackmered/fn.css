@@ -2,82 +2,82 @@
  * Border
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-bd {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-bd {
       border-style: solid;
       border-width: 1px;
     }
 
-    .$(key)-bdt {
+    .$(bp)-bdt {
       border-top-style: solid;
       border-top-width: 1px;
     }
 
-    .$(key)-bdr {
+    .$(bp)-bdr {
       border-right-style: solid;
       border-right-width: 1px;
     }
 
-    .$(key)-bdb {
+    .$(bp)-bdb {
       border-bottom-style: solid;
       border-bottom-width: 1px;
     }
 
-    .$(key)-bdl {
+    .$(bp)-bdl {
       border-left-style: solid;
       border-left-width: 1px;
     }
 
-    .$(key)-bdw0 {
+    .$(bp)-bdw0 {
       border-width: 0;
     }
 
-    .$(key)-bdw0-25 {
+    .$(bp)-bdw0-25 {
       border-width: 0.0625rem;
     }
 
-    .$(key)-bdw0-5 {
+    .$(bp)-bdw0-5 {
       border-width: 0.125rem;
     }
 
-    .$(key)-bdw1 {
+    .$(bp)-bdw1 {
       border-width: 0.25rem;
     }
 
-    .$(key)-bdw2 {
+    .$(bp)-bdw2 {
       border-width: 0.5rem;
     }
 
-    .$(key)-bdw3 {
+    .$(bp)-bdw3 {
       border-width: 0.75rem;
     }
 
-    .$(key)-bdw4 {
+    .$(bp)-bdw4 {
       border-width: 1rem;
     }
 
-    .$(key)-bdrd0-125 {
+    .$(bp)-bdrd0-125 {
       border-radius: 0.125rem;
     }
 
-    .$(key)-bdrd0-25 {
+    .$(bp)-bdrd0-25 {
       border-radius: 0.25rem;
     }
 
-    .$(key)-bdrd0-5 {
+    .$(bp)-bdrd0-5 {
       border-radius: 0.5rem;
     }
 
-    .$(key)-bdrd0-75 {
+    .$(bp)-bdrd0-75 {
       border-radius: 0.75rem;
     }
 
-    .$(key)-bdrd1 {
+    .$(bp)-bdrd1 {
       border-radius: 1rem;
     }
 
-    .$(key)-bdrd100 {
+    .$(bp)-bdrd100 {
       border-radius: 100%;
     }
   }

@@ -2,45 +2,45 @@
  * Cursor
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-curp {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-curp {
       cursor: pointer;
     }
 
-    .$(key)-curd {
+    .$(bp)-curd {
       cursor: default;
     }
 
-    .$(key)-cura {
+    .$(bp)-cura {
       cursor: alias;
     }
 
-    .$(key)-curzi {
+    .$(bp)-curzi {
       cursor: zoom-in;
     }
 
-    .$(key)-curzo {
+    .$(bp)-curzo {
       cursor: zoom-out;
     }
 
-    .$(key)-usn {
+    .$(bp)-usn {
       user-select: none;
     }
 
-    .$(key)-usa {
+    .$(bp)-usa {
       user-select: auto;
     }
 
-    .$(key)-ust {
+    .$(bp)-ust {
       user-select: text;
     }
 
-    .$(key)-pen {
+    .$(bp)-pen {
       pointer-events: none;
     }
 
-    .$(key)-pea {
+    .$(bp)-pea {
       pointer-events: auto;
     }
   }

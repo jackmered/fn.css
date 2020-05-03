@@ -5,25 +5,25 @@
  * https://github.com/tachyons-css/tachyons/blob/master/src/_box-shadow.css
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-bx1 {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-bs1 {
       box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
     }
 
-    .$(key)-bx2 {
+    .$(bp)-bs2 {
       box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
     }
 
-    .$(key)-bx3 {
+    .$(bp)-bs3 {
       box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
     }
 
-    .$(key)-bx4 {
+    .$(bp)-bs4 {
       box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
     }
 
-    .$(key)-bx5 {
+    .$(bp)-bs5 {
       box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
     }
   }

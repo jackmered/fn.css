@@ -2,37 +2,37 @@
  * Display
  */
 
-@each $key in var(--breakpoints) {
-  @media (--$key) {
-    .$(key)-df {
+@each $bp in var(--breakpoints) {
+  @media (--$bp) {
+    .$(bp)-df {
       display: flex;
     }
 
-    .$(key)-db {
+    .$(bp)-db {
       display: block;
     }
 
-    .$(key)-dib {
+    .$(bp)-dib {
       display: inline-block;
     }
 
-    .$(key)-di {
+    .$(bp)-di {
       display: inline;
     }
 
-    .$(key)-dt {
+    .$(bp)-dt {
       display: table;
     }
 
-    .$(key)-dtc {
+    .$(bp)-dtc {
       display: table-cell;
     }
 
-    .$(key)-dtr {
+    .$(bp)-dtr {
       display: table-row;
     }
 
-    .$(key)-dn {
+    .$(bp)-dn {
       display: none;
     }
   }
