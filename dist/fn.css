@@ -8,6 +8,7 @@
   --fn-spacer1-5x: calc(var(--fn-spacer) * 1.5);
   --fn-spacer2x: calc(var(--fn-spacer) * 2);
   --fn-spacer3x: calc(var(--fn-spacer) * 3);
+  --fn-font-size: 1rem;
   --fn-white: #fff;
   --fn-black: #000;
   --fn-red: #d4351c;
@@ -1424,39 +1425,48 @@
 }
 
 .fs0-75 {
-  font-size: 0.75rem;
+  font-size: calc(1rem * 0.75);
+  font-size: calc(var(--fn-font-size) * 0.75);
 }
 
 .fs0-875 {
-  font-size: 0.875rem;
+  font-size: calc(1rem * 0.875);
+  font-size: calc(var(--fn-font-size) * 0.875);
 }
 
 .fs1 {
   font-size: 1rem;
+  font-size: var(--fn-font-size);
 }
 
 .fs1-25 {
-  font-size: 1.25rem;
+  font-size: calc(1rem * 1.25);
+  font-size: calc(var(--fn-font-size) * 1.25);
 }
 
 .fs1-5 {
-  font-size: 1.5rem;
+  font-size: calc(1rem * 1.5);
+  font-size: calc(var(--fn-font-size) * 1.5);
 }
 
 .fs1-75 {
-  font-size: 1.75rem;
+  font-size: calc(1rem * 1.75);
+  font-size: calc(var(--fn-font-size) * 1.75);
 }
 
 .fs2 {
-  font-size: 2rem;
+  font-size: calc(1rem * 2);
+  font-size: calc(var(--fn-font-size) * 2);
 }
 
 .fs2-5 {
-  font-size: 2.5rem;
+  font-size: calc(1rem * 2.5);
+  font-size: calc(var(--fn-font-size) * 2.5);
 }
 
 .fs3 {
-  font-size: 3rem;
+  font-size: calc(1rem * 3);
+  font-size: calc(var(--fn-font-size) * 3);
 }
 
 .lh1 {
@@ -3430,39 +3440,48 @@
   }
 
   .sm-fs0-75 {
-    font-size: 0.75rem;
+    font-size: calc(1rem * 0.75);
+    font-size: calc(var(--fn-font-size) * 0.75);
   }
 
   .sm-fs0-875 {
-    font-size: 0.875rem;
+    font-size: calc(1rem * 0.875);
+    font-size: calc(var(--fn-font-size) * 0.875);
   }
 
   .sm-fs1 {
     font-size: 1rem;
+    font-size: var(--fn-font-size);
   }
 
   .sm-fs1-25 {
-    font-size: 1.25rem;
+    font-size: calc(1rem * 1.25);
+    font-size: calc(var(--fn-font-size) * 1.25);
   }
 
   .sm-fs1-5 {
-    font-size: 1.5rem;
+    font-size: calc(1rem * 1.5);
+    font-size: calc(var(--fn-font-size) * 1.5);
   }
 
   .sm-fs1-75 {
-    font-size: 1.75rem;
+    font-size: calc(1rem * 1.75);
+    font-size: calc(var(--fn-font-size) * 1.75);
   }
 
   .sm-fs2 {
-    font-size: 2rem;
+    font-size: calc(1rem * 2);
+    font-size: calc(var(--fn-font-size) * 2);
   }
 
   .sm-fs2-5 {
-    font-size: 2.5rem;
+    font-size: calc(1rem * 2.5);
+    font-size: calc(var(--fn-font-size) * 2.5);
   }
 
   .sm-fs3 {
-    font-size: 3rem;
+    font-size: calc(1rem * 3);
+    font-size: calc(var(--fn-font-size) * 3);
   }
 
   .sm-lh1 {
@@ -5032,39 +5051,48 @@
   }
 
   .md-fs0-75 {
-    font-size: 0.75rem;
+    font-size: calc(1rem * 0.75);
+    font-size: calc(var(--fn-font-size) * 0.75);
   }
 
   .md-fs0-875 {
-    font-size: 0.875rem;
+    font-size: calc(1rem * 0.875);
+    font-size: calc(var(--fn-font-size) * 0.875);
   }
 
   .md-fs1 {
     font-size: 1rem;
+    font-size: var(--fn-font-size);
   }
 
   .md-fs1-25 {
-    font-size: 1.25rem;
+    font-size: calc(1rem * 1.25);
+    font-size: calc(var(--fn-font-size) * 1.25);
   }
 
   .md-fs1-5 {
-    font-size: 1.5rem;
+    font-size: calc(1rem * 1.5);
+    font-size: calc(var(--fn-font-size) * 1.5);
   }
 
   .md-fs1-75 {
-    font-size: 1.75rem;
+    font-size: calc(1rem * 1.75);
+    font-size: calc(var(--fn-font-size) * 1.75);
   }
 
   .md-fs2 {
-    font-size: 2rem;
+    font-size: calc(1rem * 2);
+    font-size: calc(var(--fn-font-size) * 2);
   }
 
   .md-fs2-5 {
-    font-size: 2.5rem;
+    font-size: calc(1rem * 2.5);
+    font-size: calc(var(--fn-font-size) * 2.5);
   }
 
   .md-fs3 {
-    font-size: 3rem;
+    font-size: calc(1rem * 3);
+    font-size: calc(var(--fn-font-size) * 3);
   }
 
   .md-lh1 {
@@ -6634,39 +6662,48 @@
   }
 
   .lg-fs0-75 {
-    font-size: 0.75rem;
+    font-size: calc(1rem * 0.75);
+    font-size: calc(var(--fn-font-size) * 0.75);
   }
 
   .lg-fs0-875 {
-    font-size: 0.875rem;
+    font-size: calc(1rem * 0.875);
+    font-size: calc(var(--fn-font-size) * 0.875);
   }
 
   .lg-fs1 {
     font-size: 1rem;
+    font-size: var(--fn-font-size);
   }
 
   .lg-fs1-25 {
-    font-size: 1.25rem;
+    font-size: calc(1rem * 1.25);
+    font-size: calc(var(--fn-font-size) * 1.25);
   }
 
   .lg-fs1-5 {
-    font-size: 1.5rem;
+    font-size: calc(1rem * 1.5);
+    font-size: calc(var(--fn-font-size) * 1.5);
   }
 
   .lg-fs1-75 {
-    font-size: 1.75rem;
+    font-size: calc(1rem * 1.75);
+    font-size: calc(var(--fn-font-size) * 1.75);
   }
 
   .lg-fs2 {
-    font-size: 2rem;
+    font-size: calc(1rem * 2);
+    font-size: calc(var(--fn-font-size) * 2);
   }
 
   .lg-fs2-5 {
-    font-size: 2.5rem;
+    font-size: calc(1rem * 2.5);
+    font-size: calc(var(--fn-font-size) * 2.5);
   }
 
   .lg-fs3 {
-    font-size: 3rem;
+    font-size: calc(1rem * 3);
+    font-size: calc(var(--fn-font-size) * 3);
   }
 
   .lg-lh1 {
@@ -8236,39 +8273,48 @@
   }
 
   .xl-fs0-75 {
-    font-size: 0.75rem;
+    font-size: calc(1rem * 0.75);
+    font-size: calc(var(--fn-font-size) * 0.75);
   }
 
   .xl-fs0-875 {
-    font-size: 0.875rem;
+    font-size: calc(1rem * 0.875);
+    font-size: calc(var(--fn-font-size) * 0.875);
   }
 
   .xl-fs1 {
     font-size: 1rem;
+    font-size: var(--fn-font-size);
   }
 
   .xl-fs1-25 {
-    font-size: 1.25rem;
+    font-size: calc(1rem * 1.25);
+    font-size: calc(var(--fn-font-size) * 1.25);
   }
 
   .xl-fs1-5 {
-    font-size: 1.5rem;
+    font-size: calc(1rem * 1.5);
+    font-size: calc(var(--fn-font-size) * 1.5);
   }
 
   .xl-fs1-75 {
-    font-size: 1.75rem;
+    font-size: calc(1rem * 1.75);
+    font-size: calc(var(--fn-font-size) * 1.75);
   }
 
   .xl-fs2 {
-    font-size: 2rem;
+    font-size: calc(1rem * 2);
+    font-size: calc(var(--fn-font-size) * 2);
   }
 
   .xl-fs2-5 {
-    font-size: 2.5rem;
+    font-size: calc(1rem * 2.5);
+    font-size: calc(var(--fn-font-size) * 2.5);
   }
 
   .xl-fs3 {
-    font-size: 3rem;
+    font-size: calc(1rem * 3);
+    font-size: calc(var(--fn-font-size) * 3);
   }
 
   .xl-lh1 {

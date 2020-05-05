@@ -5,39 +5,39 @@
 @each $bp in var(--fn-breakpoints) {
   @media (--$bp) {
     .$(bp)-fs0-75 {
-      font-size: 0.75rem;
+      font-size: calc(var(--fn-font-size) * 0.75);
     }
 
     .$(bp)-fs0-875 {
-      font-size: 0.875rem;
+      font-size: calc(var(--fn-font-size) * 0.875);
     }
 
     .$(bp)-fs1 {
-      font-size: 1rem;
+      font-size: var(--fn-font-size);
     }
 
     .$(bp)-fs1-25 {
-      font-size: 1.25rem;
+      font-size: calc(var(--fn-font-size) * 1.25);
     }
 
     .$(bp)-fs1-5 {
-      font-size: 1.5rem;
+      font-size: calc(var(--fn-font-size) * 1.5);
     }
 
     .$(bp)-fs1-75 {
-      font-size: 1.75rem;
+      font-size: calc(var(--fn-font-size) * 1.75);
     }
 
     .$(bp)-fs2 {
-      font-size: 2rem;
+      font-size: calc(var(--fn-font-size) * 2);
     }
 
     .$(bp)-fs2-5 {
-      font-size: 2.5rem;
+      font-size: calc(var(--fn-font-size) * 2.5);
     }
 
     .$(bp)-fs3 {
-      font-size: 3rem;
+      font-size: calc(var(--fn-font-size) * 3);
     }
 
     .$(bp)-lh1 {
