@@ -1,0 +1,25 @@
+/**
+ * Float
+ */
+
+@each $bp in var(--fn-breakpoints) {
+  @media (--$bp) {
+    .$(bp)-fl {
+      float: left;
+    }
+
+    .$(bp)-fr {
+      float: right;
+    }
+
+    .$(bp)-fn {
+      float: none;
+    }
+
+    .$(bp)-cf::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}

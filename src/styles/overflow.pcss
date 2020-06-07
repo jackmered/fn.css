@@ -1,0 +1,35 @@
+/**
+ * Opacity
+ */
+
+@each $bp in var(--fn-breakpoints) {
+  @media (--$bp) {
+    .$(bp)-oh {
+      overflow: hidden;
+    }
+
+    .$(bp)-os {
+      overflow: scroll;
+    }
+
+    .$(bp)-oxh {
+      overflow-x: hidden;
+    }
+
+    .$(bp)-oxs {
+      overflow-x: scroll;
+    }
+
+    .$(bp)-oyh {
+      overflow-y: hidden;
+    }
+
+    .$(bp)-oys {
+      overflow-y: scroll;
+    }
+
+    .$(bp)-oa {
+      overflow: auto;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/**
+ * Colours
+ *
+ * Loop breaks when colors var is multi-line, leave as single line
+ */
+
+/* stylelint-disable */
+:root {
+  --fn-colors: (primary, secondary, success, danger, warning, info, light, dark, white);
+}
+/* stylelint-enable */
+
+@each $color in var(--fn-colors) {
+  .cl-$(color) {
+    color: var(--fn-$color);
+  }
+
+  .bg-$(color) {
+    background-color: var(--fn-$color);
+  }
+
+  .bd-$(color) {
+    border-color: var(--fn-$color);
+  }
+
+  .clh-$(color):hover,
+  .clh-$(color):focus {
+    color: var(--fn-$color);
+  }
+
+  .bgh-$(color):hover,
+  .bgh-$(color):focus {
+    background-color: var(--fn-$color);
+  }
+
+  .bdh-$(color):hover,
+  .bdh-$(color):focus {
+    border-color: var(--fn-$color);
+  }
+}

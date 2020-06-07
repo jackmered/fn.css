@@ -1,0 +1,84 @@
+/**
+ * Border
+ */
+
+@each $bp in var(--fn-breakpoints) {
+  @media (--$bp) {
+    .$(bp)-bd {
+      border-style: solid;
+      border-width: 1px;
+    }
+
+    .$(bp)-bdt {
+      border-top-style: solid;
+      border-top-width: 1px;
+    }
+
+    .$(bp)-bdr {
+      border-right-style: solid;
+      border-right-width: 1px;
+    }
+
+    .$(bp)-bdb {
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+    }
+
+    .$(bp)-bdl {
+      border-left-style: solid;
+      border-left-width: 1px;
+    }
+
+    .$(bp)-bdw0 {
+      border-width: 0;
+    }
+
+    .$(bp)-bdw0-25 {
+      border-width: 0.0625rem;
+    }
+
+    .$(bp)-bdw0-5 {
+      border-width: 0.125rem;
+    }
+
+    .$(bp)-bdw1 {
+      border-width: 0.25rem;
+    }
+
+    .$(bp)-bdw2 {
+      border-width: 0.5rem;
+    }
+
+    .$(bp)-bdw3 {
+      border-width: 0.75rem;
+    }
+
+    .$(bp)-bdw4 {
+      border-width: 1rem;
+    }
+
+    .$(bp)-bdrd0-125 {
+      border-radius: 0.125rem;
+    }
+
+    .$(bp)-bdrd0-25 {
+      border-radius: 0.25rem;
+    }
+
+    .$(bp)-bdrd0-5 {
+      border-radius: 0.5rem;
+    }
+
+    .$(bp)-bdrd0-75 {
+      border-radius: 0.75rem;
+    }
+
+    .$(bp)-bdrd1 {
+      border-radius: 1rem;
+    }
+
+    .$(bp)-bdrd100 {
+      border-radius: 100%;
+    }
+  }
+}

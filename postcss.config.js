@@ -1,14 +1,23 @@
 module.exports = {
   plugins: [
     require('postcss-import'),
-    require('postcss-mixins'),
-    require('postcss-simple-vars'),
-    require('postcss-nested'),
-    require('postcss-custom-properties'),
-    require('postcss-calc'),
+    require('postcss-at-rules-variables'),
+    require('postcss-each'),
+    require('postcss-conditionals'),
+    require('postcss-css-variables')({ preserve: true }),
     require('postcss-custom-media'),
+    require('postcss-nested'),
+    require('postcss-remove-media-query-ranges')({
+      min: 0,
+      removeMin: true,
+    }),
+    require('postcss-selector-replace')({
+      before: ['.xs-'],
+      after: ['.'],
+    }),
     require('css-mqpacker'),
-    require('autoprefixer')(['> 5%', 'Last 8 versions', 'IE 9']),
+    require('postcss-discard-comments'),
+    require('postcss-combine-duplicated-selectors'),
     require('perfectionist')({
       cascade: false,
       indentSize: 2,
@@ -16,4 +25,4 @@ module.exports = {
       maxSelectorLength: 1,
     }),
   ],
-}
+};
