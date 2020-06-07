@@ -1,5 +1,0 @@
-@import 'xs-display';
-@import 'sm-display' (--sm);
-@import 'md-display' (--md);
-@import 'lg-display' (--lg);
-@import 'xl-display' (--xl);

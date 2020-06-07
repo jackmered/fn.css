@@ -1,0 +1,27 @@
+/**
+ * Opacity
+ */
+
+@each $bp in var(--fn-breakpoints) {
+  @media (--$bp) {
+    .$(bp)-op0 {
+      opacity: 0;
+    }
+
+    .$(bp)-op25 {
+      opacity: 0.25;
+    }
+
+    .$(bp)-op50 {
+      opacity: 0.5;
+    }
+
+    .$(bp)-op75 {
+      opacity: 0.75;
+    }
+
+    .$(bp)-op100 {
+      opacity: 1;
+    }
+  }
+}
