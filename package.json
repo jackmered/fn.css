@@ -27,11 +27,12 @@
     "stylelint-config-prettier": "^8.0.1"
   },
   "scripts": {
-    "start": "npm-run-all lint clean build minify",
+    "start": "npm-run-all lint clean build tidy minify",
     "build": "postcss src/fn.pcss -o dist/fn.css",
     "clean": "rimraf dist",
     "lint": "stylelint src/styles/*.pcss",
-    "minify": "csso dist/fn.css -o dist/fn.min.css -s file"
+    "minify": "csso dist/fn.css -o dist/fn.min.css -s file",
+    "tidy": "node ./src/tidy.js"
   },
   "dependencies": {}
 }

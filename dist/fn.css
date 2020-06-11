@@ -1,7 +1,6 @@
 /*! fn.css v3.0.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
-  --fn-breakpoints: (xs, sm, md, lg, xl);
   --fn-spacer: 1rem;
   --fn-spacer0-25x: calc(var(--fn-spacer) * 0.25);
   --fn-spacer0-5x: calc(var(--fn-spacer) * 0.5);
@@ -25,7 +24,6 @@
   --fn-warning: var(--fn-yellow);
   --fn-info: var(--fn-light-blue);
   --fn-dark: var(--fn-black);
-  --fn-colors: (primary, secondary, success, danger, warning, info, light, dark, white);
 }
 
 .bgsc {
