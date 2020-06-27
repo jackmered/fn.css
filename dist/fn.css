@@ -1,4 +1,4 @@
-/*! fn.css v3.0.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css v3.0.1 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --fn-spacer: 1rem;
@@ -1441,20 +1441,20 @@
   overflow: hidden;
 }
 
-.os {
-  overflow: scroll;
-}
-
 .oxh {
   overflow-x: hidden;
 }
 
-.oxs {
-  overflow-x: scroll;
-}
-
 .oyh {
   overflow-y: hidden;
+}
+
+.os {
+  overflow: scroll;
+}
+
+.oxs {
+  overflow-x: scroll;
 }
 
 .oys {
@@ -1463,6 +1463,14 @@
 
 .oa {
   overflow: auto;
+}
+
+.oxa {
+  overflow-x: auto;
+}
+
+.oya {
+  overflow-y: auto;
 }
 
 .p0 {
@@ -1829,6 +1837,10 @@
   width: auto;
 }
 
+.wi {
+  width: inherit;
+}
+
 .h0 {
   height: 0;
 }
@@ -1839,6 +1851,10 @@
 
 .ha {
   height: auto;
+}
+
+.hi {
+  height: inherit;
 }
 
 .vw100 {
@@ -3069,20 +3085,20 @@
     overflow: hidden;
   }
 
-  .sm-os {
-    overflow: scroll;
-  }
-
   .sm-oxh {
     overflow-x: hidden;
   }
 
-  .sm-oxs {
-    overflow-x: scroll;
-  }
-
   .sm-oyh {
     overflow-y: hidden;
+  }
+
+  .sm-os {
+    overflow: scroll;
+  }
+
+  .sm-oxs {
+    overflow-x: scroll;
   }
 
   .sm-oys {
@@ -3091,6 +3107,14 @@
 
   .sm-oa {
     overflow: auto;
+  }
+
+  .sm-oxa {
+    overflow-x: auto;
+  }
+
+  .sm-oya {
+    overflow-y: auto;
   }
 
   .sm-p0 {
@@ -3457,6 +3481,10 @@
     width: auto;
   }
 
+  .sm-wi {
+    width: inherit;
+  }
+
   .sm-h0 {
     height: 0;
   }
@@ -3467,6 +3495,10 @@
 
   .sm-ha {
     height: auto;
+  }
+
+  .sm-hi {
+    height: inherit;
   }
 
   .sm-vw100 {
@@ -4698,20 +4730,20 @@
     overflow: hidden;
   }
 
-  .md-os {
-    overflow: scroll;
-  }
-
   .md-oxh {
     overflow-x: hidden;
   }
 
-  .md-oxs {
-    overflow-x: scroll;
-  }
-
   .md-oyh {
     overflow-y: hidden;
+  }
+
+  .md-os {
+    overflow: scroll;
+  }
+
+  .md-oxs {
+    overflow-x: scroll;
   }
 
   .md-oys {
@@ -4720,6 +4752,14 @@
 
   .md-oa {
     overflow: auto;
+  }
+
+  .md-oxa {
+    overflow-x: auto;
+  }
+
+  .md-oya {
+    overflow-y: auto;
   }
 
   .md-p0 {
@@ -5086,6 +5126,10 @@
     width: auto;
   }
 
+  .md-wi {
+    width: inherit;
+  }
+
   .md-h0 {
     height: 0;
   }
@@ -5096,6 +5140,10 @@
 
   .md-ha {
     height: auto;
+  }
+
+  .md-hi {
+    height: inherit;
   }
 
   .md-vw100 {
@@ -6327,20 +6375,20 @@
     overflow: hidden;
   }
 
-  .lg-os {
-    overflow: scroll;
-  }
-
   .lg-oxh {
     overflow-x: hidden;
   }
 
-  .lg-oxs {
-    overflow-x: scroll;
-  }
-
   .lg-oyh {
     overflow-y: hidden;
+  }
+
+  .lg-os {
+    overflow: scroll;
+  }
+
+  .lg-oxs {
+    overflow-x: scroll;
   }
 
   .lg-oys {
@@ -6349,6 +6397,14 @@
 
   .lg-oa {
     overflow: auto;
+  }
+
+  .lg-oxa {
+    overflow-x: auto;
+  }
+
+  .lg-oya {
+    overflow-y: auto;
   }
 
   .lg-p0 {
@@ -6715,6 +6771,10 @@
     width: auto;
   }
 
+  .lg-wi {
+    width: inherit;
+  }
+
   .lg-h0 {
     height: 0;
   }
@@ -6725,6 +6785,10 @@
 
   .lg-ha {
     height: auto;
+  }
+
+  .lg-hi {
+    height: inherit;
   }
 
   .lg-vw100 {
@@ -7956,20 +8020,20 @@
     overflow: hidden;
   }
 
-  .xl-os {
-    overflow: scroll;
-  }
-
   .xl-oxh {
     overflow-x: hidden;
   }
 
-  .xl-oxs {
-    overflow-x: scroll;
-  }
-
   .xl-oyh {
     overflow-y: hidden;
+  }
+
+  .xl-os {
+    overflow: scroll;
+  }
+
+  .xl-oxs {
+    overflow-x: scroll;
   }
 
   .xl-oys {
@@ -7978,6 +8042,14 @@
 
   .xl-oa {
     overflow: auto;
+  }
+
+  .xl-oxa {
+    overflow-x: auto;
+  }
+
+  .xl-oya {
+    overflow-y: auto;
   }
 
   .xl-p0 {
@@ -8344,6 +8416,10 @@
     width: auto;
   }
 
+  .xl-wi {
+    width: inherit;
+  }
+
   .xl-h0 {
     height: 0;
   }
@@ -8354,6 +8430,10 @@
 
   .xl-ha {
     height: auto;
+  }
+
+  .xl-hi {
+    height: inherit;
   }
 
   .xl-vw100 {
