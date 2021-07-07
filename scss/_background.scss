@@ -1,0 +1,47 @@
+// Background
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}bgsc {
+      background-size: cover;
+    }
+
+    .#{$infix}bgsct {
+      background-size: contain;
+    }
+
+    .#{$infix}bgpc {
+      background-position: center;
+    }
+
+    .#{$infix}bgpt {
+      background-position: top;
+    }
+
+    .#{$infix}bgpr {
+      background-position: right;
+    }
+
+    .#{$infix}bgpb {
+      background-position: bottom;
+    }
+
+    .#{$infix}bgpl {
+      background-position: left;
+    }
+
+    .#{$infix}bgrn {
+      background-repeat: no-repeat;
+    }
+
+    .#{$infix}bgrx {
+      background-repeat: repeat-x;
+    }
+
+    .#{$infix}bgry {
+      background-repeat: repeat-y;
+    }
+  }
+}

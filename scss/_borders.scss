@@ -1,0 +1,84 @@
+// Borders
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}bd {
+      border-style: solid;
+      border-width: 1px;
+    }
+
+    .#{$infix}bdt {
+      border-top-style: solid;
+      border-top-width: 1px;
+    }
+
+    .#{$infix}bdr {
+      border-right-style: solid;
+      border-right-width: 1px;
+    }
+
+    .#{$infix}bdb {
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+    }
+
+    .#{$infix}bdl {
+      border-left-style: solid;
+      border-left-width: 1px;
+    }
+
+    .#{$infix}bdw0 {
+      border-width: 0;
+    }
+
+    .#{$infix}bdw0-25 {
+      border-width: 0.0625rem;
+    }
+
+    .#{$infix}bdw0-5 {
+      border-width: 0.125rem;
+    }
+
+    .#{$infix}bdw1 {
+      border-width: 0.25rem;
+    }
+
+    .#{$infix}bdw2 {
+      border-width: 0.5rem;
+    }
+
+    .#{$infix}bdw3 {
+      border-width: 0.75rem;
+    }
+
+    .#{$infix}bdw4 {
+      border-width: 1rem;
+    }
+
+    .#{$infix}bdrd0-125 {
+      border-radius: 0.125rem;
+    }
+
+    .#{$infix}bdrd0-25 {
+      border-radius: 0.25rem;
+    }
+
+    .#{$infix}bdrd0-5 {
+      border-radius: 0.5rem;
+    }
+
+    .#{$infix}bdrd0-75 {
+      border-radius: 0.75rem;
+    }
+
+    .#{$infix}bdrd1 {
+      border-radius: 1rem;
+    }
+
+    .#{$infix}bdrd100 {
+      border-radius: 100%;
+    }
+  }
+}
