@@ -1,0 +1,27 @@
+// Opacity
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}op0 {
+      opacity: 0;
+    }
+
+    .#{$infix}op25 {
+      opacity: 0.25;
+    }
+
+    .#{$infix}op50 {
+      opacity: 0.5;
+    }
+
+    .#{$infix}op75 {
+      opacity: 0.75;
+    }
+
+    .#{$infix}op100 {
+      opacity: 1;
+    }
+  }
+}

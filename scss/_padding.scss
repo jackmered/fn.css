@@ -1,0 +1,217 @@
+// Padding
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}p0 {
+      padding: 0;
+    }
+
+    .#{$infix}p0-25 {
+      padding: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}p0-5 {
+      padding: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}p1 {
+      padding: var(--fn-spacer);
+    }
+
+    .#{$infix}p1-5 {
+      padding: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}p2 {
+      padding: var(--fn-spacer2x);
+    }
+
+    .#{$infix}p3 {
+      padding: var(--fn-spacer3x);
+    }
+
+    .#{$infix}pt0 {
+      padding-top: 0;
+    }
+
+    .#{$infix}pt0-25 {
+      padding-top: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}pt0-5 {
+      padding-top: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}pt1 {
+      padding-top: var(--fn-spacer);
+    }
+
+    .#{$infix}pt1-5 {
+      padding-top: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}pt2 {
+      padding-top: var(--fn-spacer2x);
+    }
+
+    .#{$infix}pt3 {
+      padding-top: var(--fn-spacer3x);
+    }
+
+    .#{$infix}pr0 {
+      padding-right: 0;
+    }
+
+    .#{$infix}pr0-25 {
+      padding-right: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}pr0-5 {
+      padding-right: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}pr1 {
+      padding-right: var(--fn-spacer);
+    }
+
+    .#{$infix}pr1-5 {
+      padding-right: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}pr2 {
+      padding-right: var(--fn-spacer2x);
+    }
+
+    .#{$infix}pr3 {
+      padding-right: var(--fn-spacer3x);
+    }
+
+    .#{$infix}pb0 {
+      padding-bottom: 0;
+    }
+
+    .#{$infix}pb0-25 {
+      padding-bottom: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}pb0-5 {
+      padding-bottom: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}pb1 {
+      padding-bottom: var(--fn-spacer);
+    }
+
+    .#{$infix}pb1-5 {
+      padding-bottom: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}pb2 {
+      padding-bottom: var(--fn-spacer2x);
+    }
+
+    .#{$infix}pb3 {
+      padding-bottom: var(--fn-spacer3x);
+    }
+
+    .#{$infix}pl0 {
+      padding-left: 0;
+    }
+
+    .#{$infix}pl0-25 {
+      padding-left: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}pl0-5 {
+      padding-left: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}pl1 {
+      padding-left: var(--fn-spacer);
+    }
+
+    .#{$infix}pl1-5 {
+      padding-left: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}pl2 {
+      padding-left: var(--fn-spacer2x);
+    }
+
+    .#{$infix}pl3 {
+      padding-left: var(--fn-spacer3x);
+    }
+
+    .#{$infix}px0 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .#{$infix}px0-25 {
+      padding-left: var(--fn-spacer0-25x);
+      padding-right: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}px0-5 {
+      padding-left: var(--fn-spacer0-5x);
+      padding-right: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}px1 {
+      padding-left: var(--fn-spacer);
+      padding-right: var(--fn-spacer);
+    }
+
+    .#{$infix}px1-5 {
+      padding-left: var(--fn-spacer1-5x);
+      padding-right: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}px2 {
+      padding-left: var(--fn-spacer2x);
+      padding-right: var(--fn-spacer2x);
+    }
+
+    .#{$infix}px3 {
+      padding-left: var(--fn-spacer3x);
+      padding-right: var(--fn-spacer3x);
+    }
+
+    .#{$infix}py0 {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .#{$infix}py0-25 {
+      padding-top: var(--fn-spacer0-25x);
+      padding-bottom: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}py0-5 {
+      padding-top: var(--fn-spacer0-5x);
+      padding-bottom: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}py1 {
+      padding-top: var(--fn-spacer);
+      padding-bottom: var(--fn-spacer);
+    }
+
+    .#{$infix}py1-5 {
+      padding-top: var(--fn-spacer1-5x);
+      padding-bottom: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}py2 {
+      padding-top: var(--fn-spacer2x);
+      padding-bottom: var(--fn-spacer2x);
+    }
+
+    .#{$infix}py3 {
+      padding-top: var(--fn-spacer3x);
+      padding-bottom: var(--fn-spacer3x);
+    }
+  }
+}

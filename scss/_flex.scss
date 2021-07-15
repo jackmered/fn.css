@@ -1,0 +1,123 @@
+// Flex
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}x {
+      display: flex;
+    }
+
+    .#{$infix}xac {
+      align-items: center;
+    }
+
+    .#{$infix}xab {
+      align-items: baseline;
+    }
+
+    .#{$infix}xas {
+      align-items: stretch;
+    }
+
+    .#{$infix}xafs {
+      align-items: flex-start;
+    }
+
+    .#{$infix}xafe {
+      align-items: flex-end;
+    }
+
+    .#{$infix}xdr {
+      flex-direction: row;
+    }
+
+    .#{$infix}xdrr {
+      flex-direction: row-reverse;
+    }
+
+    .#{$infix}xdc {
+      flex-direction: column;
+    }
+
+    .#{$infix}xdcr {
+      flex-direction: column-reverse;
+    }
+
+    .#{$infix}xjc {
+      justify-content: center;
+    }
+
+    .#{$infix}xjb {
+      justify-content: space-between;
+    }
+
+    .#{$infix}xja {
+      justify-content: space-around;
+    }
+
+    .#{$infix}xjs {
+      justify-content: flex-start;
+    }
+
+    .#{$infix}xje {
+      justify-content: flex-end;
+    }
+
+    .#{$infix}xw {
+      flex-wrap: wrap;
+    }
+
+    .#{$infix}xwr {
+      flex-wrap: wrap-reverse;
+    }
+
+    .#{$infix}xwn {
+      flex-wrap: nowrap;
+    }
+
+    .#{$infix}xi {
+      flex: initial;
+    }
+
+    .#{$infix}xx {
+      flex: 1;
+    }
+
+    .#{$infix}xa {
+      flex: auto;
+    }
+
+    .#{$infix}xn {
+      flex: none;
+    }
+
+    .#{$infix}xo0 {
+      order: 0;
+    }
+
+    .#{$infix}xo1 {
+      order: 1;
+    }
+
+    .#{$infix}xo2 {
+      order: 2;
+    }
+
+    .#{$infix}xo3 {
+      order: 3;
+    }
+
+    .#{$infix}xo4 {
+      order: 4;
+    }
+
+    .#{$infix}xot {
+      order: -1;
+    }
+
+    .#{$infix}xob {
+      order: 99;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+// Display
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}df {
+      display: flex;
+    }
+
+    .#{$infix}db {
+      display: block;
+    }
+
+    .#{$infix}dib {
+      display: inline-block;
+    }
+
+    .#{$infix}di {
+      display: inline;
+    }
+
+    .#{$infix}dt {
+      display: table;
+    }
+
+    .#{$infix}dtc {
+      display: table-cell;
+    }
+
+    .#{$infix}dtr {
+      display: table-row;
+    }
+
+    .#{$infix}dn {
+      display: none;
+    }
+  }
+}

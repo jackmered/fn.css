@@ -9,3 +9,78 @@ $breakpoints: (
   xl: 1200px,
   xxl: 1400px,
 ) !default;
+
+// Colors
+$white: #fff !default;
+$black: #000 !default;
+$red: #d4351c !default;
+$blue: #1d70b8 !default;
+$blue-light: #5694ca !default;
+$green: #00703c !default;
+$yellow: #ffdd00 !default;
+$gray: #b1b4b6 !default;
+$gray-light: #f5f6fa !default;
+$gray-dark: #212529 !default;
+
+$colors: (
+  'white': $white,
+  'black': $black,
+  'red': $red,
+  'blue': $blue,
+  'blue-light': $blue-light,
+  'green': $green,
+  'yellow': $yellow,
+  'gray': $gray,
+  'gray-light': $gray-light,
+  'gray-dark': $gray-dark,
+) !default;
+
+// Theme colors
+$primary: $blue !default;
+$secondary: $gray !default;
+$success: $green !default;
+$info: $blue-light !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-light !default;
+$dark: $gray-dark !default;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+) !default;
+
+// CSS Variables
+:root {
+  --fn-spacer: 1rem;
+  --fn-spacer0-25x: calc(var(--fn-spacer) * 0.25);
+  --fn-spacer0-5x: calc(var(--fn-spacer) * 0.5);
+  --fn-spacer1-5x: calc(var(--fn-spacer) * 1.5);
+  --fn-spacer2x: calc(var(--fn-spacer) * 2);
+  --fn-spacer3x: calc(var(--fn-spacer) * 3);
+  --fn-font-size: 1rem;
+  --fn-white: #fff;
+  --fn-black: #000;
+  --fn-red: #d4351c;
+  --fn-blue: #1d70b8;
+  --fn-blue-light: #5694ca;
+  --fn-green: #00703c;
+  --fn-yellow: #ffdd00;
+  --fn-gray: #b1b4b6;
+  --fn-gray-light: #f5f6fa;
+  --fn-gray-dark: #212529;
+  --fn-primary: var(--fn-blue);
+  --fn-secondary: var(--fn-gray);
+  --fn-success: var(--fn-green);
+  --fn-info: var(--fn-light-blue);
+  --fn-warning: var(--fn-yellow);
+  --fn-danger: var(--fn-red);
+  --fn-light: var(--fn-gray-light);
+  --fn-dark: var(--fn-gray-dark);
+}

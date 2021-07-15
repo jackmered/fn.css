@@ -1,0 +1,230 @@
+// Margin
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}m0 {
+      margin: 0;
+    }
+
+    .#{$infix}m0-25 {
+      margin: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}m0-5 {
+      margin: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}m1 {
+      margin: var(--fn-spacer);
+    }
+
+    .#{$infix}m1-5 {
+      margin: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}m2 {
+      margin: var(--fn-spacer2x);
+    }
+
+    .#{$infix}m3 {
+      margin: var(--fn-spacer3x);
+    }
+
+    .#{$infix}mt0 {
+      margin-top: 0;
+    }
+
+    .#{$infix}mt0-25 {
+      margin-top: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}mt0-5 {
+      margin-top: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}mt1 {
+      margin-top: var(--fn-spacer);
+    }
+
+    .#{$infix}mt1-5 {
+      margin-top: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}mt2 {
+      margin-top: var(--fn-spacer2x);
+    }
+
+    .#{$infix}mt3 {
+      margin-top: var(--fn-spacer3x);
+    }
+
+    .#{$infix}mr0 {
+      margin-right: 0;
+    }
+
+    .#{$infix}mr0-25 {
+      margin-right: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}mr0-5 {
+      margin-right: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}mr1 {
+      margin-right: var(--fn-spacer);
+    }
+
+    .#{$infix}mr1-5 {
+      margin-right: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}mr2 {
+      margin-right: var(--fn-spacer2x);
+    }
+
+    .#{$infix}mr3 {
+      margin-right: var(--fn-spacer3x);
+    }
+
+    .#{$infix}mb0 {
+      margin-bottom: 0;
+    }
+
+    .#{$infix}mb0-25 {
+      margin-bottom: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}mb0-5 {
+      margin-bottom: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}mb1 {
+      margin-bottom: var(--fn-spacer);
+    }
+
+    .#{$infix}mb1-5 {
+      margin-bottom: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}mb2 {
+      margin-bottom: var(--fn-spacer2x);
+    }
+
+    .#{$infix}mb3 {
+      margin-bottom: var(--fn-spacer3x);
+    }
+
+    .#{$infix}ml0 {
+      margin-left: 0;
+    }
+
+    .#{$infix}ml0-25 {
+      margin-left: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}ml0-5 {
+      margin-left: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}ml1 {
+      margin-left: var(--fn-spacer);
+    }
+
+    .#{$infix}ml1-5 {
+      margin-left: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}ml2 {
+      margin-left: var(--fn-spacer2x);
+    }
+
+    .#{$infix}ml3 {
+      margin-left: var(--fn-spacer3x);
+    }
+
+    .#{$infix}mx0 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .#{$infix}mx0-25 {
+      margin-left: var(--fn-spacer0-25x);
+      margin-right: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}mx0-5 {
+      margin-left: var(--fn-spacer0-5x);
+      margin-right: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}mx1 {
+      margin-left: var(--fn-spacer);
+      margin-right: var(--fn-spacer);
+    }
+
+    .#{$infix}mx1-5 {
+      margin-left: var(--fn-spacer1-5x);
+      margin-right: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}mx2 {
+      margin-left: var(--fn-spacer2x);
+      margin-right: var(--fn-spacer2x);
+    }
+
+    .#{$infix}mx3 {
+      margin-left: var(--fn-spacer3x);
+      margin-right: var(--fn-spacer3x);
+    }
+
+    .#{$infix}my0 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .#{$infix}my0-25 {
+      margin-top: var(--fn-spacer0-25x);
+      margin-bottom: var(--fn-spacer0-25x);
+    }
+
+    .#{$infix}my0-5 {
+      margin-top: var(--fn-spacer0-5x);
+      margin-bottom: var(--fn-spacer0-5x);
+    }
+
+    .#{$infix}my1 {
+      margin-top: var(--fn-spacer);
+      margin-bottom: var(--fn-spacer);
+    }
+
+    .#{$infix}my1-5 {
+      margin-top: var(--fn-spacer1-5x);
+      margin-bottom: var(--fn-spacer1-5x);
+    }
+
+    .#{$infix}my2 {
+      margin-top: var(--fn-spacer2x);
+      margin-bottom: var(--fn-spacer2x);
+    }
+
+    .#{$infix}my3 {
+      margin-top: var(--fn-spacer3x);
+      margin-bottom: var(--fn-spacer3x);
+    }
+
+    .#{$infix}mla {
+      margin-left: auto;
+    }
+
+    .#{$infix}mra {
+      margin-right: auto;
+    }
+
+    .#{$infix}mxa {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+// Overflow
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}oh {
+      overflow: hidden;
+    }
+
+    .#{$infix}oxh {
+      overflow-x: hidden;
+    }
+
+    .#{$infix}oyh {
+      overflow-y: hidden;
+    }
+
+    .#{$infix}os {
+      overflow: scroll;
+    }
+
+    .#{$infix}oxs {
+      overflow-x: scroll;
+    }
+
+    .#{$infix}oys {
+      overflow-y: scroll;
+    }
+
+    .#{$infix}oa {
+      overflow: auto;
+    }
+
+    .#{$infix}oxa {
+      overflow-x: auto;
+    }
+
+    .#{$infix}oya {
+      overflow-y: auto;
+    }
+  }
+}

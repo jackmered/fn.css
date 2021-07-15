@@ -1,0 +1,59 @@
+// List
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}lspo {
+      list-style-position: outside;
+    }
+
+    .#{$infix}lspi {
+      list-style-position: inside;
+    }
+
+    .#{$infix}lstc {
+      list-style-type: circle;
+    }
+
+    .#{$infix}lstd {
+      list-style-type: disc;
+    }
+
+    .#{$infix}lsts {
+      list-style-type: square;
+    }
+
+    .#{$infix}lstdi {
+      list-style-type: decimal;
+    }
+
+    .#{$infix}lstdlz {
+      list-style-type: decimal-leading-zero;
+    }
+
+    .#{$infix}lstla {
+      list-style-type: lower-alpha;
+    }
+
+    .#{$infix}lstua {
+      list-style-type: upper-alpha;
+    }
+
+    .#{$infix}lstlr {
+      list-style-type: lower-roman;
+    }
+
+    .#{$infix}lstur {
+      list-style-type: upper-roman;
+    }
+
+    .#{$infix}lstn {
+      list-style-type: none;
+    }
+
+    .#{$infix}lsti {
+      list-style-type: inherit;
+    }
+  }
+}

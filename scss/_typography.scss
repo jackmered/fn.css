@@ -1,0 +1,179 @@
+// Typography
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}fs0-75 {
+      font-size: calc(var(--fn-font-size) * 0.75);
+    }
+
+    .#{$infix}fs0-875 {
+      font-size: calc(var(--fn-font-size) * 0.875);
+    }
+
+    .#{$infix}fs1 {
+      font-size: var(--fn-font-size);
+    }
+
+    .#{$infix}fs1-25 {
+      font-size: calc(var(--fn-font-size) * 1.25);
+    }
+
+    .#{$infix}fs1-5 {
+      font-size: calc(var(--fn-font-size) * 1.5);
+    }
+
+    .#{$infix}fs1-75 {
+      font-size: calc(var(--fn-font-size) * 1.75);
+    }
+
+    .#{$infix}fs2 {
+      font-size: calc(var(--fn-font-size) * 2);
+    }
+
+    .#{$infix}fs2-5 {
+      font-size: calc(var(--fn-font-size) * 2.5);
+    }
+
+    .#{$infix}fs3 {
+      font-size: calc(var(--fn-font-size) * 3);
+    }
+
+    .#{$infix}lh1 {
+      line-height: 1;
+    }
+
+    .#{$infix}lh1-25 {
+      line-height: 1.25;
+    }
+
+    .#{$infix}lh1-5 {
+      line-height: 1.5;
+    }
+
+    .#{$infix}fsn {
+      font-style: normal;
+    }
+
+    .#{$infix}fsi {
+      font-style: italic;
+    }
+
+    .#{$infix}fwn {
+      font-weight: normal;
+    }
+
+    .#{$infix}fwb {
+      font-weight: bold;
+    }
+
+    .#{$infix}tal {
+      text-align: left;
+    }
+
+    .#{$infix}tac {
+      text-align: center;
+    }
+
+    .#{$infix}tar {
+      text-align: right;
+    }
+
+    .#{$infix}taj {
+      text-align: justify;
+    }
+
+    .#{$infix}toi {
+      text-overflow: initial;
+    }
+
+    .#{$infix}toc {
+      text-overflow: clip;
+    }
+
+    .#{$infix}toe {
+      text-overflow: ellipsis;
+    }
+
+    .#{$infix}tdu {
+      text-decoration: underline;
+    }
+
+    .#{$infix}tdo {
+      text-decoration: overline;
+    }
+
+    .#{$infix}tdlt {
+      text-decoration: line-through;
+    }
+
+    .#{$infix}tdn {
+      text-decoration: none;
+    }
+
+    .#{$infix}ttu {
+      text-transform: uppercase;
+    }
+
+    .#{$infix}ttl {
+      text-transform: lowercase;
+    }
+
+    .#{$infix}ttc {
+      text-transform: capitalize;
+    }
+
+    .#{$infix}ttn {
+      text-transform: none;
+    }
+
+    .#{$infix}vabl {
+      vertical-align: baseline;
+    }
+
+    .#{$infix}vat {
+      vertical-align: top;
+    }
+
+    .#{$infix}vam {
+      vertical-align: middle;
+    }
+
+    .#{$infix}vab {
+      vertical-align: bottom;
+    }
+
+    .#{$infix}wsn {
+      white-space: normal;
+    }
+
+    .#{$infix}wsnw {
+      white-space: nowrap;
+    }
+
+    .#{$infix}wsp {
+      white-space: pre;
+    }
+
+    .#{$infix}wsi {
+      white-space: inherit;
+    }
+
+    .#{$infix}tc1 {
+      columns: 1;
+    }
+
+    .#{$infix}tc2 {
+      columns: 2;
+    }
+
+    .#{$infix}tc3 {
+      columns: 3;
+    }
+
+    .#{$infix}tc4 {
+      columns: 4;
+    }
+  }
+}
