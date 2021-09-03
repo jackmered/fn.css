@@ -2,29 +2,29 @@
 
 @each $color in map-keys($theme-colors) {
   .cl-#{color} {
-    color: var(--fn-$color);
+    color: var(#{'--fn-' + $color});
   }
 
   .bg-#{color} {
-    background-color: var(--fn-$color);
+    background-color: var(#{'--fn-' + $color});
   }
 
   .bd-#{color} {
-    border-color: var(--fn-$color);
+    border-color: var(#{'--fn-' + $color});
   }
 
   .clh-#{color}:hover,
   .clh-#{color}:focus {
-    color: var(--fn-$color);
+    color: var(#{'--fn-' + $color});
   }
 
   .bgh-#{color}:hover,
   .bgh-#{color}:focus {
-    background-color: var(--fn-$color);
+    background-color: var(#{'--fn-' + $color});
   }
 
   .bdh-#{color}:hover,
   .bdh-#{color}:focus {
-    border-color: var(--fn-$color);
+    border-color: var(#{'--fn-' + $color});
   }
 }

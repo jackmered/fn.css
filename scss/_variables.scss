@@ -70,24 +70,14 @@ $spacers: (
 
 // CSS Variables
 :root {
-  --fn-spacer0-25x: map-get($spacers, 1);
-  --fn-spacer0-5x: map-get($spacers, 2);
-  --fn-spacer: map-get($spacers, 3);
-  --fn-spacer1-5x: map-get($spacers, 4);
-  --fn-spacer2x: map-get($spacers, 5);
-  --fn-spacer3x: map-get($spacers, 6);
+  --fn-spacer0-25x: calc(var(#{'--fn-spacer'}) * 0.25);
+  --fn-spacer0-5x: calc(var(#{'--fn-spacer'}) * 0.5);
+  --fn-spacer: #{map-get($spacers, 3)};
+  --fn-spacer1-5x: calc(var(#{'--fn-spacer'}) * 1.5);
+  --fn-spacer2x: calc(var(#{'--fn-spacer'}) * 2);
+  --fn-spacer3x: calc(var(#{'--fn-spacer'}) * 3);
   --fn-font-size: 1rem;
-  --fn-white: #fff;
-  --fn-black: #000;
-  --fn-red: #d4351c;
-  --fn-blue: #1d70b8;
-  --fn-blue-light: #5694ca;
-  --fn-green: #00703c;
-  --fn-yellow: #ffdd00;
-  --fn-gray: #b1b4b6;
-  --fn-gray-light: #f5f6fa;
-  --fn-gray-dark: #212529;
-  --fn-primary: var($blue);
+  --fn-primary: var(#{'--fn-' + $blue});
   --fn-secondary: var($gray);
   --fn-success: var($green);
   --fn-info: var($blue-light);
@@ -95,4 +85,10 @@ $spacers: (
   --fn-danger: var($red);
   --fn-light: var($gray-light);
   --fn-dark: var($gray-dark);
+}
+
+@each $colorName, $colorValue in $colors {
+  :root {
+    --fn-#{$colorName}: #{$colorValue};
+  }
 }

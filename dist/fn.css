@@ -1,12 +1,20 @@
-/*! fn.css v3.1.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css v4.0.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 :root {
-  --fn-spacer0-25x: map-get($spacers, 1);
-  --fn-spacer0-5x: map-get($spacers, 2);
-  --fn-spacer: map-get($spacers, 3);
-  --fn-spacer1-5x: map-get($spacers, 4);
-  --fn-spacer2x: map-get($spacers, 5);
-  --fn-spacer3x: map-get($spacers, 6);
+  --fn-spacer0-25x: calc(var(--fn-spacer) * 0.25);
+  --fn-spacer0-5x: calc(var(--fn-spacer) * 0.5);
+  --fn-spacer: 1rem;
+  --fn-spacer1-5x: calc(var(--fn-spacer) * 1.5);
+  --fn-spacer2x: calc(var(--fn-spacer) * 2);
+  --fn-spacer3x: calc(var(--fn-spacer) * 3);
   --fn-font-size: 1rem;
+  --fn-primary: var(--fn-#1d70b8);
+  --fn-secondary: var($gray);
+  --fn-success: var($green);
+  --fn-info: var($blue-light);
+  --fn-warning: var($yellow);
+  --fn-danger: var($red);
+  --fn-light: var($gray-light);
+  --fn-dark: var($gray-dark);
   --fn-white: #fff;
   --fn-black: #000;
   --fn-red: #d4351c;
@@ -17,17 +25,10 @@
   --fn-gray: #b1b4b6;
   --fn-gray-light: #f5f6fa;
   --fn-gray-dark: #212529;
-  --fn-primary: var($blue);
-  --fn-secondary: var($gray);
-  --fn-success: var($green);
-  --fn-info: var($blue-light);
-  --fn-warning: var($yellow);
-  --fn-danger: var($red);
-  --fn-light: var($gray-light);
-  --fn-dark: var($gray-dark);
 }
 
 .bgsc {
+  background-size: cover;
   background-size: cover;
 }
 
@@ -143,223 +144,72 @@
   border-radius: 100%;
 }
 .cl-color {
-  color: var(--fn- "primary");
+  color: var(--fn-primary);
+  color: var(--fn-secondary);
+  color: var(--fn-success);
+  color: var(--fn-info);
+  color: var(--fn-warning);
+  color: var(--fn-danger);
+  color: var(--fn-light);
+  color: var(--fn-dark);
 }
 
 .bg-color {
-  background-color: var(--fn- "primary");
+  background-color: var(--fn-primary);
+  background-color: var(--fn-secondary);
+  background-color: var(--fn-success);
+  background-color: var(--fn-info);
+  background-color: var(--fn-warning);
+  background-color: var(--fn-danger);
+  background-color: var(--fn-light);
+  background-color: var(--fn-dark);
 }
 
 .bd-color {
-  border-color: var(--fn- "primary");
+  border-color: var(--fn-primary);
+  border-color: var(--fn-secondary);
+  border-color: var(--fn-success);
+  border-color: var(--fn-info);
+  border-color: var(--fn-warning);
+  border-color: var(--fn-danger);
+  border-color: var(--fn-light);
+  border-color: var(--fn-dark);
 }
 
 .clh-color:hover,
 .clh-color:focus {
-  color: var(--fn- "primary");
+  color: var(--fn-primary);
+  color: var(--fn-secondary);
+  color: var(--fn-success);
+  color: var(--fn-info);
+  color: var(--fn-warning);
+  color: var(--fn-danger);
+  color: var(--fn-light);
+  color: var(--fn-dark);
 }
 
 .bgh-color:hover,
 .bgh-color:focus {
-  background-color: var(--fn- "primary");
+  background-color: var(--fn-primary);
+  background-color: var(--fn-secondary);
+  background-color: var(--fn-success);
+  background-color: var(--fn-info);
+  background-color: var(--fn-warning);
+  background-color: var(--fn-danger);
+  background-color: var(--fn-light);
+  background-color: var(--fn-dark);
 }
 
 .bdh-color:hover,
 .bdh-color:focus {
-  border-color: var(--fn- "primary");
-}
-
-.cl-color {
-  color: var(--fn- "secondary");
-}
-
-.bg-color {
-  background-color: var(--fn- "secondary");
-}
-
-.bd-color {
-  border-color: var(--fn- "secondary");
-}
-
-.clh-color:hover,
-.clh-color:focus {
-  color: var(--fn- "secondary");
-}
-
-.bgh-color:hover,
-.bgh-color:focus {
-  background-color: var(--fn- "secondary");
-}
-
-.bdh-color:hover,
-.bdh-color:focus {
-  border-color: var(--fn- "secondary");
-}
-
-.cl-color {
-  color: var(--fn- "success");
-}
-
-.bg-color {
-  background-color: var(--fn- "success");
-}
-
-.bd-color {
-  border-color: var(--fn- "success");
-}
-
-.clh-color:hover,
-.clh-color:focus {
-  color: var(--fn- "success");
-}
-
-.bgh-color:hover,
-.bgh-color:focus {
-  background-color: var(--fn- "success");
-}
-
-.bdh-color:hover,
-.bdh-color:focus {
-  border-color: var(--fn- "success");
-}
-
-.cl-color {
-  color: var(--fn- "info");
-}
-
-.bg-color {
-  background-color: var(--fn- "info");
-}
-
-.bd-color {
-  border-color: var(--fn- "info");
-}
-
-.clh-color:hover,
-.clh-color:focus {
-  color: var(--fn- "info");
-}
-
-.bgh-color:hover,
-.bgh-color:focus {
-  background-color: var(--fn- "info");
-}
-
-.bdh-color:hover,
-.bdh-color:focus {
-  border-color: var(--fn- "info");
-}
-
-.cl-color {
-  color: var(--fn- "warning");
-}
-
-.bg-color {
-  background-color: var(--fn- "warning");
-}
-
-.bd-color {
-  border-color: var(--fn- "warning");
-}
-
-.clh-color:hover,
-.clh-color:focus {
-  color: var(--fn- "warning");
-}
-
-.bgh-color:hover,
-.bgh-color:focus {
-  background-color: var(--fn- "warning");
-}
-
-.bdh-color:hover,
-.bdh-color:focus {
-  border-color: var(--fn- "warning");
-}
-
-.cl-color {
-  color: var(--fn- "danger");
-}
-
-.bg-color {
-  background-color: var(--fn- "danger");
-}
-
-.bd-color {
-  border-color: var(--fn- "danger");
-}
-
-.clh-color:hover,
-.clh-color:focus {
-  color: var(--fn- "danger");
-}
-
-.bgh-color:hover,
-.bgh-color:focus {
-  background-color: var(--fn- "danger");
-}
-
-.bdh-color:hover,
-.bdh-color:focus {
-  border-color: var(--fn- "danger");
-}
-
-.cl-color {
-  color: var(--fn- "light");
-}
-
-.bg-color {
-  background-color: var(--fn- "light");
-}
-
-.bd-color {
-  border-color: var(--fn- "light");
-}
-
-.clh-color:hover,
-.clh-color:focus {
-  color: var(--fn- "light");
-}
-
-.bgh-color:hover,
-.bgh-color:focus {
-  background-color: var(--fn- "light");
-}
-
-.bdh-color:hover,
-.bdh-color:focus {
-  border-color: var(--fn- "light");
-}
-
-.cl-color {
-  color: var(--fn- "dark");
-}
-
-.bg-color {
-  background-color: var(--fn- "dark");
-}
-
-.bd-color {
-  border-color: var(--fn- "dark");
-}
-
-.clh-color:hover,
-.clh-color:focus {
-  color: var(--fn- "dark");
-}
-
-.bgh-color:hover,
-.bgh-color:focus {
-  background-color: var(--fn- "dark");
-}
-
-.bdh-color:hover,
-.bdh-color:focus {
-  border-color: var(--fn- "dark");
-}
-
-.bgsc {
-  background-size: cover;
+  border-color: var(--fn-primary);
+  border-color: var(--fn-secondary);
+  border-color: var(--fn-success);
+  border-color: var(--fn-info);
+  border-color: var(--fn-warning);
+  border-color: var(--fn-danger);
+  border-color: var(--fn-light);
+  border-color: var(--fn-dark);
 }
 
 .c1 {
@@ -1718,6 +1568,7 @@
 @media (min-width: 576px) {
   .sm-bgsc {
     background-size: cover;
+    background-size: cover;
   }
 
   .sm-bgsct {
@@ -1830,9 +1681,6 @@
 
   .sm-bdrd100 {
     border-radius: 100%;
-  }
-  .sm-bgsc {
-    background-size: cover;
   }
 
   .sm-c1 {
@@ -3192,6 +3040,7 @@
 @media (min-width: 768px) {
   .md-bgsc {
     background-size: cover;
+    background-size: cover;
   }
 
   .md-bgsct {
@@ -3304,9 +3153,6 @@
 
   .md-bdrd100 {
     border-radius: 100%;
-  }
-  .md-bgsc {
-    background-size: cover;
   }
 
   .md-c1 {
@@ -4666,6 +4512,7 @@
 @media (min-width: 992px) {
   .lg-bgsc {
     background-size: cover;
+    background-size: cover;
   }
 
   .lg-bgsct {
@@ -4778,9 +4625,6 @@
 
   .lg-bdrd100 {
     border-radius: 100%;
-  }
-  .lg-bgsc {
-    background-size: cover;
   }
 
   .lg-c1 {
@@ -6140,6 +5984,7 @@
 @media (min-width: 1200px) {
   .xl-bgsc {
     background-size: cover;
+    background-size: cover;
   }
 
   .xl-bgsct {
@@ -6252,9 +6097,6 @@
 
   .xl-bdrd100 {
     border-radius: 100%;
-  }
-  .xl-bgsc {
-    background-size: cover;
   }
 
   .xl-c1 {
@@ -7614,6 +7456,7 @@
 @media (min-width: 1400px) {
   .xxl-bgsc {
     background-size: cover;
+    background-size: cover;
   }
 
   .xxl-bgsct {
@@ -7726,9 +7569,6 @@
 
   .xxl-bdrd100 {
     border-radius: 100%;
-  }
-  .xxl-bgsc {
-    background-size: cover;
   }
 
   .xxl-c1 {
