@@ -1,122 +1,122 @@
-/**
- * Flex
- */
+// Flex
 
-@each $bp in var(--fn-breakpoints) {
-  @media (--$bp) {
-    .$(bp)-x {
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}x {
       display: flex;
     }
 
-    .$(bp)-xac {
+    .#{$infix}xac {
       align-items: center;
     }
 
-    .$(bp)-xab {
+    .#{$infix}xab {
       align-items: baseline;
     }
 
-    .$(bp)-xas {
+    .#{$infix}xas {
       align-items: stretch;
     }
 
-    .$(bp)-xafs {
+    .#{$infix}xafs {
       align-items: flex-start;
     }
 
-    .$(bp)-xafe {
+    .#{$infix}xafe {
       align-items: flex-end;
     }
 
-    .$(bp)-xdr {
+    .#{$infix}xdr {
       flex-direction: row;
     }
 
-    .$(bp)-xdrr {
+    .#{$infix}xdrr {
       flex-direction: row-reverse;
     }
 
-    .$(bp)-xdc {
+    .#{$infix}xdc {
       flex-direction: column;
     }
 
-    .$(bp)-xdcr {
+    .#{$infix}xdcr {
       flex-direction: column-reverse;
     }
 
-    .$(bp)-xjc {
+    .#{$infix}xjc {
       justify-content: center;
     }
 
-    .$(bp)-xjb {
+    .#{$infix}xjb {
       justify-content: space-between;
     }
 
-    .$(bp)-xja {
+    .#{$infix}xja {
       justify-content: space-around;
     }
 
-    .$(bp)-xjs {
+    .#{$infix}xjs {
       justify-content: flex-start;
     }
 
-    .$(bp)-xje {
+    .#{$infix}xje {
       justify-content: flex-end;
     }
 
-    .$(bp)-xw {
+    .#{$infix}xw {
       flex-wrap: wrap;
     }
 
-    .$(bp)-xwr {
+    .#{$infix}xwr {
       flex-wrap: wrap-reverse;
     }
 
-    .$(bp)-xwn {
+    .#{$infix}xwn {
       flex-wrap: nowrap;
     }
 
-    .$(bp)-xi {
+    .#{$infix}xi {
       flex: initial;
     }
 
-    .$(bp)-xx {
+    .#{$infix}xx {
       flex: 1;
     }
 
-    .$(bp)-xa {
+    .#{$infix}xa {
       flex: auto;
     }
 
-    .$(bp)-xn {
+    .#{$infix}xn {
       flex: none;
     }
 
-    .$(bp)-xo0 {
+    .#{$infix}xo0 {
       order: 0;
     }
 
-    .$(bp)-xo1 {
+    .#{$infix}xo1 {
       order: 1;
     }
 
-    .$(bp)-xo2 {
+    .#{$infix}xo2 {
       order: 2;
     }
 
-    .$(bp)-xo3 {
+    .#{$infix}xo3 {
       order: 3;
     }
 
-    .$(bp)-xo4 {
+    .#{$infix}xo4 {
       order: 4;
     }
 
-    .$(bp)-xot {
+    .#{$infix}xot {
       order: -1;
     }
 
-    .$(bp)-xob {
+    .#{$infix}xob {
       order: 99;
     }
   }

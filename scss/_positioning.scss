@@ -1,0 +1,75 @@
+// Positioning
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}psa {
+      position: absolute;
+    }
+
+    .#{$infix}psr {
+      position: relative;
+    }
+
+    .#{$infix}psf {
+      position: fixed;
+    }
+
+    .#{$infix}pss {
+      position: static;
+    }
+
+    .#{$infix}t0 {
+      top: 0;
+    }
+
+    .#{$infix}r0 {
+      right: 0;
+    }
+
+    .#{$infix}b0 {
+      bottom: 0;
+    }
+
+    .#{$infix}l0 {
+      left: 0;
+    }
+
+    .#{$infix}ta {
+      top: auto;
+    }
+
+    .#{$infix}ra {
+      right: auto;
+    }
+
+    .#{$infix}ba {
+      bottom: auto;
+    }
+
+    .#{$infix}la {
+      bottom: auto;
+    }
+
+    .#{$infix}z0 {
+      z-index: 0;
+    }
+
+    .#{$infix}z1 {
+      z-index: 1;
+    }
+
+    .#{$infix}z2 {
+      z-index: 2;
+    }
+
+    .#{$infix}z3 {
+      z-index: 3;
+    }
+
+    .#{$infix}z4 {
+      z-index: 4;
+    }
+  }
+}

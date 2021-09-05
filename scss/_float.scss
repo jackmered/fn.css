@@ -1,0 +1,25 @@
+// Float
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}fl {
+      float: left;
+    }
+
+    .#{$infix}fr {
+      float: right;
+    }
+
+    .#{$infix}fn {
+      float: none;
+    }
+
+    .#{$infix}cf::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+}
