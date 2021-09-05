@@ -11,12 +11,12 @@
     "csso": "^4.2.0",
     "npm": "^7.22.0",
     "npm-run-all": "^4.1.5",
+    "perfectionist": "^2.4.0",
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
     "postcss-combine-duplicated-selectors": "^10.0.3",
     "rimraf": "^3.0.2",
     "sass": "^1.39.0",
-    "style-perfectionist": "^0.0.1",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-scss": "^3.20.1"
@@ -41,7 +41,7 @@
       "autoprefixer": {},
       "css-mqpacker": {},
       "postcss-combine-duplicated-selectors": {},
-      "style-perfectionist": {
+      "perfectionist": {
         "cascade": false,
         "indentSize": 2,
         "trimLeadingZero": false,
