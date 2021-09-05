@@ -77,17 +77,9 @@ $spacers: (
   --fn-spacer2x: calc(var(#{'--fn-spacer'}) * 2);
   --fn-spacer3x: calc(var(#{'--fn-spacer'}) * 3);
   --fn-font-size: 1rem;
-  --fn-primary: var(#{'--fn-' + $blue});
-  --fn-secondary: var($gray);
-  --fn-success: var($green);
-  --fn-info: var($blue-light);
-  --fn-warning: var($yellow);
-  --fn-danger: var($red);
-  --fn-light: var($gray-light);
-  --fn-dark: var($gray-dark);
 }
 
-@each $colorName, $colorValue in $colors {
+@each $colorName, $colorValue in $theme-colors {
   :root {
     --fn-#{$colorName}: #{$colorValue};
   }
