@@ -20,7 +20,6 @@
 
 .bgsc {
   background-size: cover;
-  background-size: cover;
 }
 
 .bgsct {
@@ -1708,21 +1707,8 @@
        columns: 4;
 }
 
-.vh {
-  visibility: hidden;
-}
-
-.vv {
-  visibility: visible;
-}
-
-.vc {
-  visibility: collapse;
-}
-
 @media (min-width: 576px) {
   .sm-bgsc {
-    background-size: cover;
     background-size: cover;
   }
 
@@ -3194,23 +3180,10 @@
     -moz-columns: 4;
          columns: 4;
   }
-
-  .sm-vh {
-    visibility: hidden;
-  }
-
-  .sm-vv {
-    visibility: visible;
-  }
-
-  .sm-vc {
-    visibility: collapse;
-  }
 }
 
 @media (min-width: 768px) {
   .md-bgsc {
-    background-size: cover;
     background-size: cover;
   }
 
@@ -4682,23 +4655,10 @@
     -moz-columns: 4;
          columns: 4;
   }
-
-  .md-vh {
-    visibility: hidden;
-  }
-
-  .md-vv {
-    visibility: visible;
-  }
-
-  .md-vc {
-    visibility: collapse;
-  }
 }
 
 @media (min-width: 992px) {
   .lg-bgsc {
-    background-size: cover;
     background-size: cover;
   }
 
@@ -6170,23 +6130,10 @@
     -moz-columns: 4;
          columns: 4;
   }
-
-  .lg-vh {
-    visibility: hidden;
-  }
-
-  .lg-vv {
-    visibility: visible;
-  }
-
-  .lg-vc {
-    visibility: collapse;
-  }
 }
 
 @media (min-width: 1200px) {
   .xl-bgsc {
-    background-size: cover;
     background-size: cover;
   }
 
@@ -7657,18 +7604,6 @@
   .xl-tc4 {
     -moz-columns: 4;
          columns: 4;
-  }
-
-  .xl-vh {
-    visibility: hidden;
-  }
-
-  .xl-vv {
-    visibility: visible;
-  }
-
-  .xl-vc {
-    visibility: collapse;
   }
 }
 
