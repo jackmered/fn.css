@@ -4,10 +4,6 @@
   $infix: breakpoint-infix($breakpoint, $breakpoints);
 
   @include media-breakpoint-up($breakpoint, $breakpoints) {
-    .#{$infix}bgsc {
-      background-size: cover;
-    }
-
     .#{$infix}c1 {
       width: 8.333333333333332%;
     }

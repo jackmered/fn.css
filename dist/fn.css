@@ -1,4 +1,4 @@
-/*! fn.css v4.0.1 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css v4.0.2 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --fn-spacer0-25x: calc(var(--fn-spacer) * 0.25);
@@ -19,7 +19,6 @@
 }
 
 .bgsc {
-  background-size: cover;
   background-size: cover;
 }
 
@@ -1723,7 +1722,6 @@
 @media (min-width: 576px) {
   .sm-bgsc {
     background-size: cover;
-    background-size: cover;
   }
 
   .sm-bgsct {
@@ -3210,7 +3208,6 @@
 
 @media (min-width: 768px) {
   .md-bgsc {
-    background-size: cover;
     background-size: cover;
   }
 
@@ -4699,7 +4696,6 @@
 @media (min-width: 992px) {
   .lg-bgsc {
     background-size: cover;
-    background-size: cover;
   }
 
   .lg-bgsct {
@@ -6186,7 +6182,6 @@
 
 @media (min-width: 1200px) {
   .xl-bgsc {
-    background-size: cover;
     background-size: cover;
   }
 
