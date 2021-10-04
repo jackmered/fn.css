@@ -1,178 +1,178 @@
-/**
- * Typography
- */
+// Typography
 
-@each $bp in var(--fn-breakpoints) {
-  @media (--$bp) {
-    .$(bp)-fs0-75 {
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}fs0-75 {
       font-size: calc(var(--fn-font-size) * 0.75);
     }
 
-    .$(bp)-fs0-875 {
+    .#{$infix}fs0-875 {
       font-size: calc(var(--fn-font-size) * 0.875);
     }
 
-    .$(bp)-fs1 {
+    .#{$infix}fs1 {
       font-size: var(--fn-font-size);
     }
 
-    .$(bp)-fs1-25 {
+    .#{$infix}fs1-25 {
       font-size: calc(var(--fn-font-size) * 1.25);
     }
 
-    .$(bp)-fs1-5 {
+    .#{$infix}fs1-5 {
       font-size: calc(var(--fn-font-size) * 1.5);
     }
 
-    .$(bp)-fs1-75 {
+    .#{$infix}fs1-75 {
       font-size: calc(var(--fn-font-size) * 1.75);
     }
 
-    .$(bp)-fs2 {
+    .#{$infix}fs2 {
       font-size: calc(var(--fn-font-size) * 2);
     }
 
-    .$(bp)-fs2-5 {
+    .#{$infix}fs2-5 {
       font-size: calc(var(--fn-font-size) * 2.5);
     }
 
-    .$(bp)-fs3 {
+    .#{$infix}fs3 {
       font-size: calc(var(--fn-font-size) * 3);
     }
 
-    .$(bp)-lh1 {
+    .#{$infix}lh1 {
       line-height: 1;
     }
 
-    .$(bp)-lh1-25 {
+    .#{$infix}lh1-25 {
       line-height: 1.25;
     }
 
-    .$(bp)-lh1-5 {
+    .#{$infix}lh1-5 {
       line-height: 1.5;
     }
 
-    .$(bp)-fsn {
+    .#{$infix}fsn {
       font-style: normal;
     }
 
-    .$(bp)-fsi {
+    .#{$infix}fsi {
       font-style: italic;
     }
 
-    .$(bp)-fwn {
+    .#{$infix}fwn {
       font-weight: normal;
     }
 
-    .$(bp)-fwb {
+    .#{$infix}fwb {
       font-weight: bold;
     }
 
-    .$(bp)-tal {
+    .#{$infix}tal {
       text-align: left;
     }
 
-    .$(bp)-tac {
+    .#{$infix}tac {
       text-align: center;
     }
 
-    .$(bp)-tar {
+    .#{$infix}tar {
       text-align: right;
     }
 
-    .$(bp)-taj {
+    .#{$infix}taj {
       text-align: justify;
     }
 
-    .$(bp)-toi {
+    .#{$infix}toi {
       text-overflow: initial;
     }
 
-    .$(bp)-toc {
+    .#{$infix}toc {
       text-overflow: clip;
     }
 
-    .$(bp)-toe {
+    .#{$infix}toe {
       text-overflow: ellipsis;
     }
 
-    .$(bp)-tdu {
+    .#{$infix}tdu {
       text-decoration: underline;
     }
 
-    .$(bp)-tdo {
+    .#{$infix}tdo {
       text-decoration: overline;
     }
 
-    .$(bp)-tdlt {
+    .#{$infix}tdlt {
       text-decoration: line-through;
     }
 
-    .$(bp)-tdn {
+    .#{$infix}tdn {
       text-decoration: none;
     }
 
-    .$(bp)-ttu {
+    .#{$infix}ttu {
       text-transform: uppercase;
     }
 
-    .$(bp)-ttl {
+    .#{$infix}ttl {
       text-transform: lowercase;
     }
 
-    .$(bp)-ttc {
+    .#{$infix}ttc {
       text-transform: capitalize;
     }
 
-    .$(bp)-ttn {
+    .#{$infix}ttn {
       text-transform: none;
     }
 
-    .$(bp)-vabl {
+    .#{$infix}vabl {
       vertical-align: baseline;
     }
 
-    .$(bp)-vat {
+    .#{$infix}vat {
       vertical-align: top;
     }
 
-    .$(bp)-vam {
+    .#{$infix}vam {
       vertical-align: middle;
     }
 
-    .$(bp)-vab {
+    .#{$infix}vab {
       vertical-align: bottom;
     }
 
-    .$(bp)-wsn {
+    .#{$infix}wsn {
       white-space: normal;
     }
 
-    .$(bp)-wsnw {
+    .#{$infix}wsnw {
       white-space: nowrap;
     }
 
-    .$(bp)-wsp {
+    .#{$infix}wsp {
       white-space: pre;
     }
 
-    .$(bp)-wsi {
+    .#{$infix}wsi {
       white-space: inherit;
     }
 
-    .$(bp)-tc1 {
+    .#{$infix}tc1 {
       columns: 1;
     }
 
-    .$(bp)-tc2 {
+    .#{$infix}tc2 {
       columns: 2;
     }
 
-    .$(bp)-tc3 {
+    .#{$infix}tc3 {
       columns: 3;
     }
 
-    .$(bp)-tc4 {
+    .#{$infix}tc4 {
       columns: 4;
     }
   }

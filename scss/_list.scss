@@ -1,58 +1,58 @@
-/**
- * List
- */
+// List
 
-@each $bp in var(--fn-breakpoints) {
-  @media (--$bp) {
-    .$(bp)-lspo {
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}lspo {
       list-style-position: outside;
     }
 
-    .$(bp)-lspi {
+    .#{$infix}lspi {
       list-style-position: inside;
     }
 
-    .$(bp)-lstc {
+    .#{$infix}lstc {
       list-style-type: circle;
     }
 
-    .$(bp)-lstd {
+    .#{$infix}lstd {
       list-style-type: disc;
     }
 
-    .$(bp)-lsts {
+    .#{$infix}lsts {
       list-style-type: square;
     }
 
-    .$(bp)-lstdi {
+    .#{$infix}lstdi {
       list-style-type: decimal;
     }
 
-    .$(bp)-lstdlz {
+    .#{$infix}lstdlz {
       list-style-type: decimal-leading-zero;
     }
 
-    .$(bp)-lstla {
+    .#{$infix}lstla {
       list-style-type: lower-alpha;
     }
 
-    .$(bp)-lstua {
+    .#{$infix}lstua {
       list-style-type: upper-alpha;
     }
 
-    .$(bp)-lstlr {
+    .#{$infix}lstlr {
       list-style-type: lower-roman;
     }
 
-    .$(bp)-lstur {
+    .#{$infix}lstur {
       list-style-type: upper-roman;
     }
 
-    .$(bp)-lstn {
+    .#{$infix}lstn {
       list-style-type: none;
     }
 
-    .$(bp)-lsti {
+    .#{$infix}lsti {
       list-style-type: inherit;
     }
   }

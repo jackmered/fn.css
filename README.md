@@ -1,3 +1,7 @@
-# fn.css v3
+# fn.css v4
 
-http://www.fn-css.com/
+## Functional shorthand CSS utilities
+
+fn.css is a collection of abbreviated CSS rules composed in such a way to make their meaning obvious. If you know CSS, you know fn.css.
+
+[View the docs here](https://www.fn-css.com/)

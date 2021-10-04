@@ -1,0 +1,47 @@
+// Cursor
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}curp {
+      cursor: pointer;
+    }
+
+    .#{$infix}curd {
+      cursor: default;
+    }
+
+    .#{$infix}cura {
+      cursor: alias;
+    }
+
+    .#{$infix}curzi {
+      cursor: zoom-in;
+    }
+
+    .#{$infix}curzo {
+      cursor: zoom-out;
+    }
+
+    .#{$infix}usn {
+      user-select: none;
+    }
+
+    .#{$infix}usa {
+      user-select: auto;
+    }
+
+    .#{$infix}ust {
+      user-select: text;
+    }
+
+    .#{$infix}pen {
+      pointer-events: none;
+    }
+
+    .#{$infix}pea {
+      pointer-events: auto;
+    }
+  }
+}

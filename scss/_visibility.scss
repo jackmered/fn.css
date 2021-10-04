@@ -1,0 +1,19 @@
+// Visibility
+
+@each $breakpoint in map-keys($breakpoints) {
+  $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+  @include media-breakpoint-up($breakpoint, $breakpoints) {
+    .#{$infix}vh {
+      visibility: hidden;
+    }
+
+    .#{$infix}vv {
+      visibility: visible;
+    }
+
+    .#{$infix}vc {
+      visibility: collapse;
+    }
+  }
+}

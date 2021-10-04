@@ -1,0 +1,85 @@
+// Variables
+
+// Grid breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+) !default;
+
+// Colors
+$white: #fff !default;
+$black: #000 !default;
+$red: #d4351c !default;
+$blue: #1d70b8 !default;
+$blue-light: #5694ca !default;
+$green: #00703c !default;
+$yellow: #ffdd00 !default;
+$gray: #b1b4b6 !default;
+$gray-light: #f5f6fa !default;
+$gray-dark: #212529 !default;
+
+$colors: (
+  'white': $white,
+  'black': $black,
+  'red': $red,
+  'blue': $blue,
+  'blue-light': $blue-light,
+  'green': $green,
+  'yellow': $yellow,
+  'gray': $gray,
+  'gray-light': $gray-light,
+  'gray-dark': $gray-dark,
+) !default;
+
+// Theme colors
+$primary: $blue !default;
+$secondary: $gray !default;
+$success: $green !default;
+$info: $blue-light !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-light !default;
+$dark: $gray-dark !default;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'success': $success,
+  'info': $info,
+  'warning': $warning,
+  'danger': $danger,
+  'light': $light,
+  'dark': $dark,
+) !default;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 3,
+) !default;
+
+// CSS Variables
+:root {
+  --fn-spacer0-25x: calc(var(#{'--fn-spacer'}) * 0.25);
+  --fn-spacer0-5x: calc(var(#{'--fn-spacer'}) * 0.5);
+  --fn-spacer: #{map-get($spacers, 3)};
+  --fn-spacer1-5x: calc(var(#{'--fn-spacer'}) * 1.5);
+  --fn-spacer2x: calc(var(#{'--fn-spacer'}) * 2);
+  --fn-spacer3x: calc(var(#{'--fn-spacer'}) * 3);
+  --fn-font-size: 1rem;
+}
+
+@each $colorName, $colorValue in $theme-colors {
+  :root {
+    --fn-#{$colorName}: #{$colorValue};
+  }
+}
