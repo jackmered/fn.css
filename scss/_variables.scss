@@ -76,10 +76,8 @@ $spacers: (
   --fn-spacer2x: calc(var(#{'--fn-spacer'}) * 2);
   --fn-spacer3x: calc(var(#{'--fn-spacer'}) * 3);
   --fn-font-size: 1rem;
-}
 
-@each $colorName, $colorValue in $theme-colors {
-  :root {
+  @each $colorName, $colorValue in $theme-colors {
     --fn-#{$colorName}: #{$colorValue};
   }
 }
