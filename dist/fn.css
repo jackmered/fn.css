@@ -1,4 +1,4 @@
-/*! fn.css v4.0.2 | MIT License | github.com/jackmered/fn.css | fn-css.com */
+/*! fn.css v4.1.0 | MIT License | github.com/jackmered/fn.css | fn-css.com */
 
 :root {
   --fn-spacer0-25x: calc(var(--fn-spacer) * 0.25);
@@ -352,11 +352,11 @@
 }
 
 .c1 {
-  width: 8.3333333333%;
+  width: 8.3333%;
 }
 
 .c2 {
-  width: 16.6666666667%;
+  width: 16.6666%;
 }
 
 .c3 {
@@ -364,11 +364,11 @@
 }
 
 .c4 {
-  width: 33.3333333333%;
+  width: 33.3333%;
 }
 
 .c5 {
-  width: 41.6666666667%;
+  width: 41.6666%;
 }
 
 .c6 {
@@ -376,11 +376,11 @@
 }
 
 .c7 {
-  width: 58.3333333333%;
+  width: 58.3333%;
 }
 
 .c8 {
-  width: 66.6666666667%;
+  width: 66.6666%;
 }
 
 .c9 {
@@ -388,11 +388,11 @@
 }
 
 .c10 {
-  width: 83.3333333333%;
+  width: 83.3333%;
 }
 
 .c11 {
-  width: 91.6666666667%;
+  width: 91.6666%;
 }
 
 .c12 {
@@ -404,11 +404,11 @@
 }
 
 .co1 {
-  margin-left: 8.3333333333%;
+  margin-left: 8.3333%;
 }
 
 .co2 {
-  margin-left: 16.6666666667%;
+  margin-left: 16.6666%;
 }
 
 .co3 {
@@ -416,11 +416,11 @@
 }
 
 .co4 {
-  margin-left: 33.3333333333%;
+  margin-left: 33.3333%;
 }
 
 .co5 {
-  margin-left: 41.6666666667%;
+  margin-left: 41.6666%;
 }
 
 .co6 {
@@ -428,11 +428,11 @@
 }
 
 .co7 {
-  margin-left: 58.3333333333%;
+  margin-left: 58.3333%;
 }
 
 .co8 {
-  margin-left: 66.6666666667%;
+  margin-left: 66.6666%;
 }
 
 .co9 {
@@ -440,11 +440,11 @@
 }
 
 .co10 {
-  margin-left: 83.3333333333%;
+  margin-left: 83.3333%;
 }
 
 .co11 {
-  margin-left: 91.6666666667%;
+  margin-left: 91.6666%;
 }
 
 .co12 {
@@ -1838,11 +1838,11 @@
   }
 
   .sm-c1 {
-    width: 8.3333333333%;
+    width: 8.3333%;
   }
 
   .sm-c2 {
-    width: 16.6666666667%;
+    width: 16.6666%;
   }
 
   .sm-c3 {
@@ -1850,11 +1850,11 @@
   }
 
   .sm-c4 {
-    width: 33.3333333333%;
+    width: 33.3333%;
   }
 
   .sm-c5 {
-    width: 41.6666666667%;
+    width: 41.6666%;
   }
 
   .sm-c6 {
@@ -1862,11 +1862,11 @@
   }
 
   .sm-c7 {
-    width: 58.3333333333%;
+    width: 58.3333%;
   }
 
   .sm-c8 {
-    width: 66.6666666667%;
+    width: 66.6666%;
   }
 
   .sm-c9 {
@@ -1874,11 +1874,11 @@
   }
 
   .sm-c10 {
-    width: 83.3333333333%;
+    width: 83.3333%;
   }
 
   .sm-c11 {
-    width: 91.6666666667%;
+    width: 91.6666%;
   }
 
   .sm-c12 {
@@ -1890,11 +1890,11 @@
   }
 
   .sm-co1 {
-    margin-left: 8.3333333333%;
+    margin-left: 8.3333%;
   }
 
   .sm-co2 {
-    margin-left: 16.6666666667%;
+    margin-left: 16.6666%;
   }
 
   .sm-co3 {
@@ -1902,11 +1902,11 @@
   }
 
   .sm-co4 {
-    margin-left: 33.3333333333%;
+    margin-left: 33.3333%;
   }
 
   .sm-co5 {
-    margin-left: 41.6666666667%;
+    margin-left: 41.6666%;
   }
 
   .sm-co6 {
@@ -1914,11 +1914,11 @@
   }
 
   .sm-co7 {
-    margin-left: 58.3333333333%;
+    margin-left: 58.3333%;
   }
 
   .sm-co8 {
-    margin-left: 66.6666666667%;
+    margin-left: 66.6666%;
   }
 
   .sm-co9 {
@@ -1926,11 +1926,11 @@
   }
 
   .sm-co10 {
-    margin-left: 83.3333333333%;
+    margin-left: 83.3333%;
   }
 
   .sm-co11 {
-    margin-left: 91.6666666667%;
+    margin-left: 91.6666%;
   }
 
   .sm-co12 {
@@ -3325,11 +3325,11 @@
   }
 
   .md-c1 {
-    width: 8.3333333333%;
+    width: 8.3333%;
   }
 
   .md-c2 {
-    width: 16.6666666667%;
+    width: 16.6666%;
   }
 
   .md-c3 {
@@ -3337,11 +3337,11 @@
   }
 
   .md-c4 {
-    width: 33.3333333333%;
+    width: 33.3333%;
   }
 
   .md-c5 {
-    width: 41.6666666667%;
+    width: 41.6666%;
   }
 
   .md-c6 {
@@ -3349,11 +3349,11 @@
   }
 
   .md-c7 {
-    width: 58.3333333333%;
+    width: 58.3333%;
   }
 
   .md-c8 {
-    width: 66.6666666667%;
+    width: 66.6666%;
   }
 
   .md-c9 {
@@ -3361,11 +3361,11 @@
   }
 
   .md-c10 {
-    width: 83.3333333333%;
+    width: 83.3333%;
   }
 
   .md-c11 {
-    width: 91.6666666667%;
+    width: 91.6666%;
   }
 
   .md-c12 {
@@ -3377,11 +3377,11 @@
   }
 
   .md-co1 {
-    margin-left: 8.3333333333%;
+    margin-left: 8.3333%;
   }
 
   .md-co2 {
-    margin-left: 16.6666666667%;
+    margin-left: 16.6666%;
   }
 
   .md-co3 {
@@ -3389,11 +3389,11 @@
   }
 
   .md-co4 {
-    margin-left: 33.3333333333%;
+    margin-left: 33.3333%;
   }
 
   .md-co5 {
-    margin-left: 41.6666666667%;
+    margin-left: 41.6666%;
   }
 
   .md-co6 {
@@ -3401,11 +3401,11 @@
   }
 
   .md-co7 {
-    margin-left: 58.3333333333%;
+    margin-left: 58.3333%;
   }
 
   .md-co8 {
-    margin-left: 66.6666666667%;
+    margin-left: 66.6666%;
   }
 
   .md-co9 {
@@ -3413,11 +3413,11 @@
   }
 
   .md-co10 {
-    margin-left: 83.3333333333%;
+    margin-left: 83.3333%;
   }
 
   .md-co11 {
-    margin-left: 91.6666666667%;
+    margin-left: 91.6666%;
   }
 
   .md-co12 {
@@ -4812,11 +4812,11 @@
   }
 
   .lg-c1 {
-    width: 8.3333333333%;
+    width: 8.3333%;
   }
 
   .lg-c2 {
-    width: 16.6666666667%;
+    width: 16.6666%;
   }
 
   .lg-c3 {
@@ -4824,11 +4824,11 @@
   }
 
   .lg-c4 {
-    width: 33.3333333333%;
+    width: 33.3333%;
   }
 
   .lg-c5 {
-    width: 41.6666666667%;
+    width: 41.6666%;
   }
 
   .lg-c6 {
@@ -4836,11 +4836,11 @@
   }
 
   .lg-c7 {
-    width: 58.3333333333%;
+    width: 58.3333%;
   }
 
   .lg-c8 {
-    width: 66.6666666667%;
+    width: 66.6666%;
   }
 
   .lg-c9 {
@@ -4848,11 +4848,11 @@
   }
 
   .lg-c10 {
-    width: 83.3333333333%;
+    width: 83.3333%;
   }
 
   .lg-c11 {
-    width: 91.6666666667%;
+    width: 91.6666%;
   }
 
   .lg-c12 {
@@ -4864,11 +4864,11 @@
   }
 
   .lg-co1 {
-    margin-left: 8.3333333333%;
+    margin-left: 8.3333%;
   }
 
   .lg-co2 {
-    margin-left: 16.6666666667%;
+    margin-left: 16.6666%;
   }
 
   .lg-co3 {
@@ -4876,11 +4876,11 @@
   }
 
   .lg-co4 {
-    margin-left: 33.3333333333%;
+    margin-left: 33.3333%;
   }
 
   .lg-co5 {
-    margin-left: 41.6666666667%;
+    margin-left: 41.6666%;
   }
 
   .lg-co6 {
@@ -4888,11 +4888,11 @@
   }
 
   .lg-co7 {
-    margin-left: 58.3333333333%;
+    margin-left: 58.3333%;
   }
 
   .lg-co8 {
-    margin-left: 66.6666666667%;
+    margin-left: 66.6666%;
   }
 
   .lg-co9 {
@@ -4900,11 +4900,11 @@
   }
 
   .lg-co10 {
-    margin-left: 83.3333333333%;
+    margin-left: 83.3333%;
   }
 
   .lg-co11 {
-    margin-left: 91.6666666667%;
+    margin-left: 91.6666%;
   }
 
   .lg-co12 {
@@ -6299,11 +6299,11 @@
   }
 
   .xl-c1 {
-    width: 8.3333333333%;
+    width: 8.3333%;
   }
 
   .xl-c2 {
-    width: 16.6666666667%;
+    width: 16.6666%;
   }
 
   .xl-c3 {
@@ -6311,11 +6311,11 @@
   }
 
   .xl-c4 {
-    width: 33.3333333333%;
+    width: 33.3333%;
   }
 
   .xl-c5 {
-    width: 41.6666666667%;
+    width: 41.6666%;
   }
 
   .xl-c6 {
@@ -6323,11 +6323,11 @@
   }
 
   .xl-c7 {
-    width: 58.3333333333%;
+    width: 58.3333%;
   }
 
   .xl-c8 {
-    width: 66.6666666667%;
+    width: 66.6666%;
   }
 
   .xl-c9 {
@@ -6335,11 +6335,11 @@
   }
 
   .xl-c10 {
-    width: 83.3333333333%;
+    width: 83.3333%;
   }
 
   .xl-c11 {
-    width: 91.6666666667%;
+    width: 91.6666%;
   }
 
   .xl-c12 {
@@ -6351,11 +6351,11 @@
   }
 
   .xl-co1 {
-    margin-left: 8.3333333333%;
+    margin-left: 8.3333%;
   }
 
   .xl-co2 {
-    margin-left: 16.6666666667%;
+    margin-left: 16.6666%;
   }
 
   .xl-co3 {
@@ -6363,11 +6363,11 @@
   }
 
   .xl-co4 {
-    margin-left: 33.3333333333%;
+    margin-left: 33.3333%;
   }
 
   .xl-co5 {
-    margin-left: 41.6666666667%;
+    margin-left: 41.6666%;
   }
 
   .xl-co6 {
@@ -6375,11 +6375,11 @@
   }
 
   .xl-co7 {
-    margin-left: 58.3333333333%;
+    margin-left: 58.3333%;
   }
 
   .xl-co8 {
-    margin-left: 66.6666666667%;
+    margin-left: 66.6666%;
   }
 
   .xl-co9 {
@@ -6387,11 +6387,11 @@
   }
 
   .xl-co10 {
-    margin-left: 83.3333333333%;
+    margin-left: 83.3333%;
   }
 
   .xl-co11 {
-    margin-left: 91.6666666667%;
+    margin-left: 91.6666%;
   }
 
   .xl-co12 {
