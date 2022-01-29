@@ -1,5 +1,7 @@
 // Variables
 
+@use "sass:map";
+
 // Grid breakpoints
 $breakpoints: (
   xs: 0,
@@ -16,11 +18,12 @@ $red: #d4351c !default;
 $blue: #1d70b8 !default;
 $blue-light: #5694ca !default;
 $green: #00703c !default;
-$yellow: #ffdd00 !default;
+$yellow: #fd0 !default;
 $gray: #b1b4b6 !default;
 $gray-light: #f5f6fa !default;
 $gray-dark: #212529 !default;
 
+// Colors map
 $colors: (
   'white': $white,
   'black': $black,
@@ -44,6 +47,7 @@ $danger: $red !default;
 $light: $gray-light !default;
 $dark: $gray-dark !default;
 
+// Theme colors map
 $theme-colors: (
   'primary': $primary,
   'secondary': $secondary,
@@ -71,13 +75,13 @@ $spacers: (
 :root {
   --fn-spacer0-25x: calc(var(#{'--fn-spacer'}) * 0.25);
   --fn-spacer0-5x: calc(var(#{'--fn-spacer'}) * 0.5);
-  --fn-spacer: #{map-get($spacers, 3)};
+  --fn-spacer: #{map.get($spacers, 3)};
   --fn-spacer1-5x: calc(var(#{'--fn-spacer'}) * 1.5);
   --fn-spacer2x: calc(var(#{'--fn-spacer'}) * 2);
   --fn-spacer3x: calc(var(#{'--fn-spacer'}) * 3);
   --fn-font-size: 1rem;
 
   @each $colorName, $colorValue in $theme-colors {
-    --fn-#{$colorName}: #{$colorValue};
+    #{'--fn-' + $colorName}: #{$colorValue};
   }
 }

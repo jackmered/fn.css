@@ -5,23 +5,23 @@
 
   @include media-breakpoint-up($breakpoint, $breakpoints) {
     .#{$infix}bs1 {
-      box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 4px 2px rgba(#000, 20%);
     }
 
     .#{$infix}bs2 {
-      box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 8px 2px rgba(#000, 20%);
     }
 
     .#{$infix}bs3 {
-      box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 2px 4px 2px rgba(#000, 20%);
     }
 
     .#{$infix}bs4 {
-      box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 2px 8px 0 rgba(#000, 20%);
     }
 
     .#{$infix}bs5 {
-      box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 4px 4px 8px 0 rgba(#000, 20%);
     }
   }
 }
