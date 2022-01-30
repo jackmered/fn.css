@@ -23,21 +23,8 @@ $gray: #b1b4b6 !default;
 $gray-light: #f5f6fa !default;
 $gray-dark: #212529 !default;
 
-// Colors map
-$colors: (
-  'white': $white,
-  'black': $black,
-  'red': $red,
-  'blue': $blue,
-  'blue-light': $blue-light,
-  'green': $green,
-  'yellow': $yellow,
-  'gray': $gray,
-  'gray-light': $gray-light,
-  'gray-dark': $gray-dark,
-) !default;
-
 // Theme colors
+$body: $black !default;
 $primary: $blue !default;
 $secondary: $gray !default;
 $success: $green !default;
@@ -49,6 +36,8 @@ $dark: $gray-dark !default;
 
 // Theme colors map
 $theme-colors: (
+  'white': $white,
+  'body': $body,
   'primary': $primary,
   'secondary': $secondary,
   'success': $success,
