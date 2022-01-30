@@ -8,6 +8,8 @@
   --fn-spacer2x: calc(var(--fn-spacer) * 2);
   --fn-spacer3x: calc(var(--fn-spacer) * 3);
   --fn-font-size: 1rem;
+  --fn-white: #fff;
+  --fn-body: #000;
   --fn-primary: #1d70b8;
   --fn-secondary: #b1b4b6;
   --fn-success: #00703c;
@@ -133,6 +135,60 @@
 
 .bdrd100 {
   border-radius: 100%;
+}
+
+.cl-white {
+  color: var(--fn-white);
+}
+
+.bg-white {
+  background-color: var(--fn-white);
+}
+
+.bd-white {
+  border-color: var(--fn-white);
+}
+
+.clh-white:hover,
+.clh-white:focus {
+  color: var(--fn-white);
+}
+
+.bgh-white:hover,
+.bgh-white:focus {
+  background-color: var(--fn-white);
+}
+
+.bdh-white:hover,
+.bdh-white:focus {
+  border-color: var(--fn-white);
+}
+
+.cl-body {
+  color: var(--fn-body);
+}
+
+.bg-body {
+  background-color: var(--fn-body);
+}
+
+.bd-body {
+  border-color: var(--fn-body);
+}
+
+.clh-body:hover,
+.clh-body:focus {
+  color: var(--fn-body);
+}
+
+.bgh-body:hover,
+.bgh-body:focus {
+  background-color: var(--fn-body);
+}
+
+.bdh-body:hover,
+.bdh-body:focus {
+  border-color: var(--fn-body);
 }
 
 .cl-primary {
