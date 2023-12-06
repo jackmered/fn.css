@@ -4,40 +4,10 @@
   $infix: breakpoint-infix($breakpoint, $breakpoints);
 
   @include media-breakpoint-up($breakpoint, $breakpoints) {
-    .#{$infix}fs0-75 {
-      font-size: calc(var(--fn-font-size) * 0.75);
-    }
-
-    .#{$infix}fs0-875 {
-      font-size: calc(var(--fn-font-size) * 0.875);
-    }
-
-    .#{$infix}fs1 {
-      font-size: var(--fn-font-size);
-    }
-
-    .#{$infix}fs1-25 {
-      font-size: calc(var(--fn-font-size) * 1.25);
-    }
-
-    .#{$infix}fs1-5 {
-      font-size: calc(var(--fn-font-size) * 1.5);
-    }
-
-    .#{$infix}fs1-75 {
-      font-size: calc(var(--fn-font-size) * 1.75);
-    }
-
-    .#{$infix}fs2 {
-      font-size: calc(var(--fn-font-size) * 2);
-    }
-
-    .#{$infix}fs2-5 {
-      font-size: calc(var(--fn-font-size) * 2.5);
-    }
-
-    .#{$infix}fs3 {
-      font-size: calc(var(--fn-font-size) * 3);
+    @each $font-size in map-keys($font-sizes) {
+      .#{$infix}fs#{$font-size} {
+        font-size: calc(var(--fn-font-size) * #{map-get($font-sizes, $font-size)});
+      }
     }
 
     .#{$infix}lh1 {

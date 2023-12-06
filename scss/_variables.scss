@@ -1,6 +1,6 @@
 // Variables
 
-@use "sass:map";
+@use 'sass:map';
 
 // Grid breakpoints
 $breakpoints: (
@@ -51,23 +51,31 @@ $theme-colors: (
 // Spacers
 $spacer: 1rem !default;
 $spacers: (
-  0: 0,
-  1: $spacer * 0.25,
-  2: $spacer * 0.5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 2,
-  6: $spacer * 3,
+  '0': 0,
+  '0-25': $spacer * 0.25,
+  '0-5': $spacer * 0.5,
+  '1': $spacer,
+  '1-5': $spacer * 1.5,
+  '2': $spacer * 2,
+  '3': $spacer * 3,
+) !default;
+
+// Font size map
+$font-sizes: (
+  '0-75': 0.75rem,
+  '0-875': 0.875rem,
+  '1': 1rem,
+  '1-25': 1.25rem,
+  '1-5': 1.5rem,
+  '1-75': 1.75rem,
+  '2': 2rem,
+  '2-5': 2.5rem,
+  '3': 3rem,
 ) !default;
 
 // CSS Variables
 :root {
-  --fn-spacer0-25x: calc(var(#{'--fn-spacer'}) * 0.25);
-  --fn-spacer0-5x: calc(var(#{'--fn-spacer'}) * 0.5);
-  --fn-spacer: #{map.get($spacers, 3)};
-  --fn-spacer1-5x: calc(var(#{'--fn-spacer'}) * 1.5);
-  --fn-spacer2x: calc(var(#{'--fn-spacer'}) * 2);
-  --fn-spacer3x: calc(var(#{'--fn-spacer'}) * 3);
+  --fn-spacer: 1rem;
   --fn-font-size: 1rem;
 
   @each $colorName, $colorValue in $theme-colors {
