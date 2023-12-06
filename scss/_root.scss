@@ -1,0 +1,8 @@
+:root {
+  --fn-spacer: 1rem;
+  --fn-font-size: 1rem;
+
+  @each $colorName, $colorValue in $theme-colors {
+    #{'--fn-' + $colorName}: #{$colorValue};
+  }
+}
